@@ -1,0 +1,2359 @@
+﻿position,entity name,examples,norms
+FOOD-TYPE,FOOD,짜장면,짜장면
+FOOD-TYPE,FOOD,자장면,짜장면
+FOOD-TYPE,FOOD,짜장,짜장면
+FOOD-TYPE,FOOD,해물탕,해물탕
+FOOD-TYPE,FOOD,알탕,알탕
+FOOD-TYPE,FOOD,동태찌개,동태찌개
+FOOD-TYPE,FOOD,동태찌게,동태찌개
+FOOD-TYPE,FOOD,생태찌개,생태찌개
+FOOD-TYPE,FOOD,생태찌게,생태찌개
+FOOD-TYPE,FOOD,생선찌개,생선찌개
+FOOD-TYPE,FOOD,생선찌게,생선찌개
+FOOD-TYPE,FOOD,꽃게탕,꽃게탕
+FOOD-TYPE,FOOD,소고기,소고기
+FOOD-TYPE,FOOD,쇠고기,소고기
+FOOD-TYPE,FOOD,비프,소고기
+FOOD-TYPE,FOOD,우삼겹,우삼겹
+FOOD-TYPE,FOOD,차돌박이,차돌박이
+FOOD-TYPE,FOOD,한우,한우
+FOOD-TYPE,FOOD,살치살,살치살
+FOOD-TYPE,FOOD,한우양지,양지살
+FOOD-TYPE,FOOD,양지살,양지살
+FOOD-TYPE,FOOD,소고기등심,등심
+FOOD-TYPE,FOOD,등심,등심
+FOOD-TYPE,FOOD,돼지고기,돼지고기
+FOOD-TYPE,FOOD,돼지고기앞다리,돼지고기
+FOOD-TYPE,FOOD,파채,파채
+FOOD-TYPE,FOOD,파무침,파채
+FOOD-TYPE,FOOD,파채무침,파채
+FOOD-TYPE,FOOD,치킨너겟,치킨너겟
+FOOD-TYPE,FOOD,너겟,치킨너겟
+FOOD-TYPE,FOOD,만두,만두
+FOOD-TYPE,FOOD,찐만두,찐만두
+FOOD-TYPE,FOOD,왕만두,왕만두
+FOOD-TYPE,FOOD,물만두,물만두
+FOOD-TYPE,FOOD,교자만두,교자
+FOOD-TYPE,FOOD,교자,교자
+FOOD-TYPE,FOOD,군만두,군만두
+FOOD-TYPE,FOOD,새우만두,새우만두
+FOOD-TYPE,FOOD,김치만두,김치만두
+FOOD-TYPE,FOOD,고기만두,고기만두
+FOOD-TYPE,FOOD,갈비만두,갈비만두
+FOOD-TYPE,FOOD,납작만두,납작만두
+FOOD-TYPE,FOOD,딤섬,딤섬
+FOOD-TYPE,FOOD,샤오룽바오,샤오룽바오
+FOOD-TYPE,FOOD,샤오롱바오,샤오룽바오
+FOOD-TYPE,FOOD,돼지목살,목살
+FOOD-TYPE,FOOD,목살,목살
+FOOD-TYPE,FOOD,대패삼겹,대패삼겹살
+FOOD-TYPE,FOOD,대패삼겹살,대패삼겹살
+FOOD-TYPE,FOOD,통삼겹,통삽겹살
+FOOD-TYPE,FOOD,통삼겹살,통삽겹살
+FOOD-TYPE,FOOD,오겹살,오겹살
+FOOD-TYPE,FOOD,돼지고기삼겹살,삼겹살
+FOOD-TYPE,FOOD,삼겹살,삼겹살
+FOOD-TYPE,FOOD,묵밥,묵밥
+FOOD-TYPE,FOOD,도토리묵밥,묵밥
+FOOD-TYPE,FOOD,식빵,식빵
+FOOD-TYPE,FOOD,우유식빵,식빵
+FOOD-TYPE,FOOD,옥수수식빵,옥수수식빵
+FOOD-TYPE,FOOD,푸실리파스타,푸실리파스타
+FOOD-TYPE,FOOD,푸실리,푸실리파스타
+FOOD-TYPE,FOOD,스파게티,파스타
+FOOD-TYPE,FOOD,파스타,파스타
+FOOD-TYPE,FOOD,김치,김치
+FOOD-TYPE,FOOD,신김치,김치
+FOOD-TYPE,FOOD,배추김치,김치
+FOOD-TYPE,FOOD,묵은지,묵은지
+FOOD-TYPE,FOOD,물김치,물김치
+FOOD-TYPE,FOOD,백김치,백김치
+FOOD-TYPE,FOOD,요거트,요거트
+FOOD-TYPE,FOOD,그릭요거트,요거트
+FOOD-TYPE,FOOD,수제요거트,요거트
+FOOD-TYPE,FOOD,플레인요거트,요거트
+FOOD-TYPE,FOOD,플레인요구르트,요거트
+FOOD-TYPE,FOOD,돈까스,돈까스
+FOOD-TYPE,FOOD,돈가스,돈까스
+FOOD-TYPE,FOOD,꼬막무침,꼬막
+FOOD-TYPE,FOOD,꼬막비빔밥,꼬막
+FOOD-TYPE,FOOD,꼬막정식,꼬막
+FOOD-TYPE,FOOD,벌교꼬막,꼬막
+FOOD-TYPE,FOOD,꼬막,꼬막
+FOOD-TYPE,FOOD,바게트,바게트
+FOOD-TYPE,FOOD,바게트빵,바게트
+FOOD-TYPE,FOOD,오리고기,오리고기
+FOOD-TYPE,FOOD,오리,오리고기
+FOOD-TYPE,FOOD,훈제오리,오리고기
+FOOD-TYPE,FOOD,오리로스,오리로스
+FOOD-TYPE,FOOD,오리로스구이,오리로스
+FOOD-TYPE,FOOD,오리불고기,오리불고기
+FOOD-TYPE,FOOD,오리주물럭,오리불고기
+FOOD-TYPE,FOOD,북경오리,북경오리
+FOOD-TYPE,FOOD,베이징덕,북경오리
+FOOD-TYPE,FOOD,낙지,낙지
+FOOD-TYPE,FOOD,세발낙지,세발낙지
+FOOD-TYPE,FOOD,산낙지,산낙지
+FOOD-TYPE,FOOD,미숫가루,미숫가루
+FOOD-TYPE,FOOD,미숫가루라떼,미숫가루
+FOOD-TYPE,FOOD,녹차,녹차
+FOOD-TYPE,FOOD,그린티,녹차
+FOOD-TYPE,FOOD,말차,말차
+FOOD-TYPE,FOOD,메밀소바,메밀소바
+FOOD-TYPE,FOOD,소바,메밀소바
+FOOD-TYPE,FOOD,냉모밀,냉모밀
+FOOD-TYPE,FOOD,모밀,모밀
+FOOD-TYPE,FOOD,젓갈,젓갈
+FOOD-TYPE,FOOD,젓갈정식,젓갈
+FOOD-TYPE,FOOD,오징어젓갈,오징어젓갈
+FOOD-TYPE,FOOD,오징어젓,오징어젓갈
+FOOD-TYPE,FOOD,낙지젓갈,낙지젓갈
+FOOD-TYPE,FOOD,낙지젓,낙지젓갈
+FOOD-TYPE,FOOD,감자탕,감자탕
+FOOD-TYPE,FOOD,뼈해장국,뼈해장국
+FOOD-TYPE,FOOD,뼈다귀해장국,뼈해장국
+FOOD-TYPE,FOOD,해장국,해장국
+FOOD-TYPE,FOOD,김치찌개,김치찌개
+FOOD-TYPE,FOOD,김치찌게,김치찌개
+FOOD-TYPE,FOOD,김치찜,김치찜
+FOOD-TYPE,FOOD,김치전골,김치전골
+FOOD-TYPE,FOOD,부대찌개,부대찌개
+FOOD-TYPE,FOOD,부대전골,부대전골
+FOOD-TYPE,FOOD,부대볶음,부대볶음
+FOOD-TYPE,FOOD,순두부찌개,순두부찌개
+FOOD-TYPE,FOOD,순두부찌게,순두부찌개
+FOOD-TYPE,FOOD,순두부전골,순두부전골
+FOOD-TYPE,FOOD,고추짜장,고추짜장면
+FOOD-TYPE,FOOD,고추짜장면,고추짜장면
+FOOD-TYPE,FOOD,쟁반짜장,쟁반짜장
+FOOD-TYPE,FOOD,쟁반짜장면,쟁반짜장면
+FOOD-TYPE,FOOD,삼선짜장면,삼선짜장면
+FOOD-TYPE,FOOD,삼선짜장,삼선짜장면
+FOOD-TYPE,FOOD,삼선자장,삼선짜장면
+FOOD-TYPE,FOOD,간짜장,간짜장
+FOOD-TYPE,FOOD,간자장,간짜장
+FOOD-TYPE,FOOD,짬뽕,짬뽕
+FOOD-TYPE,FOOD,마라짬뽕,마라짬뽕
+FOOD-TYPE,FOOD,볶음짬뽕,볶음짬뽕
+FOOD-TYPE,FOOD,고추짬뽕,고추짬뽕
+FOOD-TYPE,FOOD,쟁반짬뽕,쟁반짬뽕
+FOOD-TYPE,FOOD,삼선짬뽕,삼선짬뽕
+FOOD-TYPE,FOOD,해물짬뽕,해물짬뽕
+FOOD-TYPE,FOOD,오징어짬뽕,오징어짬뽕
+FOOD-TYPE,FOOD,차돌짬뽕,차돌짬뽕
+FOOD-TYPE,FOOD,중국냉면,중국냉면
+FOOD-TYPE,FOOD,중화냉면,중국냉면
+FOOD-TYPE,FOOD,냉짬뽕,냉짬뽕
+FOOD-TYPE,FOOD,탕수육,탕수육
+FOOD-TYPE,FOOD,사천탕수육,사천탕수육
+FOOD-TYPE,FOOD,꿔바로우,꿔바로우
+FOOD-TYPE,FOOD,함박스테이크,함박스테이크
+FOOD-TYPE,FOOD,구슬함박,함박스테이크
+FOOD-TYPE,FOOD,햄버그스테이크,함박스테이크
+FOOD-TYPE,FOOD,핫도그,핫도그
+FOOD-TYPE,FOOD,감자핫도그,감자핫도그
+FOOD-TYPE,FOOD,못난이핫도그,못난이핫도그
+FOOD-TYPE,FOOD,치즈핫도그,치즈핫도그
+FOOD-TYPE,FOOD,미니핫도그,미니핫도그
+FOOD-TYPE,FOOD,콘도그,콘도그
+FOOD-TYPE,FOOD,쫄면,쫄면
+FOOD-TYPE,FOOD,라면,라면
+FOOD-TYPE,FOOD,치즈라면,치즈라면
+FOOD-TYPE,FOOD,떡라면,떡라면
+FOOD-TYPE,FOOD,해물라면,해물라면
+FOOD-TYPE,FOOD,순대,순대
+FOOD-TYPE,FOOD,찹쌀순대,순대
+FOOD-TYPE,FOOD,피순대,피순대
+FOOD-TYPE,FOOD,김밥,김밥
+FOOD-TYPE,FOOD,참치김밥,참치김밥
+FOOD-TYPE,FOOD,치즈김밥,치즈김밥
+FOOD-TYPE,FOOD,불고기김밥,불고기김밥
+FOOD-TYPE,FOOD,쌈밥,쌈밥
+FOOD-TYPE,FOOD,쌈밥정식,쌈밥
+FOOD-TYPE,FOOD,우렁쌈밥,우렁쌈밥
+FOOD-TYPE,FOOD,냉면,냉면
+FOOD-TYPE,FOOD,비빔냉면,비빔냉면
+FOOD-TYPE,FOOD,비냉,비빔냉면
+FOOD-TYPE,FOOD,물냉면,물냉면
+FOOD-TYPE,FOOD,물냉,물냉면
+FOOD-TYPE,FOOD,평양냉면,평양냉면
+FOOD-TYPE,FOOD,함흥냉면,함흥냉면
+FOOD-TYPE,FOOD,회냉면,회냉면
+FOOD-TYPE,FOOD,진주냉면,진주냉면
+FOOD-TYPE,FOOD,떡볶이,떡볶이
+FOOD-TYPE,FOOD,떡보끼,떡볶이
+FOOD-TYPE,FOOD,컵볶이,컵볶이
+FOOD-TYPE,FOOD,즉석떡볶이,즉석떡볶이
+FOOD-TYPE,FOOD,닭떡볶이,닭떡볶이
+FOOD-TYPE,FOOD,로제떡볶이,로제떡볶이
+FOOD-TYPE,FOOD,치즈떡볶이,치즈떡볶이
+FOOD-TYPE,FOOD,엽떡,엽떡
+FOOD-TYPE,FOOD,소보루빵,소보루빵
+FOOD-TYPE,FOOD,소보로,소보루빵
+FOOD-TYPE,FOOD,소보루,소보루빵
+FOOD-TYPE,FOOD,소보로빵,소보루빵
+FOOD-TYPE,FOOD,튀김소보로,튀김소보루
+FOOD-TYPE,FOOD,튀김소보루,튀김소보루
+FOOD-TYPE,FOOD,팬케이크,팬케이크
+FOOD-TYPE,FOOD,팬케잌,팬케이크
+FOOD-TYPE,FOOD,팬케익,팬케이크
+FOOD-TYPE,FOOD,핫케이크,핫케이크
+FOOD-TYPE,FOOD,핫케잌,핫케이크
+FOOD-TYPE,FOOD,핫케익,핫케이크
+FOOD-TYPE,FOOD,스콘,스콘
+FOOD-TYPE,FOOD,무화과스콘,무화과스콘
+FOOD-TYPE,FOOD,초코스콘,초코스콘
+FOOD-TYPE,FOOD,롤케이크,롤케이크
+FOOD-TYPE,FOOD,롤케잌,롤케이크
+FOOD-TYPE,FOOD,롤케익,롤케이크
+FOOD-TYPE,FOOD,슈,슈
+FOOD-TYPE,FOOD,슈들,슈
+FOOD-TYPE,FOOD,베이비슈,베이비슈
+FOOD-TYPE,FOOD,케이크,케이크
+FOOD-TYPE,FOOD,케잌,케이크
+FOOD-TYPE,FOOD,케익,케이크
+FOOD-TYPE,FOOD,크림빵,크림빵
+FOOD-TYPE,FOOD,슈크림빵,슈크림빵
+FOOD-TYPE,FOOD,밀크티,밀크티
+FOOD-TYPE,FOOD,타로밀크티,타로밀크티
+FOOD-TYPE,FOOD,우롱밀크티,우롱밀크티
+FOOD-TYPE,FOOD,녹차밀크티,녹차밀크티
+FOOD-TYPE,FOOD,블랙밀크티,블랙밀크티
+FOOD-TYPE,FOOD,얼그레이밀크티,얼그레이밀크티
+FOOD-TYPE,FOOD,초콜렛밀크티,초콜렛밀크티
+FOOD-TYPE,FOOD,초콜릿밀크티,초콜렛밀크티
+FOOD-TYPE,FOOD,초코밀크티,초콜렛밀크티
+FOOD-TYPE,FOOD,단팥빵,단팥빵
+FOOD-TYPE,FOOD,팥빵,단팥빵
+FOOD-TYPE,FOOD,크림단팥빵,크림단팥빵
+FOOD-TYPE,FOOD,도넛,도넛
+FOOD-TYPE,FOOD,도너츠,도넛
+FOOD-TYPE,FOOD,도넛츠,도넛
+FOOD-TYPE,FOOD,롤빵,롤빵
+FOOD-TYPE,FOOD,스위트롤,스위트롤
+FOOD-TYPE,FOOD,시나몬롤,시나몬롤
+FOOD-TYPE,FOOD,베이글,베이글
+FOOD-TYPE,FOOD,플레인베이글,플레인베이글
+FOOD-TYPE,FOOD,어니언베이글,어니언베이글
+FOOD-TYPE,FOOD,블루베리베이글,블루베리베이글
+FOOD-TYPE,FOOD,치즈베이글,치즈베이글
+FOOD-TYPE,FOOD,와플,와플
+FOOD-TYPE,FOOD,크로플,크로플
+FOOD-TYPE,FOOD,초코와플,초코와플
+FOOD-TYPE,FOOD,아이스크림와플,아이스크림와플
+FOOD-TYPE,FOOD,딸기와플,딸기와플
+FOOD-TYPE,FOOD,오일파스타,오일파스타
+FOOD-TYPE,FOOD,알리오올리오,알리오올리오
+FOOD-TYPE,FOOD,감바스파스타,감바스파스타
+FOOD-TYPE,FOOD,봉골레,봉골레
+FOOD-TYPE,FOOD,봉골레파스타,봉골레
+FOOD-TYPE,FOOD,양갈비,양갈비스테이크
+FOOD-TYPE,FOOD,양갈비스테이크,양갈비스테이크
+FOOD-TYPE,FOOD,샐러드,샐러드
+FOOD-TYPE,FOOD,연어샐러드,연어샐러드
+FOOD-TYPE,FOOD,콥샐러드,콥샐러드
+FOOD-TYPE,FOOD,닭가슴살샐러드,닭가슴살샐러드
+FOOD-TYPE,FOOD,비프샐러드,비프샐러드
+FOOD-TYPE,FOOD,버섯샐러드,버섯샐러드
+FOOD-TYPE,FOOD,감자튀김,감자튀김
+FOOD-TYPE,FOOD,감튀,감자튀김
+FOOD-TYPE,FOOD,프렌치프라이,프렌치프라이
+FOOD-TYPE,FOOD,후렌치후라이,프렌치프라이
+FOOD-TYPE,FOOD,웨지감자,웨지감자
+FOOD-TYPE,FOOD,웻지감자,웨지감자
+FOOD-TYPE,FOOD,오므라이스,오므라이스
+FOOD-TYPE,FOOD,오무라이스,오므라이스
+FOOD-TYPE,FOOD,크림파스타,크림파스타
+FOOD-TYPE,FOOD,크림스파게티,크림파스타
+FOOD-TYPE,FOOD,까르보나라,까르보나라
+FOOD-TYPE,FOOD,토마토파스타,토마토파스타
+FOOD-TYPE,FOOD,토마토스파게티,토마토파스타
+FOOD-TYPE,FOOD,포모도로,포모도로
+FOOD-TYPE,FOOD,뽀모도로,포모도로
+FOOD-TYPE,FOOD,나폴리탄스파게티,나폴리탄스파게티
+FOOD-TYPE,FOOD,나폴리탄,나폴리탄스파게티
+FOOD-TYPE,FOOD,나폴리탄파스타,나폴리탄스파게티
+FOOD-TYPE,FOOD,오븐스파게티,오븐스파게티
+FOOD-TYPE,FOOD,오븐파스타,오븐스파게티
+FOOD-TYPE,FOOD,주스,주스
+FOOD-TYPE,FOOD,쥬스,주스
+FOOD-TYPE,FOOD,과일쥬스,과일주스
+FOOD-TYPE,FOOD,과일주스,과일주스
+FOOD-TYPE,FOOD,생과일쥬스,과일주스
+FOOD-TYPE,FOOD,생과일주스,과일주스
+FOOD-TYPE,FOOD,딸기주스,딸기주스
+FOOD-TYPE,FOOD,딸기쥬스,딸기주스
+FOOD-TYPE,FOOD,키위주스,키위주스
+FOOD-TYPE,FOOD,키위쥬스,키위주스
+FOOD-TYPE,FOOD,오렌지주스,오렌지주스
+FOOD-TYPE,FOOD,오렌지쥬스,오렌지주스
+FOOD-TYPE,FOOD,레몬주스,레몬주스
+FOOD-TYPE,FOOD,레몬쥬스,레몬주스
+FOOD-TYPE,FOOD,망고주스,망고주스
+FOOD-TYPE,FOOD,망고쥬스,망고주스
+FOOD-TYPE,FOOD,수박주스,수박주스
+FOOD-TYPE,FOOD,수박쥬스,수박주스
+FOOD-TYPE,FOOD,스무디,스무디
+FOOD-TYPE,FOOD,딸기스무디,딸기스무디
+FOOD-TYPE,FOOD,키위스무디,키위스무디
+FOOD-TYPE,FOOD,바나나스무디,바나나스무디
+FOOD-TYPE,FOOD,블루베리스무디,블루베리스무디
+FOOD-TYPE,FOOD,망고스무디,망고스무디
+FOOD-TYPE,FOOD,복숭아스무디,복숭아스무디
+FOOD-TYPE,FOOD,요거트스무디,요거트스무디
+FOOD-TYPE,FOOD,오렌지스무디,오렌지스무디
+FOOD-TYPE,FOOD,츄러스,츄러스
+FOOD-TYPE,FOOD,츄로스,츄러스
+FOOD-TYPE,FOOD,추로스,츄러스
+FOOD-TYPE,FOOD,추러스,츄러스
+FOOD-TYPE,FOOD,초코츄러스,초코츄러스
+FOOD-TYPE,FOOD,초코추로스,초코츄러스
+FOOD-TYPE,FOOD,초코추러스,초코츄러스
+FOOD-TYPE,FOOD,초코츄로스,초코츄러스
+FOOD-TYPE,FOOD,오레오츄러스,오레오츄러스
+FOOD-TYPE,FOOD,오레오추로스,오레오츄러스
+FOOD-TYPE,FOOD,오레오추러스,오레오츄러스
+FOOD-TYPE,FOOD,오레오츄로스,오레오츄러스
+FOOD-TYPE,FOOD,꽈배기,꽈배기
+FOOD-TYPE,FOOD,꽈베기,꽈배기
+FOOD-TYPE,FOOD,찹쌀꽈배기,찹쌀꽈배기
+FOOD-TYPE,FOOD,찹쌀꽈베기,찹쌀꽈배기
+FOOD-TYPE,FOOD,콩고물꽈배기,콩고물꽈배기
+FOOD-TYPE,FOOD,콩고물꽈베기,콩고물꽈배기
+FOOD-TYPE,FOOD,고로케,고로케
+FOOD-TYPE,FOOD,잡채고로케,잡채고로케
+FOOD-TYPE,FOOD,카레고로케,카레고로케
+FOOD-TYPE,FOOD,감자고로케,감자고로케
+FOOD-TYPE,FOOD,치즈고로케,치즈고로케
+FOOD-TYPE,FOOD,야채고로케,야채고로케
+FOOD-TYPE,FOOD,핫초코,핫초코
+FOOD-TYPE,FOOD,핫초콜릿,핫초코
+FOOD-TYPE,FOOD,핫초콜렛,핫초코
+FOOD-TYPE,FOOD,아이스초코,아이스초코
+FOOD-TYPE,FOOD,아이스초콜릿,아이스초코
+FOOD-TYPE,FOOD,아이스초콜렛,아이스초코
+FOOD-TYPE,FOOD,코코아,코코아
+FOOD-TYPE,FOOD,초코라떼,초코라떼
+FOOD-TYPE,FOOD,햄버거,햄버거
+FOOD-TYPE,FOOD,와퍼,햄버거
+FOOD-TYPE,FOOD,수제햄버거,수제햄버거
+FOOD-TYPE,FOOD,피자,피자
+FOOD-TYPE,FOOD,화덕피자,화덕피자
+FOOD-TYPE,FOOD,페퍼로니피자,페퍼로니피자
+FOOD-TYPE,FOOD,페페로니피자,페퍼로니피자
+FOOD-TYPE,FOOD,페퍼로니,페퍼로니피자
+FOOD-TYPE,FOOD,페페로니,페퍼로니피자
+FOOD-TYPE,FOOD,콤비네이션피자,콤비네이션피자
+FOOD-TYPE,FOOD,콤비네이션,콤비네이션피자
+FOOD-TYPE,FOOD,컴비네이션피자,콤비네이션피자
+FOOD-TYPE,FOOD,컴비네이션,콤비네이션피자
+FOOD-TYPE,FOOD,나폴리피자,나폴리피자
+FOOD-TYPE,FOOD,마르게리타피자,마르게리타피자
+FOOD-TYPE,FOOD,마르게리타,마르게리타피자
+FOOD-TYPE,FOOD,마르게리따피자,마르게리타피자
+FOOD-TYPE,FOOD,마르게리따,마르게리타피자
+FOOD-TYPE,FOOD,치즈피자,치즈피자
+FOOD-TYPE,FOOD,불고기피자,불고기피자
+FOOD-TYPE,FOOD,고구마피자,고구마피자
+FOOD-TYPE,FOOD,포테이토피자,포테이토피자
+FOOD-TYPE,FOOD,바비큐,바비큐
+FOOD-TYPE,FOOD,바베큐,바비큐
+FOOD-TYPE,FOOD,슈하스코,슈하스코
+FOOD-TYPE,FOOD,슈하스꼬,슈하스코
+FOOD-TYPE,FOOD,슈하스꾸,슈하스코
+FOOD-TYPE,FOOD,슈하스쿠,슈하스코
+FOOD-TYPE,FOOD,스프,스프
+FOOD-TYPE,FOOD,수프,스프
+FOOD-TYPE,FOOD,양송이스프,양송이스프
+FOOD-TYPE,FOOD,양송이수프,양송이스프
+FOOD-TYPE,FOOD,콘스프,콘스프
+FOOD-TYPE,FOOD,콘수프,콘스프
+FOOD-TYPE,FOOD,옥수수스프,콘스프
+FOOD-TYPE,FOOD,옥수수수프,콘스프
+FOOD-TYPE,FOOD,어니언스프,어니언스프
+FOOD-TYPE,FOOD,어니언수프,어니언스프
+FOOD-TYPE,FOOD,호박스프,호박스프
+FOOD-TYPE,FOOD,호박수프,호박스프
+FOOD-TYPE,FOOD,단호박스프,호박스프
+FOOD-TYPE,FOOD,단호박수프,호박스프
+FOOD-TYPE,FOOD,게장,게장
+FOOD-TYPE,FOOD,게장정식,게장
+FOOD-TYPE,FOOD,게장백반,게장
+FOOD-TYPE,FOOD,게장세트,게장
+FOOD-TYPE,FOOD,간장게장,간장게장
+FOOD-TYPE,FOOD,간장게장정식,간장게장
+FOOD-TYPE,FOOD,양념게장,양념게장
+FOOD-TYPE,FOOD,게무침,게무침
+FOOD-TYPE,FOOD,생선조림,생선조림
+FOOD-TYPE,FOOD,고등어조림,고등어조림
+FOOD-TYPE,FOOD,꽁치조림,꽁치조림
+FOOD-TYPE,FOOD,갈치조림,갈치조림
+FOOD-TYPE,FOOD,조기조림,조기조림
+FOOD-TYPE,FOOD,명태조림,명태조림
+FOOD-TYPE,FOOD,코다리조림,코다리조림
+FOOD-TYPE,FOOD,우럭조림,우럭조림
+FOOD-TYPE,FOOD,생선구이,생선구이
+FOOD-TYPE,FOOD,고등어구이,고등어구이
+FOOD-TYPE,FOOD,삼치구이,삼치구이
+FOOD-TYPE,FOOD,갈치구이,갈치구이
+FOOD-TYPE,FOOD,꽁치구이,꽁치구이
+FOOD-TYPE,FOOD,조기구이,조기구이
+FOOD-TYPE,FOOD,장어구이,장어구이
+FOOD-TYPE,FOOD,소금장어구이,소금장어구이
+FOOD-TYPE,FOOD,양념장어구이,양념장어구이
+FOOD-TYPE,FOOD,양념장,양념장어구이
+FOOD-TYPE,FOOD,오징어순대,오징어순대
+FOOD-TYPE,FOOD,아바이순대,아바이순대
+FOOD-TYPE,FOOD,닭갈비,닭갈비
+FOOD-TYPE,FOOD,철판닭갈비,철판닭갈비
+FOOD-TYPE,FOOD,숯불닭갈비,숯불닭갈비
+FOOD-TYPE,FOOD,치즈닭갈비,치즈닭갈비
+FOOD-TYPE,FOOD,닭강정,닭강정
+FOOD-TYPE,FOOD,컵닭,컵닭
+FOOD-TYPE,FOOD,순살닭강정,순살닭강정
+FOOD-TYPE,FOOD,팝콘치킨,팝콘치킨
+FOOD-TYPE,FOOD,닭발,닭발
+FOOD-TYPE,FOOD,무뼈닭발,무뼈닭발
+FOOD-TYPE,FOOD,국물닭발,국물닭발
+FOOD-TYPE,FOOD,매운닭발,매운닭발
+FOOD-TYPE,FOOD,육회,육회
+FOOD-TYPE,FOOD,육사시미,육사시미
+FOOD-TYPE,FOOD,제육볶음,제육볶음
+FOOD-TYPE,FOOD,제육,제육볶음
+FOOD-TYPE,FOOD,제육정식,제육볶음
+FOOD-TYPE,FOOD,제육덮밥,제육덮밥
+FOOD-TYPE,FOOD,돼지주물럭,돼지주물럭
+FOOD-TYPE,FOOD,두루치기,두루치기
+FOOD-TYPE,FOOD,돼지두루치기,두루치기
+FOOD-TYPE,FOOD,고추장두루치기,고추장두루치기
+FOOD-TYPE,FOOD,고추장삼겹살,고추장두루치기
+FOOD-TYPE,FOOD,죽,죽
+FOOD-TYPE,FOOD,죽들,죽
+FOOD-TYPE,FOOD,전복죽,전복죽
+FOOD-TYPE,FOOD,팥죽,팥죽
+FOOD-TYPE,FOOD,단팥죽,팥죽
+FOOD-TYPE,FOOD,호박죽,호박죽
+FOOD-TYPE,FOOD,낙지김치죽,낙지김치죽
+FOOD-TYPE,FOOD,잣죽,잣죽
+FOOD-TYPE,FOOD,소고기죽,소고기죽
+FOOD-TYPE,FOOD,참치죽,참치죽
+FOOD-TYPE,FOOD,참치야채죽,참치야채죽
+FOOD-TYPE,FOOD,곤드레밥,곤드레밥
+FOOD-TYPE,FOOD,곤드레나물밥,곤드레밥
+FOOD-TYPE,FOOD,곤드레밥정식,곤드레밥
+FOOD-TYPE,FOOD,곤드레나물정식,곤드레밥
+FOOD-TYPE,FOOD,곤드레정식,곤드레밥
+FOOD-TYPE,FOOD,돼지부속,돼지부속
+FOOD-TYPE,FOOD,부속고기,돼지부속
+FOOD-TYPE,FOOD,갈매기살,갈매기살
+FOOD-TYPE,FOOD,뽈살,뽈살
+FOOD-TYPE,FOOD,막창,막창
+FOOD-TYPE,FOOD,껍데기,껍데기
+FOOD-TYPE,FOOD,염통,염통
+FOOD-TYPE,FOOD,뒷고기,뒷고기
+FOOD-TYPE,FOOD,떡갈비,떡갈비
+FOOD-TYPE,FOOD,떡갈비구이,떡갈비
+FOOD-TYPE,FOOD,떡갈비정식,떡갈비
+FOOD-TYPE,FOOD,떡갈비도시락,떡갈비도시락
+FOOD-TYPE,FOOD,보쌈,보쌈
+FOOD-TYPE,FOOD,굴보쌈,굴보쌈
+FOOD-TYPE,FOOD,마늘보쌈,마늘보쌈
+FOOD-TYPE,FOOD,모듬보쌈,모듬보쌈
+FOOD-TYPE,FOOD,맛보쌈,맛보쌈
+FOOD-TYPE,FOOD,반반보쌈,반반보쌈
+FOOD-TYPE,FOOD,한방보쌈,한방보쌈
+FOOD-TYPE,FOOD,족발,족발
+FOOD-TYPE,FOOD,매운족발,매운족발
+FOOD-TYPE,FOOD,반반족발,반반족발
+FOOD-TYPE,FOOD,마늘족발,마늘족발
+FOOD-TYPE,FOOD,한방족발,한방족발
+FOOD-TYPE,FOOD,수육,수육
+FOOD-TYPE,FOOD,돼지수육,수육
+FOOD-TYPE,FOOD,꼬리찜,꼬리찜
+FOOD-TYPE,FOOD,소꼬리찜,꼬리찜
+FOOD-TYPE,FOOD,꼬리수육,꼬리수육
+FOOD-TYPE,FOOD,편육,편육
+FOOD-TYPE,FOOD,돼지편육,편육
+FOOD-TYPE,FOOD,족편,족편
+FOOD-TYPE,FOOD,만두국,만두국
+FOOD-TYPE,FOOD,만둣국,만두국
+FOOD-TYPE,FOOD,떡만두국,떡만두국
+FOOD-TYPE,FOOD,떡만둣국,떡만두국
+FOOD-TYPE,FOOD,칼만두국,칼만두국
+FOOD-TYPE,FOOD,칼만둣국,칼만두국
+FOOD-TYPE,FOOD,왕만두국,왕만두국
+FOOD-TYPE,FOOD,국수,국수
+FOOD-TYPE,FOOD,잔치국수,잔치국수
+FOOD-TYPE,FOOD,멸치국수,멸치국수
+FOOD-TYPE,FOOD,비빔국수,비빔국수
+FOOD-TYPE,FOOD,콩국수,콩국수
+FOOD-TYPE,FOOD,칼국수,칼국수
+FOOD-TYPE,FOOD,수제비,수제비
+FOOD-TYPE,FOOD,수제비사리,수제비
+FOOD-TYPE,FOOD,칼제비,칼제비
+FOOD-TYPE,FOOD,명동칼국수,명동칼국수
+FOOD-TYPE,FOOD,바지락칼국수,바지락칼국수
+FOOD-TYPE,FOOD,해물칼국수,해물칼국수
+FOOD-TYPE,FOOD,얼큰이칼국수,얼큰이칼국수
+FOOD-TYPE,FOOD,얼큰칼국수,얼큰이칼국수
+FOOD-TYPE,FOOD,장칼국수,장칼국수
+FOOD-TYPE,FOOD,들깨칼국수,들깨칼국수
+FOOD-TYPE,FOOD,파전,파전
+FOOD-TYPE,FOOD,해물파전,해물파전
+FOOD-TYPE,FOOD,동래파전,동래파전
+FOOD-TYPE,FOOD,육전,육전
+FOOD-TYPE,FOOD,고기완자,고기완자
+FOOD-TYPE,FOOD,빈대떡,빈대떡
+FOOD-TYPE,FOOD,녹두전,녹두전
+FOOD-TYPE,FOOD,낙지볶음,낙지볶음
+FOOD-TYPE,FOOD,낙지덮밥,낙지덮밥
+FOOD-TYPE,FOOD,낙지비빔밥,낙지비빔밥
+FOOD-TYPE,FOOD,오징어볶음,오징어볶음
+FOOD-TYPE,FOOD,오징어덮밥,오징어덮밥
+FOOD-TYPE,FOOD,오삼불고기,오삼불고기
+FOOD-TYPE,FOOD,닭볶음탕,닭볶음탕
+FOOD-TYPE,FOOD,닭도리탕,닭볶음탕
+FOOD-TYPE,FOOD,삼계탕,삼계탕
+FOOD-TYPE,FOOD,닭곰탕,닭곰탕
+FOOD-TYPE,FOOD,반계탕,반계탕
+FOOD-TYPE,FOOD,백숙,백숙
+FOOD-TYPE,FOOD,닭죽,닭죽
+FOOD-TYPE,FOOD,닭한마리,닭한마리
+FOOD-TYPE,FOOD,추어탕,추어탕
+FOOD-TYPE,FOOD,추탕,추어탕
+FOOD-TYPE,FOOD,미꾸라지튀김,미꾸라지튀김
+FOOD-TYPE,FOOD,국밥,국밥
+FOOD-TYPE,FOOD,내장탕,내장탕
+FOOD-TYPE,FOOD,순대국,순대국
+FOOD-TYPE,FOOD,순대국밥,순대국
+FOOD-TYPE,FOOD,순댓국,순대국
+FOOD-TYPE,FOOD,따로국밥,따로국밥
+FOOD-TYPE,FOOD,돼지국밥,돼지국밥
+FOOD-TYPE,FOOD,소머리국밥,소머리국밥
+FOOD-TYPE,FOOD,갈비탕,갈비탕
+FOOD-TYPE,FOOD,설렁탕,설렁탕
+FOOD-TYPE,FOOD,설농탕,설렁탕
+FOOD-TYPE,FOOD,도가니탕,도가니탕
+FOOD-TYPE,FOOD,곰탕,곰탕
+FOOD-TYPE,FOOD,매운탕,매운탕
+FOOD-TYPE,FOOD,메기매운탕,메기매운탕
+FOOD-TYPE,FOOD,쏘가리매운탕,쏘가리매운탕
+FOOD-TYPE,FOOD,우럭매운탕,우럭매운탕
+FOOD-TYPE,FOOD,우럭탕,우럭매운탕
+FOOD-TYPE,FOOD,서더리탕,서더리탕
+FOOD-TYPE,FOOD,에이드,에이드
+FOOD-TYPE,FOOD,자몽에이드,자몽에이드
+FOOD-TYPE,FOOD,오렌지에이드,오렌지에이드
+FOOD-TYPE,FOOD,레몬에이드,레몬에이드
+FOOD-TYPE,FOOD,레모네이드,레몬에이드
+FOOD-TYPE,FOOD,블루레몬에이드,블루레몬에이드
+FOOD-TYPE,FOOD,블루레모네이드,블루레몬에이드
+FOOD-TYPE,FOOD,와인에이드,와인에이드
+FOOD-TYPE,FOOD,베리에이드,베리에이드
+FOOD-TYPE,FOOD,아사이베리에이드,아사이베리에이드
+FOOD-TYPE,FOOD,망고에이드,망고에이드
+FOOD-TYPE,FOOD,모히또,모히또
+FOOD-TYPE,FOOD,라임모히또,라임모히또
+FOOD-TYPE,FOOD,자몽모히또,자몽모히또
+FOOD-TYPE,FOOD,애플모히또,애플모히또
+FOOD-TYPE,FOOD,홍차,홍차
+FOOD-TYPE,FOOD,블랙티,홍차
+FOOD-TYPE,FOOD,얼그레이티,얼그레이
+FOOD-TYPE,FOOD,얼그레이차,얼그레이
+FOOD-TYPE,FOOD,잉글리시브렉퍼스트티,잉글리시브렉퍼스트티
+FOOD-TYPE,FOOD,잉글리쉬브렉퍼스트티,잉글리시브렉퍼스트티
+FOOD-TYPE,FOOD,브렉퍼스트티,잉글리시브렉퍼스트티
+FOOD-TYPE,FOOD,브랙퍼스트티,잉글리시브렉퍼스트티
+FOOD-TYPE,FOOD,카모마일차,카모마일차
+FOOD-TYPE,FOOD,캐모마일차,카모마일차
+FOOD-TYPE,FOOD,카모마일티,카모마일차
+FOOD-TYPE,FOOD,캐모마일티,카모마일차
+FOOD-TYPE,FOOD,유자차,유자차
+FOOD-TYPE,FOOD,레몬차,레몬차
+FOOD-TYPE,FOOD,커피,커피
+FOOD-TYPE,FOOD,아인슈페너,아인슈페너
+FOOD-TYPE,FOOD,비엔나커피,비엔나커피
+FOOD-TYPE,FOOD,플랫화이트,플랫화이트
+FOOD-TYPE,FOOD,에스프레소,에스프레소
+FOOD-TYPE,FOOD,더블에스프레소,더블에스프레소
+FOOD-TYPE,FOOD,롱고,롱고
+FOOD-TYPE,FOOD,아메리카노,아메리카노
+FOOD-TYPE,FOOD,뜨아,아메리카노
+FOOD-TYPE,FOOD,따아,아메리카노
+FOOD-TYPE,FOOD,아이스아메리카노,아이스아메리카노
+FOOD-TYPE,FOOD,아아,아이스아메리카노
+FOOD-TYPE,FOOD,드립커피,드립커피
+FOOD-TYPE,FOOD,핸드드립커피,핸드드립커피
+FOOD-TYPE,FOOD,카푸치노,카푸치노
+FOOD-TYPE,FOOD,아이스카푸치노,아이스카푸치노
+FOOD-TYPE,FOOD,모카치노,모카치노
+FOOD-TYPE,FOOD,아이스모카치노,아이스모카치노
+FOOD-TYPE,FOOD,카페모카,카페모카
+FOOD-TYPE,FOOD,아이스카페모카,아이스카페모카
+FOOD-TYPE,FOOD,카페라떼,카페라떼
+FOOD-TYPE,FOOD,카페라테,카페라떼
+FOOD-TYPE,FOOD,라떼,카페라떼
+FOOD-TYPE,FOOD,아이스카페라떼,아이스카페라떼
+FOOD-TYPE,FOOD,아이스라떼,아이스카페라떼
+FOOD-TYPE,FOOD,아이스카페라테,아이스카페라떼
+FOOD-TYPE,FOOD,바닐라라떼,바닐라라떼
+FOOD-TYPE,FOOD,아바라,아이스바닐라라떼
+FOOD-TYPE,FOOD,아이스바닐라라떼,아이스바닐라라떼
+FOOD-TYPE,FOOD,헤이즐넛라떼,헤이즐넛라떼
+FOOD-TYPE,FOOD,아이스헤이즐넛라떼,아이스헤이즐넛라떼
+FOOD-TYPE,FOOD,아이스카라멜마끼아또,아이스카라멜마끼아또
+FOOD-TYPE,FOOD,카라멜마끼아또,카라멜마끼아또
+FOOD-TYPE,FOOD,녹차라떼,녹차라떼
+FOOD-TYPE,FOOD,그린티라떼,녹차라떼
+FOOD-TYPE,FOOD,고구마라떼,고구마라떼
+FOOD-TYPE,FOOD,아이스티,아이스티
+FOOD-TYPE,FOOD,복숭아아이스티,복숭아아이스티
+FOOD-TYPE,FOOD,레몬아이스티,레몬아이스티
+FOOD-TYPE,FOOD,고추잡채,고추잡채
+FOOD-TYPE,FOOD,부추잡채,부추잡채
+FOOD-TYPE,FOOD,중국식잡채,중국식잡채
+FOOD-TYPE,FOOD,중화풍잡채,중국식잡채
+FOOD-TYPE,FOOD,마파두부,마파두부
+FOOD-TYPE,FOOD,마파두부덮밥,마파두부덮밥
+FOOD-TYPE,FOOD,마파두부밥,마파두부덮밥
+FOOD-TYPE,FOOD,가지튀김,가지튀김
+FOOD-TYPE,FOOD,가지볶음,가지볶음
+FOOD-TYPE,FOOD,중국식가지볶음,가지볶음
+FOOD-TYPE,FOOD,중국식가지요리,가지볶음
+FOOD-TYPE,FOOD,사천식가지볶음,사천식가지볶음
+FOOD-TYPE,FOOD,지삼선,지삼선
+FOOD-TYPE,FOOD,마라탕,마라탕
+FOOD-TYPE,FOOD,훠궈,훠궈
+FOOD-TYPE,FOOD,마라롱샤,마라롱샤
+FOOD-TYPE,FOOD,마라샹궈,마라샹궈
+FOOD-TYPE,FOOD,초밥,초밥
+FOOD-TYPE,FOOD,스시,초밥
+FOOD-TYPE,FOOD,롤,롤
+FOOD-TYPE,FOOD,롤들,롤
+FOOD-TYPE,FOOD,우동,우동
+FOOD-TYPE,FOOD,튀김우동,튀김우동
+FOOD-TYPE,FOOD,야끼우동,야끼우동
+FOOD-TYPE,FOOD,야끼소바,야끼소바
+FOOD-TYPE,FOOD,볶음우동,볶음우동
+FOOD-TYPE,FOOD,라멘,라멘
+FOOD-TYPE,FOOD,미소라멘,미소라멘
+FOOD-TYPE,FOOD,돈코츠라멘,돈코츠라멘
+FOOD-TYPE,FOOD,중화소바,중화소바
+FOOD-TYPE,FOOD,돈부리,돈부리
+FOOD-TYPE,FOOD,가츠동,가츠동
+FOOD-TYPE,FOOD,규동,규동
+FOOD-TYPE,FOOD,오야코동,오야코동
+FOOD-TYPE,FOOD,텐동,텐동
+FOOD-TYPE,FOOD,카이센동,카이센동
+FOOD-TYPE,FOOD,사케동,사케동
+FOOD-TYPE,FOOD,가라아게동,가라아게동
+FOOD-TYPE,FOOD,연어덮밥,연어덮밥
+FOOD-TYPE,FOOD,튀김덮밥,튀김덮밥
+FOOD-TYPE,FOOD,닭고기덮밥,닭고기덮밥
+FOOD-TYPE,FOOD,회,회
+FOOD-TYPE,FOOD,회들,회
+FOOD-TYPE,FOOD,광어회,광어회
+FOOD-TYPE,FOOD,우럭회,우럭회
+FOOD-TYPE,FOOD,도미회,도미회
+FOOD-TYPE,FOOD,참치회,참치회
+FOOD-TYPE,FOOD,연어회,연어회
+FOOD-TYPE,FOOD,사시미,사시미
+FOOD-TYPE,FOOD,방어회,방어회
+FOOD-TYPE,FOOD,세꼬시,세꼬시
+FOOD-TYPE,FOOD,물짜장,물짜장
+FOOD-TYPE,FOOD,물짜장면,물짜장
+FOOD-TYPE,FOOD,깐풍기,깐풍기
+FOOD-TYPE,FOOD,유린기,유린기
+FOOD-TYPE,FOOD,라조기,라조기
+FOOD-TYPE,FOOD,깐풍육,깐풍육
+FOOD-TYPE,FOOD,난자완스,난자완스
+FOOD-TYPE,FOOD,라조육,라조육
+FOOD-TYPE,FOOD,동파육,동파육
+FOOD-TYPE,FOOD,오향장육,오향장육
+FOOD-TYPE,FOOD,유산슬,유산슬
+FOOD-TYPE,FOOD,해파리냉채,해파리냉채
+FOOD-TYPE,FOOD,팔보채,팔보채
+FOOD-TYPE,FOOD,불도장,불도장
+FOOD-TYPE,FOOD,전가복,전가복
+FOOD-TYPE,FOOD,양장피,양장피
+FOOD-TYPE,FOOD,잡채밥,잡채밥
+FOOD-TYPE,FOOD,잡탕밥,잡탕밥
+FOOD-TYPE,FOOD,송이덮밥,송이덮밥
+FOOD-TYPE,FOOD,중화덮밥,중화덮밥
+FOOD-TYPE,FOOD,중화풍덮밥,중화덮밥
+FOOD-TYPE,FOOD,중화풍해물덮밥,중화풍해물덮밥
+FOOD-TYPE,FOOD,볶음밥,볶음밥
+FOOD-TYPE,FOOD,보끔밥,볶음밥
+FOOD-TYPE,FOOD,짜장밥,짜장밥
+FOOD-TYPE,FOOD,삼선볶음밥,삼선볶음밥
+FOOD-TYPE,FOOD,새우볶음밥,새우볶음밥
+FOOD-TYPE,FOOD,계란볶음밥,계란볶음밥
+FOOD-TYPE,FOOD,칠리새우,칠리새우
+FOOD-TYPE,FOOD,깐쇼새우,깐쇼새우
+FOOD-TYPE,FOOD,크림새우,크림새우
+FOOD-TYPE,FOOD,울면,울면
+FOOD-TYPE,FOOD,기스면,기스면
+FOOD-TYPE,FOOD,유니짜장,유니짜장
+FOOD-TYPE,FOOD,유니짜장면,유니짜장
+FOOD-TYPE,FOOD,유니자장,유니짜장
+FOOD-TYPE,FOOD,유니자장면,유니짜장
+FOOD-TYPE,FOOD,우육면,우육면
+FOOD-TYPE,FOOD,우육탕면,우육면
+FOOD-TYPE,FOOD,멘보샤,멘보샤
+FOOD-TYPE,FOOD,덴푸라,덴푸라
+FOOD-TYPE,FOOD,덴뿌라,덴푸라
+FOOD-TYPE,FOOD,가라아게,가라아게
+FOOD-TYPE,FOOD,새우튀김,새우튀김
+FOOD-TYPE,FOOD,돈카츠,돈카츠
+FOOD-TYPE,FOOD,돈까츠,돈카츠
+FOOD-TYPE,FOOD,히레카츠,히레카츠
+FOOD-TYPE,FOOD,히레까스,히레카츠
+FOOD-TYPE,FOOD,로스카츠,로스까츠
+FOOD-TYPE,FOOD,로스까스,로스까츠
+FOOD-TYPE,FOOD,비프까스,비프까스
+FOOD-TYPE,FOOD,멘치까스,멘치까스
+FOOD-TYPE,FOOD,치킨까스,치킨까스
+FOOD-TYPE,FOOD,생선까스,생선까스
+FOOD-TYPE,FOOD,쿠시카츠,쿠시카츠
+FOOD-TYPE,FOOD,후시카츠,후시카츠
+FOOD-TYPE,FOOD,규카츠,규카츠
+FOOD-TYPE,FOOD,타코야끼,타코야끼
+FOOD-TYPE,FOOD,타코,타코야끼
+FOOD-TYPE,FOOD,오코노미야끼,오코노미야끼
+FOOD-TYPE,FOOD,샤브샤브,샤브샤브
+FOOD-TYPE,FOOD,스끼야끼,샤브샤브
+FOOD-TYPE,FOOD,스키야키,샤브샤브
+FOOD-TYPE,FOOD,타다끼,타다끼
+FOOD-TYPE,FOOD,타타키,타다끼
+FOOD-TYPE,FOOD,타다키,타다끼
+FOOD-TYPE,FOOD,타마고야끼,타마고야끼
+FOOD-TYPE,FOOD,타마고야키,타마고야끼
+FOOD-TYPE,FOOD,일본식계란말이,타마고야끼
+FOOD-TYPE,FOOD,야끼토리,야끼토리
+FOOD-TYPE,FOOD,일본식닭꼬치,야끼토리
+FOOD-TYPE,FOOD,일본가정식,일본가정식
+FOOD-TYPE,FOOD,치킨난반,치킨난반
+FOOD-TYPE,FOOD,야키니쿠,야키니쿠
+FOOD-TYPE,FOOD,야끼니쿠,야키니쿠
+FOOD-TYPE,FOOD,야끼니꾸,야키니쿠
+FOOD-TYPE,FOOD,매실차,매실차
+FOOD-TYPE,FOOD,공갈빵,공갈빵
+FOOD-TYPE,FOOD,캄파뉴,캄파뉴
+FOOD-TYPE,FOOD,캉파뉴,캄파뉴
+FOOD-TYPE,FOOD,깜빠뉴,캄파뉴
+FOOD-TYPE,FOOD,맘모스빵,맘모스빵
+FOOD-TYPE,FOOD,뺑오쇼콜라,뺑오쇼콜라
+FOOD-TYPE,FOOD,초코패스츄리,뺑오쇼콜라
+FOOD-TYPE,FOOD,크로와상,크로와상
+FOOD-TYPE,FOOD,크루아상,크로와상
+FOOD-TYPE,FOOD,초코크로와상,초코크로와상
+FOOD-TYPE,FOOD,데니쉬,데니쉬
+FOOD-TYPE,FOOD,브리오슈,브리오슈
+FOOD-TYPE,FOOD,소라빵,소라빵
+FOOD-TYPE,FOOD,초코소라빵,초코소라빵
+FOOD-TYPE,FOOD,마들렌,마들렌
+FOOD-TYPE,FOOD,휘낭시에,휘낭시에
+FOOD-TYPE,FOOD,브런치,브런치
+FOOD-TYPE,FOOD,프렌치토스트,프렌치토스트
+FOOD-TYPE,FOOD,마늘빵,마늘빵
+FOOD-TYPE,FOOD,마늘바게트,마늘빵
+FOOD-TYPE,FOOD,마늘스틱,마늘빵
+FOOD-TYPE,FOOD,갈릭브레드,마늘빵
+FOOD-TYPE,FOOD,프레즐,프레즐
+FOOD-TYPE,FOOD,프레첼,프레즐
+FOOD-TYPE,FOOD,프래즐,프레즐
+FOOD-TYPE,FOOD,프랫첼,프레즐
+FOOD-TYPE,FOOD,프랫즐,프레즐
+FOOD-TYPE,FOOD,버터프레첼,버터프레첼
+FOOD-TYPE,FOOD,포카치아,포카치아
+FOOD-TYPE,FOOD,호밀빵,호밀빵
+FOOD-TYPE,FOOD,통밀빵,통밀빵
+FOOD-TYPE,FOOD,깨찰빵,깨찰빵
+FOOD-TYPE,FOOD,찰깨빵,깨찰빵
+FOOD-TYPE,FOOD,치아바타,치아바타
+FOOD-TYPE,FOOD,앙버터,앙버터
+FOOD-TYPE,FOOD,앙버터빵,앙버터
+FOOD-TYPE,FOOD,슈톨렌,슈톨렌
+FOOD-TYPE,FOOD,파네토네,파네토네
+FOOD-TYPE,FOOD,빠네토네,파네토네
+FOOD-TYPE,FOOD,리조또,리조또
+FOOD-TYPE,FOOD,그라탕,그라탕
+FOOD-TYPE,FOOD,도리아,도리아
+FOOD-TYPE,FOOD,필라프,필라프
+FOOD-TYPE,FOOD,빠에야,빠에야
+FOOD-TYPE,FOOD,치킨,치킨
+FOOD-TYPE,FOOD,프라이드치킨,후라이드치킨
+FOOD-TYPE,FOOD,후라이드,후라이드치킨
+FOOD-TYPE,FOOD,후라이드치킨,후라이드치킨
+FOOD-TYPE,FOOD,양념치킨,양념치킨
+FOOD-TYPE,FOOD,간장치킨,간장치킨
+FOOD-TYPE,FOOD,핫크리스피,핫크리스피
+FOOD-TYPE,FOOD,통닭,통닭
+FOOD-TYPE,FOOD,미트볼,미트볼
+FOOD-TYPE,FOOD,밋볼,미트볼
+FOOD-TYPE,FOOD,오믈렛,오믈렛
+FOOD-TYPE,FOOD,스크램블에그,스크램블에그
+FOOD-TYPE,FOOD,육개장,육개장
+FOOD-TYPE,FOOD,육계장,육개장
+FOOD-TYPE,FOOD,닭개장,닭개장
+FOOD-TYPE,FOOD,된장찌개,된장찌개
+FOOD-TYPE,FOOD,된장찌게,된장찌개
+FOOD-TYPE,FOOD,차돌된장,차돌된장
+FOOD-TYPE,FOOD,청국장,청국장
+FOOD-TYPE,FOOD,연포탕,연포탕
+FOOD-TYPE,FOOD,산낙지연포탕,낙지연포탕
+FOOD-TYPE,FOOD,낙지연포탕,낙지연포탕
+FOOD-TYPE,FOOD,보양식,보양식
+FOOD-TYPE,FOOD,선지해장국,선지해장국
+FOOD-TYPE,FOOD,양평해장국,양평해장국
+FOOD-TYPE,FOOD,선지내장탕,선지내장탕
+FOOD-TYPE,FOOD,콩나물국밥,콩나물국밥
+FOOD-TYPE,FOOD,콩나물해장국,콩나물국밥
+FOOD-TYPE,FOOD,전주콩나물국밥,콩나물국밥
+FOOD-TYPE,FOOD,우거지탕,우거지탕
+FOOD-TYPE,FOOD,우거지국,우거지탕
+FOOD-TYPE,FOOD,우거지해장국,우거지해장국
+FOOD-TYPE,FOOD,비지찌개,비지찌개
+FOOD-TYPE,FOOD,콩비지찌개,비지찌개
+FOOD-TYPE,FOOD,김치비지찌개,김치비지찌개
+FOOD-TYPE,FOOD,찜닭,찜닭
+FOOD-TYPE,FOOD,간장찜닭,간장찜닭
+FOOD-TYPE,FOOD,안동찜닭,안동찜닭
+FOOD-TYPE,FOOD,순살찜닭,순살찜닭
+FOOD-TYPE,FOOD,치즈찜닭,치즈 찜닭
+FOOD-TYPE,FOOD,해물찜,해물찜
+FOOD-TYPE,FOOD,아구찜,아구찜
+FOOD-TYPE,FOOD,알찜,알찜
+FOOD-TYPE,FOOD,곤이찜,곤이찜
+FOOD-TYPE,FOOD,홍어회,홍어회
+FOOD-TYPE,FOOD,홍어탕,홍어탕
+FOOD-TYPE,FOOD,홍어찜,홍어찜
+FOOD-TYPE,FOOD,고기국수,고기국수
+FOOD-TYPE,FOOD,제주국수,고기국수
+FOOD-TYPE,FOOD,올레국수,고기국수
+FOOD-TYPE,FOOD,김치말이국수,김치말이국수
+FOOD-TYPE,FOOD,물김치국수,김치말이국수
+FOOD-TYPE,FOOD,열무국수,열무국수
+FOOD-TYPE,FOOD,열무냉면,열무냉면
+FOOD-TYPE,FOOD,열무김치말이국수,열무김치말이국수
+FOOD-TYPE,FOOD,막국수,막국수
+FOOD-TYPE,FOOD,물막국수,물막국수
+FOOD-TYPE,FOOD,물막,물막국수
+FOOD-TYPE,FOOD,비빔막국수,비빔막국수
+FOOD-TYPE,FOOD,비막,비빔막국수
+FOOD-TYPE,FOOD,초계탕,초계탕
+FOOD-TYPE,FOOD,초계국수,초계국수
+FOOD-TYPE,FOOD,갈비찜,갈비찜
+FOOD-TYPE,FOOD,소갈비찜,소갈비찜
+FOOD-TYPE,FOOD,매운갈비찜,매운갈비찜
+FOOD-TYPE,FOOD,돼지갈비찜,돼지갈비찜
+FOOD-TYPE,FOOD,매운소갈비찜,매운소갈비찜
+FOOD-TYPE,FOOD,매운돼지갈비찜,매운돼지갈비찜
+FOOD-TYPE,FOOD,밀면,밀면
+FOOD-TYPE,FOOD,비빔밥,비빔밥
+FOOD-TYPE,FOOD,돌솥비빔밥,돌솥비빔밥
+FOOD-TYPE,FOOD,전주비빔밥,전주비빔밥
+FOOD-TYPE,FOOD,육회비빔밥,육회비빔밥
+FOOD-TYPE,FOOD,열무비빔밥,열무비빔밥
+FOOD-TYPE,FOOD,불고기,불고기
+FOOD-TYPE,FOOD,바싹불고기,바싹불고기
+FOOD-TYPE,FOOD,양양식불고기,양양식불고기
+FOOD-TYPE,FOOD,양양불고기,양양식불고기
+FOOD-TYPE,FOOD,서울식불고기,서울식불고기
+FOOD-TYPE,FOOD,불고기전골,불고기전골
+FOOD-TYPE,FOOD,산더미불고기,산더미불고기
+FOOD-TYPE,FOOD,뚝배기불고기,뚝배기불고기
+FOOD-TYPE,FOOD,뚝불,뚝배기불고기
+FOOD-TYPE,FOOD,갈비,갈비
+FOOD-TYPE,FOOD,소갈비,소갈비
+FOOD-TYPE,FOOD,돼지갈비,돼지갈비
+FOOD-TYPE,FOOD,이동갈비,이동갈비
+FOOD-TYPE,FOOD,양념갈비,양념갈비
+FOOD-TYPE,FOOD,갈비구이,갈비구이
+FOOD-TYPE,FOOD,돼지불고기,돼지불고기
+FOOD-TYPE,FOOD,돼지불백,돼지불고기
+FOOD-TYPE,FOOD,불백,돼지불고기
+FOOD-TYPE,FOOD,간장제육,간장제육
+FOOD-TYPE,FOOD,불닭,불닭
+FOOD-TYPE,FOOD,누룽지불닭,누룽지불닭
+FOOD-TYPE,FOOD,치즈불닭,치즈불닭
+FOOD-TYPE,FOOD,과메기,과메기
+FOOD-TYPE,FOOD,청어과메기,청어과메기
+FOOD-TYPE,FOOD,구룡포과메기,구룡포과메기
+FOOD-TYPE,FOOD,굴비,굴비
+FOOD-TYPE,FOOD,굴비밥상,굴비
+FOOD-TYPE,FOOD,굴비정식,굴비
+FOOD-TYPE,FOOD,법성포굴비,법성포굴비
+FOOD-TYPE,FOOD,보리굴비,보리굴비
+FOOD-TYPE,FOOD,영광굴비,영광굴비
+FOOD-TYPE,FOOD,항정살,항정살
+FOOD-TYPE,FOOD,김치볶음밥,김치볶음밥
+FOOD-TYPE,FOOD,베이컨김치볶음밥,베이컨김치볶음밥
+FOOD-TYPE,FOOD,카치오에페페,카치오에페페
+FOOD-TYPE,FOOD,라자냐,라자냐
+FOOD-TYPE,FOOD,뇨끼,뇨끼
+FOOD-TYPE,FOOD,뇨키,뇨끼
+FOOD-TYPE,FOOD,라구파스타,라구파스타
+FOOD-TYPE,FOOD,라구볼로네제파스타,라구볼로네제파스타
+FOOD-TYPE,FOOD,볼레네제라구파스타,라구볼로네제파스타
+FOOD-TYPE,FOOD,리가토니,리가토니
+FOOD-TYPE,FOOD,쉬림프파스타,쉬림프파스타
+FOOD-TYPE,FOOD,새우파스타,쉬림프파스타
+FOOD-TYPE,FOOD,아라비아따,아라비아따
+FOOD-TYPE,FOOD,아라비아따파스타,아라비아따
+FOOD-TYPE,FOOD,명란파스타,명란파스타
+FOOD-TYPE,FOOD,스테이크,스테이크
+FOOD-TYPE,FOOD,티본스테이크,티본스테이크
+FOOD-TYPE,FOOD,립아이스테이크,립아이스테이크
+FOOD-TYPE,FOOD,안심스테이크,안심스테이크
+FOOD-TYPE,FOOD,등심스테이크,등심스테이크
+FOOD-TYPE,FOOD,샌드위치,샌드위치
+FOOD-TYPE,FOOD,에그인헬,에그인헬
+FOOD-TYPE,FOOD,샥슈카,에그인헬
+FOOD-TYPE,FOOD,야채튀김,야채튀김
+FOOD-TYPE,FOOD,김말이,김말이
+FOOD-TYPE,FOOD,고구마튀김,고구마튀김
+FOOD-TYPE,FOOD,오징어튀김,오징어튀김
+FOOD-TYPE,FOOD,오튀,오징어튀김
+FOOD-TYPE,FOOD,상추튀김,상추튀김
+FOOD-TYPE,FOOD,순대튀김,순대튀김
+FOOD-TYPE,FOOD,피카츄돈까스,피카츄돈까스
+FOOD-TYPE,FOOD,피카츄돈가스,피카츄돈까스
+FOOD-TYPE,FOOD,야끼만두,야끼만두
+FOOD-TYPE,FOOD,튀김만두,튀김만두
+FOOD-TYPE,FOOD,만두튀김,튀김만두
+FOOD-TYPE,FOOD,고추튀김,고추튀김
+FOOD-TYPE,FOOD,떡꼬치,떡꼬치
+FOOD-TYPE,FOOD,소떡소떡,소떡소떢
+FOOD-TYPE,FOOD,닭꼬치,닭꼬치
+FOOD-TYPE,FOOD,어묵,어묵
+FOOD-TYPE,FOOD,오뎅,어묵
+FOOD-TYPE,FOOD,수제어묵,어묵
+FOOD-TYPE,FOOD,어묵꼬치,어묵
+FOOD-TYPE,FOOD,꽃게,어묵
+FOOD-TYPE,FOOD,쌀국수,쌀국수
+FOOD-TYPE,FOOD,양지쌀국수,양지쌀국수
+FOOD-TYPE,FOOD,분짜,분짜
+FOOD-TYPE,FOOD,대창,대창
+FOOD-TYPE,FOOD,양대창,대창
+FOOD-TYPE,FOOD,팝콘,팝콘
+FOOD-TYPE,FOOD,아이스크림,아이스크림
+FOOD-TYPE,FOOD,녹차아이스크림,녹차아이스크림
+FOOD-TYPE,FOOD,초코아이스크림,초코아이스크림
+FOOD-TYPE,FOOD,딸기아이스크림,딸기아이스크림
+FOOD-TYPE,FOOD,요거트아이스크림,요거트아이스크림
+FOOD-TYPE,FOOD,블루베리아이스크림,블루베리아이스크림
+FOOD-TYPE,FOOD,철판아이스크림,철판아이스크림
+FOOD-TYPE,FOOD,젤라또,젤라또
+FOOD-TYPE,FOOD,김치감자탕,김치감자탕
+FOOD-TYPE,FOOD,쟁반막국수,쟁반막국수
+FOOD-TYPE,FOOD,쟁반국수,쟁반막국수
+FOOD-TYPE,FOOD,뼈찜,뼈찜
+FOOD-TYPE,FOOD,등뼈찜,뼈찜
+FOOD-TYPE,FOOD,곱창,곱창
+FOOD-TYPE,FOOD,곱창전골,곱창전골
+FOOD-TYPE,FOOD,낙곱새,낙곱새
+FOOD-TYPE,FOOD,미역국,미역국
+FOOD-TYPE,FOOD,황태미역국,황태미역국
+FOOD-TYPE,FOOD,소고기미역국,소고기미역국
+FOOD-TYPE,FOOD,코다리찜,코다리찜
+FOOD-TYPE,FOOD,돌솥밥,돌솥밥
+FOOD-TYPE,FOOD,보말칼국수,보말칼국수
+FOOD-TYPE,FOOD,연어장,연어장
+FOOD-TYPE,FOOD,새우장,새우장
+FOOD-TYPE,FOOD,게딱지비빔밥,게딱지비빔밥
+FOOD-TYPE,FOOD,계란밥,계란밥
+FOOD-TYPE,FOOD,간장계란밥,간장계란밥
+FOOD-TYPE,FOOD,버터계란밥,버터계란밥
+FOOD-TYPE,FOOD,홍게장,홍게장
+FOOD-TYPE,FOOD,대게장,대게장
+FOOD-TYPE,FOOD,꽃게장,꽃게장
+FOOD-TYPE,FOOD,전복장,전복장
+FOOD-TYPE,FOOD,성게비빔밥,성게비빔밥
+FOOD-TYPE,FOOD,멍게비빔밥,멍게비빔밥
+FOOD-TYPE,FOOD,돌게장,돌게장
+FOOD-TYPE,FOOD,꽃게찜,꽃게찜
+FOOD-TYPE,FOOD,꽃게범벅,꽃게찜
+FOOD-TYPE,FOOD,섞어찜,섞어찜
+FOOD-TYPE,FOOD,대게,대게
+FOOD-TYPE,FOOD,대게정식,대게
+FOOD-TYPE,FOOD,킹크랩,킹크랩
+FOOD-TYPE,FOOD,어리굴젓,어리굴젓
+FOOD-TYPE,FOOD,감자조림,감자조림
+FOOD-TYPE,FOOD,오이무침,오이무침
+FOOD-TYPE,FOOD,오이소박이,오이소박이
+FOOD-TYPE,FOOD,오이김치,오이소박이
+FOOD-TYPE,FOOD,조개구이,조개구이
+FOOD-TYPE,FOOD,조개찜,조개찜
+FOOD-TYPE,FOOD,조개탕,조개탕
+FOOD-TYPE,FOOD,스끼다시,스끼다시
+FOOD-TYPE,FOOD,반찬,반찬
+FOOD-TYPE,FOOD,밑반찬,밑반찬
+FOOD-TYPE,FOOD,게국지,게국지
+FOOD-TYPE,FOOD,황태해장국,황태해장국
+FOOD-TYPE,FOOD,참게탕,참게탕
+FOOD-TYPE,FOOD,찰보리빵,찰보리빵
+FOOD-TYPE,FOOD,계피빵,계피빵
+FOOD-TYPE,FOOD,경주빵,경주빵
+FOOD-TYPE,FOOD,영덕대게,영덕대게
+FOOD-TYPE,FOOD,생고기,생고기
+FOOD-TYPE,FOOD,호두과자,호두과자
+FOOD-TYPE,FOOD,샐러드김밥,샐러드김밥
+FOOD-TYPE,FOOD,회오리감자,회오리감자
+FOOD-TYPE,FOOD,핫바,핫바
+FOOD-TYPE,FOOD,나주곰탕,나주곰탕
+FOOD-TYPE,FOOD,사골곰탕,사골곰탕
+FOOD-TYPE,FOOD,전복설렁탕,전복설렁탕
+FOOD-TYPE,FOOD,꼬리곰탕,꼬리곰탕
+FOOD-TYPE,FOOD,깍두기,깍두기
+FOOD-TYPE,FOOD,수육곰탕,수육곰탕
+FOOD-TYPE,FOOD,떡국곰탕,떡국곰탕
+FOOD-TYPE,FOOD,갈비곰탕,갈비곰탕
+FOOD-TYPE,FOOD,갈곰탕,갈곰탕
+FOOD-TYPE,FOOD,모듬수육,모듬수육
+FOOD-TYPE,FOOD,모둠수육,모듬수육
+FOOD-TYPE,FOOD,수육전골,수육전골
+FOOD-TYPE,FOOD,솥밥,솥밥
+FOOD-TYPE,FOOD,얼큰해장국,얼큰해장국
+FOOD-TYPE,FOOD,게란찜,계란찜
+FOOD-TYPE,FOOD,폭탄계란찜,폭탄계란찜
+FOOD-TYPE,FOOD,부추무침,부추무침
+FOOD-TYPE,FOOD,부추김치,부추김치
+FOOD-TYPE,FOOD,파김치,파김치
+FOOD-TYPE,FOOD,대파김치,파김치
+FOOD-TYPE,FOOD,물회,물회
+FOOD-TYPE,FOOD,전복물회,전복물회
+FOOD-TYPE,FOOD,한우국밥,한우국밥
+FOOD-TYPE,FOOD,누룽지,누룽지
+FOOD-TYPE,FOOD,숭늉,숭늉
+FOOD-TYPE,FOOD,누룽지백숙,누룽지백숙
+FOOD-TYPE,FOOD,왕갈비탕,왕갈비탕
+FOOD-TYPE,FOOD,겉절이,겉절이
+FOOD-TYPE,FOOD,배추겉절이,겉절이
+FOOD-TYPE,FOOD,우족탕,우족탕
+FOOD-TYPE,FOOD,전복구이,전복구이
+FOOD-TYPE,FOOD,전복찜,전복찜
+FOOD-TYPE,FOOD,석쇠불고기,석쇠불고기
+FOOD-TYPE,FOOD,곰탕국수,곰탕국수
+FOOD-TYPE,FOOD,소곱창,소곱창
+FOOD-TYPE,FOOD,돼지곱창,돼지곱창
+FOOD-TYPE,FOOD,곱창볶음,곱창볶음
+FOOD-TYPE,FOOD,오돌뼈,오돌뼈
+FOOD-TYPE,FOOD,닭목살,닭목살
+FOOD-TYPE,FOOD,불막창,불막창
+FOOD-TYPE,FOOD,양념막창,양념막창
+FOOD-TYPE,FOOD,데리야끼막창,데리야끼막창
+FOOD-TYPE,FOOD,소금구이막창,소금구이막창
+FOOD-TYPE,FOOD,막창소금구이,소금구이막창
+FOOD-TYPE,FOOD,비빔밀면,비빔밀면
+FOOD-TYPE,FOOD,파닭,파닭
+FOOD-TYPE,FOOD,순살파닭,순살파닭
+FOOD-TYPE,FOOD,오븐치킨,오븐치킨
+FOOD-TYPE,FOOD,오븐구이,오븐치킨
+FOOD-TYPE,FOOD,깍두기볶음밥,깍두기볶음밥
+FOOD-TYPE,FOOD,모듬곱창,모듬곱창
+FOOD-TYPE,FOOD,모둠곱창,모듬곱창
+FOOD-TYPE,FOOD,곱창모듬,모듬곱창
+FOOD-TYPE,FOOD,곱창모둠,모듬곱창
+FOOD-TYPE,FOOD,소곱창전골,소곱창전골
+FOOD-TYPE,FOOD,돼지곱창전골,돼지곱창전골
+FOOD-TYPE,FOOD,알곱창,알곱창
+FOOD-TYPE,FOOD,갈비살,갈비살
+FOOD-TYPE,FOOD,소갈비살,갈비살
+FOOD-TYPE,FOOD,야채곱창,야채곱창
+FOOD-TYPE,FOOD,소막창,소막창
+FOOD-TYPE,FOOD,양구이,양구이
+FOOD-TYPE,FOOD,대창덮밥,대창덮밥
+FOOD-TYPE,FOOD,양대창덮밥,대창덮밥
+FOOD-TYPE,FOOD,소금막창,소금막창
+FOOD-TYPE,FOOD,막창구이,막창구이
+FOOD-TYPE,FOOD,순대볶음,순대볶음
+FOOD-TYPE,FOOD,순대곱창볶음,순대곱창볶음
+FOOD-TYPE,FOOD,날치알파스타,날치알파스타
+FOOD-TYPE,FOOD,특순대국,특순대국
+FOOD-TYPE,FOOD,곱창구이,곱창구이
+FOOD-TYPE,FOOD,허브순살,허브순살
+FOOD-TYPE,FOOD,새우구이,새우구이
+FOOD-TYPE,FOOD,대하구이,대하구이
+FOOD-TYPE,FOOD,대하,대하구이
+FOOD-TYPE,FOOD,양볶음밥,양볶음밥
+FOOD-TYPE,FOOD,주먹밥,주먹밥
+FOOD-TYPE,FOOD,날치알주먹밥,날치알주먹밥
+FOOD-TYPE,FOOD,오니기리,오니기리
+FOOD-TYPE,FOOD,순대곱창,순대곱창
+FOOD-TYPE,FOOD,백순대,백순대볶음
+FOOD-TYPE,FOOD,백순대볶음,백순대볶음
+FOOD-TYPE,FOOD,치즈볶음밥,치즈볶음밥
+FOOD-TYPE,FOOD,날치알볶음밥,날치알볶음밥
+FOOD-TYPE,FOOD,막창전골,막창전골
+FOOD-TYPE,FOOD,치즈계란찜,치즈계란찜
+FOOD-TYPE,FOOD,날치알계란찜,날치알계란찜
+FOOD-TYPE,FOOD,내장곰탕,내장곰탕
+FOOD-TYPE,FOOD,냉이국,냉이국
+FOOD-TYPE,FOOD,냉잇국,냉이국
+FOOD-TYPE,FOOD,냉이된장국,냉이된장국
+FOOD-TYPE,FOOD,냉이된장찌개,냉이된장국
+FOOD-TYPE,FOOD,콩나물무침,콩나물무침
+FOOD-TYPE,FOOD,이베리코돼지고기,이베리코돼지고기
+FOOD-TYPE,FOOD,이베리코삼겹살,이베리코삼겹살
+FOOD-TYPE,FOOD,이베리코목살,이베리코목살
+FOOD-TYPE,FOOD,돈마호크,돈마호크
+FOOD-TYPE,FOOD,토마호크,토마호크
+FOOD-TYPE,FOOD,토마호크스테이크,토마호크
+FOOD-TYPE,FOOD,선짓국,선짓국
+FOOD-TYPE,FOOD,선지국,선짓국
+FOOD-TYPE,FOOD,선지국밥,선지국밥
+FOOD-TYPE,FOOD,게튀김,게튀김
+FOOD-TYPE,FOOD,대게튀김,게튀김
+FOOD-TYPE,FOOD,매운곱창,매운곱창
+FOOD-TYPE,FOOD,김치국수,김치국수
+FOOD-TYPE,FOOD,바나나주스,바나나주스
+FOOD-TYPE,FOOD,바나나쥬스,바나나주스
+FOOD-TYPE,FOOD,케일샐러드,케일샐러드
+FOOD-TYPE,FOOD,사과케일샐러드,사과케일샐러드
+FOOD-TYPE,FOOD,딸기우유,딸기우유
+FOOD-TYPE,FOOD,생딸기우유,딸기우유
+FOOD-TYPE,FOOD,리얼딸기우유,리얼딸기우유
+FOOD-TYPE,FOOD,딸기라떼,딸기라떼
+FOOD-TYPE,FOOD,생딸기라떼,딸기라떼
+FOOD-TYPE,FOOD,초코바나나스무디,초코바나나스무디
+FOOD-TYPE,FOOD,코코넛커피,코코넛커피
+FOOD-TYPE,FOOD,딸기바나나스무디,딸기바나나스무디
+FOOD-TYPE,FOOD,딸바,딸기바나나스무디
+FOOD-TYPE,FOOD,버블티,버블티
+FOOD-TYPE,FOOD,한라봉에이드,한라봉에이드
+FOOD-TYPE,FOOD,아사이보울,아사이보울
+FOOD-TYPE,FOOD,아사이볼,아사이보울
+FOOD-TYPE,FOOD,빙수,빙수
+FOOD-TYPE,FOOD,팥빙수,팥빙수
+FOOD-TYPE,FOOD,과일빙수,과일 빙수
+FOOD-TYPE,FOOD,초코빙수,초코 빙수
+FOOD-TYPE,FOOD,인절미빙수,인절미 빙수
+FOOD-TYPE,FOOD,자몽티,자몽티
+FOOD-TYPE,FOOD,자몽차,자몽티
+FOOD-TYPE,FOOD,플레인와플,플레인와플
+FOOD-TYPE,FOOD,잣라떼,잣라떼
+FOOD-TYPE,FOOD,토피넛라떼,토피넛라떼
+FOOD-TYPE,FOOD,오레오버블티,오레오버블티
+FOOD-TYPE,FOOD,보리미숫가루,보리미숫가루
+FOOD-TYPE,FOOD,백반,백반
+FOOD-TYPE,FOOD,백반정식,백반
+FOOD-TYPE,FOOD,가정식백반,백반
+FOOD-TYPE,FOOD,시골밥상,시골밥상
+FOOD-TYPE,FOOD,들깨탕,들깨탕
+FOOD-TYPE,FOOD,부침개,부침개
+FOOD-TYPE,FOOD,곤드레가마솥밥,곤드레가마솥밥
+FOOD-TYPE,FOOD,들깨수제비,들깨수제비
+FOOD-TYPE,FOOD,오징어국,오징어국
+FOOD-TYPE,FOOD,오징어국밥,오징어국밥
+FOOD-TYPE,FOOD,모듬국밥,모듬국밥
+FOOD-TYPE,FOOD,모둠국밥,모듬국밥
+FOOD-TYPE,FOOD,막창순대국밥,막창순대국밥
+FOOD-TYPE,FOOD,황태콩나물국밥,황태콩나물국밥
+FOOD-TYPE,FOOD,황태콩나물국,황태콩나물국밥
+FOOD-TYPE,FOOD,전주식콩나물국밥,전주식콩나물국밥
+FOOD-TYPE,FOOD,소고기국밥,소고기국밥
+FOOD-TYPE,FOOD,잡채,잡채
+FOOD-TYPE,FOOD,매운잡채,매운잡채
+FOOD-TYPE,FOOD,소머리곰탕,소머리곰탕
+FOOD-TYPE,FOOD,짬뽕밥,짬뽕밥
+FOOD-TYPE,FOOD,항정국밥,항정국밥
+FOOD-TYPE,FOOD,살코기국밥,살코기국밥
+FOOD-TYPE,FOOD,김치콩나물국밥,김치콩나물국밥
+FOOD-TYPE,FOOD,순두부정식,순두부정식
+FOOD-TYPE,FOOD,두부전골,두부전골
+FOOD-TYPE,FOOD,두부찌개,두부찌개
+FOOD-TYPE,FOOD,두부찌게,두부찌개
+FOOD-TYPE,FOOD,섞어국밥,섞어국밥
+FOOD-TYPE,FOOD,소고기초밥,소고기초밥
+FOOD-TYPE,FOOD,광어초밥,광어초밥
+FOOD-TYPE,FOOD,연어초밥,연어초밥
+FOOD-TYPE,FOOD,와규초밥,와규초밥
+FOOD-TYPE,FOOD,삼겹살초밥,삼겹살초밥
+FOOD-TYPE,FOOD,소고기무국,소고기무국
+FOOD-TYPE,FOOD,소고기뭇국,소고기무국
+FOOD-TYPE,FOOD,육전국밥,육전국밥
+FOOD-TYPE,FOOD,묵은지뼈해장국,묵은지뼈해장국
+FOOD-TYPE,FOOD,장터국밥,장터국밥
+FOOD-TYPE,FOOD,장국밥,장터국밥
+FOOD-TYPE,FOOD,시골장터국밥,장터국밥
+FOOD-TYPE,FOOD,얼큰돼지국밥,얼큰돼지국밥
+FOOD-TYPE,FOOD,메밀전병,메밀전병
+FOOD-TYPE,FOOD,전병,전병
+FOOD-TYPE,FOOD,김치메밀전병,김치메밀전병
+FOOD-TYPE,FOOD,수수부꾸미,수수부꾸미
+FOOD-TYPE,FOOD,얼큰국밥,얼큰국밥
+FOOD-TYPE,FOOD,계란말이,계란말이
+FOOD-TYPE,FOOD,치즈계란말이,치즈계란말이
+FOOD-TYPE,FOOD,부추전,부추전
+FOOD-TYPE,FOOD,안동국밥,안동국밥
+FOOD-TYPE,FOOD,마늘장아찌,마늘장아찌
+FOOD-TYPE,FOOD,장아찌,장아찌
+FOOD-TYPE,FOOD,짱아찌,장아찌
+FOOD-TYPE,FOOD,손칼국수,손칼국수
+FOOD-TYPE,FOOD,얼큰우동,얼큰우동
+FOOD-TYPE,FOOD,내장국밥,내장국밥
+FOOD-TYPE,FOOD,굴국밥,굴국밥
+FOOD-TYPE,FOOD,굴정식,굴국밥
+FOOD-TYPE,FOOD,생굴국밥,굴국밥
+FOOD-TYPE,FOOD,굴국,굴국밥
+FOOD-TYPE,FOOD,뚝배기굴밥,뚝배기굴국밥
+FOOD-TYPE,FOOD,굴전,굴전
+FOOD-TYPE,FOOD,매생이굴국,매생이굴국
+FOOD-TYPE,FOOD,매생이굴국밥,매생이굴국
+FOOD-TYPE,FOOD,석화구이,석화구이
+FOOD-TYPE,FOOD,굴구이,석화구이
+FOOD-TYPE,FOOD,석화찜,석화찜
+FOOD-TYPE,FOOD,굴찜,석화찜
+FOOD-TYPE,FOOD,해물순두부찌개,해물순두부찌개
+FOOD-TYPE,FOOD,황태구이,황태구이
+FOOD-TYPE,FOOD,더덕구이,더덕구이
+FOOD-TYPE,FOOD,산채비빔밥,산채비빔밥
+FOOD-TYPE,FOOD,나물비빔밥,나물비빔밥
+FOOD-TYPE,FOOD,황태국밥,황태국밥
+FOOD-TYPE,FOOD,석쇠구이,석쇠구이
+FOOD-TYPE,FOOD,연탄구이,연탄구이
+FOOD-TYPE,FOOD,연탄석쇠구이,연탄구이
+FOOD-TYPE,FOOD,시락국,시락국
+FOOD-TYPE,FOOD,인절미,인절미
+FOOD-TYPE,FOOD,흑임자인절미,흑임자인절미
+FOOD-TYPE,FOOD,쑥인절미,쑥인절미
+FOOD-TYPE,FOOD,팥인절미,팥인절미
+FOOD-TYPE,FOOD,팥고물인절미,팥고물인절미
+FOOD-TYPE,FOOD,찰떡,찰떡
+FOOD-TYPE,FOOD,팥찰떡,팥찰떡
+FOOD-TYPE,FOOD,망개떡,망개떡
+FOOD-TYPE,FOOD,딸기망개떡,딸기망개떡
+FOOD-TYPE,FOOD,찹쌀떡,찹쌀떡
+FOOD-TYPE,FOOD,모찌,모찌
+FOOD-TYPE,FOOD,딸기모찌,딸기모찌
+FOOD-TYPE,FOOD,산나물비빔밥,산나물비빔밥
+FOOD-TYPE,FOOD,산채요리,산채요리
+FOOD-TYPE,FOOD,산채한정식,산채요리
+FOOD-TYPE,FOOD,사찰요리,사찰요리
+FOOD-TYPE,FOOD,사찰음식,사찰요리
+FOOD-TYPE,FOOD,전라도김치,전라도김치
+FOOD-TYPE,FOOD,전라도식김치,전라도김치
+FOOD-TYPE,FOOD,창란젓,창란젓
+FOOD-TYPE,FOOD,창난젓,창란젓
+FOOD-TYPE,FOOD,갈치속젓,갈치속젓
+FOOD-TYPE,FOOD,속젓,갈치속젓
+FOOD-TYPE,FOOD,멜젓,멜젓
+FOOD-TYPE,FOOD,얼큰섞어국밥,얼큰섞어국밥
+FOOD-TYPE,FOOD,수구레국밥,수구레국밥
+FOOD-TYPE,FOOD,쇠구레국밥,수구레국밥
+FOOD-TYPE,FOOD,충무김밥,충무김밥
+FOOD-TYPE,FOOD,제첩국,제첩국
+FOOD-TYPE,FOOD,재첩국,제첩국
+FOOD-TYPE,FOOD,제첩무침,제첩무침
+FOOD-TYPE,FOOD,제첩회무침,제첩무침
+FOOD-TYPE,FOOD,족발냉채,냉채족발
+FOOD-TYPE,FOOD,냉채족발,냉채족발
+FOOD-TYPE,FOOD,막걸리,막걸리
+FOOD-TYPE,FOOD,유자막걸리,유자막걸리
+FOOD-TYPE,FOOD,땅콩막걸리,땅콩막걸리
+FOOD-TYPE,FOOD,밤막걸리,밤막걸리
+FOOD-TYPE,FOOD,매실막걸리,매실막걸리
+FOOD-TYPE,FOOD,멍게물회,멍게물회
+FOOD-TYPE,FOOD,오징어물회,오징어물회
+FOOD-TYPE,FOOD,성게물회,성게물회
+FOOD-TYPE,FOOD,해물뚝배기,해물뚝배기
+FOOD-TYPE,FOOD,전복뚝배기,전복뚝배기
+FOOD-TYPE,FOOD,벚굴,벚굴
+FOOD-TYPE,FOOD,김치전,김치전
+FOOD-TYPE,FOOD,김치부침개,김치전
+FOOD-TYPE,FOOD,후무스,후무스
+FOOD-TYPE,FOOD,피타브래드,피타브레드
+FOOD-TYPE,FOOD,피타브레드,피타브레드
+FOOD-TYPE,FOOD,지중해식요리,지중해식요리
+FOOD-TYPE,FOOD,지중해요리,지중해식요리
+FOOD-TYPE,FOOD,그리스요리,그리스요리
+FOOD-TYPE,FOOD,고등어김치조림,고등어김치조림
+FOOD-TYPE,FOOD,고추장불백,고추장불백
+FOOD-TYPE,FOOD,가자미조림,가자미조림
+FOOD-TYPE,FOOD,대게라면,대게라면
+FOOD-TYPE,FOOD,회덮밥,회덮밥
+FOOD-TYPE,FOOD,따개비칼국수,따개비칼국수
+FOOD-TYPE,FOOD,홍합밥,홍합밥
+FOOD-TYPE,FOOD,총각김치,총각김치
+FOOD-TYPE,FOOD,낙지호롱,낙지호롱이
+FOOD-TYPE,FOOD,낙지호롱이,낙지호롱이
+FOOD-TYPE,FOOD,육회탕탕이,육회탕탕이
+FOOD-TYPE,FOOD,낙지탕탕이,낙지탕탕이
+FOOD-TYPE,FOOD,치킨샌드위치,치킨샌드위치
+FOOD-TYPE,FOOD,연어샌드위치,연어샌드위치
+FOOD-TYPE,FOOD,치킨랩,치킨랩
+FOOD-TYPE,FOOD,멕시칸랩,멕시칸랩
+FOOD-TYPE,FOOD,치킨또띠아,치킨또띠아
+FOOD-TYPE,FOOD,샐러드파스타,샐러드파스타
+FOOD-TYPE,FOOD,바질페스토파스타,바질파스타
+FOOD-TYPE,FOOD,바질파스타,바질파스타
+FOOD-TYPE,FOOD,고구마맛탕,고구마맛탕
+FOOD-TYPE,FOOD,맛탕,맛탕
+FOOD-TYPE,FOOD,포케,포케
+FOOD-TYPE,FOOD,하와이안포케,포케
+FOOD-TYPE,FOOD,무스비,무스비
+FOOD-TYPE,FOOD,목살샐러드,목살샐러드
+FOOD-TYPE,FOOD,퀘사디야,퀘사디야
+FOOD-TYPE,FOOD,퀘사디아,퀘사디야
+FOOD-TYPE,FOOD,부리또,부리또
+FOOD-TYPE,FOOD,부리또볼,부리또
+FOOD-TYPE,FOOD,부리또보울,부리또
+FOOD-TYPE,FOOD,브리또,부리또
+FOOD-TYPE,FOOD,브리또볼,부리또
+FOOD-TYPE,FOOD,브리또보울,부리또
+FOOD-TYPE,FOOD,나쵸,나쵸
+FOOD-TYPE,FOOD,나초,나쵸
+FOOD-TYPE,FOOD,엔칠라다,엔칠라다
+FOOD-TYPE,FOOD,치미창가,치미창가
+FOOD-TYPE,FOOD,살사,살사
+FOOD-TYPE,FOOD,과카몰리,과카몰리
+FOOD-TYPE,FOOD,과카몰레,과카몰리
+FOOD-TYPE,FOOD,파히타,파히타
+FOOD-TYPE,FOOD,화이타,파히타
+FOOD-TYPE,FOOD,바질랩,바질랩
+FOOD-TYPE,FOOD,파스타샐러드,파스타샐러드
+FOOD-TYPE,FOOD,칠리파스타,칠리파스타
+FOOD-TYPE,FOOD,볼찜,뽈찜
+FOOD-TYPE,FOOD,뽈찜,뽈찜
+FOOD-TYPE,FOOD,대구뽈찜,뽈찜
+FOOD-TYPE,FOOD,연어장덮밥,연어장덮밥
+FOOD-TYPE,FOOD,스테이크동,스테이크동
+FOOD-TYPE,FOOD,숯불스테이크동,스테이크동
+FOOD-TYPE,FOOD,스테이크덮밥,스테이크동
+FOOD-TYPE,FOOD,큐브스테이크덮밥,스테이크동
+FOOD-TYPE,FOOD,장어덮밥,장어덮밥
+FOOD-TYPE,FOOD,특등심카츠,등심카츠
+FOOD-TYPE,FOOD,등심카츠,등심카츠
+FOOD-TYPE,FOOD,두부샐러드,두부샐러드
+FOOD-TYPE,FOOD,순두부샐러드,두부샐러드
+FOOD-TYPE,FOOD,와규덮밥,와규덮밥
+FOOD-TYPE,FOOD,부타동,부타동
+FOOD-TYPE,FOOD,곱창국수,곱창국수
+FOOD-TYPE,FOOD,크림우동,크림우동
+FOOD-TYPE,FOOD,나가사키우동,나가사키우동
+FOOD-TYPE,FOOD,차슈덮밥,차슈덮밥
+FOOD-TYPE,FOOD,글레이즈드,글레이즈드
+FOOD-TYPE,FOOD,오리지널글레이즈드,글레이즈드
+FOOD-TYPE,FOOD,오리지널글레이즈,글레이즈드
+FOOD-TYPE,FOOD,크림도넛,크림도넛
+FOOD-TYPE,FOOD,크림도너츠,크림도넛
+FOOD-TYPE,FOOD,초코필드크림도넛,초코필드크림도넛
+FOOD-TYPE,FOOD,초코필드크림도너츠,초코필드크림도넛
+FOOD-TYPE,FOOD,옛날도너츠,옛날도너츠
+FOOD-TYPE,FOOD,땅콩빵,땅콩빵
+FOOD-TYPE,FOOD,계란빵,계란빵
+FOOD-TYPE,FOOD,고구마빵,고구마빵
+FOOD-TYPE,FOOD,슈바인학센,슈바인학센
+FOOD-TYPE,FOOD,굴라쉬,굴라쉬
+FOOD-TYPE,FOOD,석탄치킨,석탄치킨
+FOOD-TYPE,FOOD,사우어크라우트,사우어크라우트
+FOOD-TYPE,FOOD,타코샐러드,타코샐러드
+FOOD-TYPE,FOOD,폭립,폭립
+FOOD-TYPE,FOOD,베이비립,폭립
+FOOD-TYPE,FOOD,베이비폭립,폭립
+FOOD-TYPE,FOOD,베이비백립,폭립
+FOOD-TYPE,FOOD,김치치즈프라이,김치치즈프라이
+FOOD-TYPE,FOOD,버팔로윙,버팔로윙
+FOOD-TYPE,FOOD,윙,윙
+FOOD-TYPE,FOOD,윙들,윙
+FOOD-TYPE,FOOD,빠스텔,빠스뗄
+FOOD-TYPE,FOOD,파스텔,빠스뗄
+FOOD-TYPE,FOOD,치즈빠스텔,치즈빠스뗄
+FOOD-TYPE,FOOD,치즈파스텔,치즈빠스뗄
+FOOD-TYPE,FOOD,뻬이조아다,뻬이조아다
+FOOD-TYPE,FOOD,페이조아다,뻬이조아다
+FOOD-TYPE,FOOD,케밥,케밥
+FOOD-TYPE,FOOD,치킨케밥,치킨케밥
+FOOD-TYPE,FOOD,닭고기케밥,치킨케밥
+FOOD-TYPE,FOOD,양고기케밥,양고기케밥
+FOOD-TYPE,FOOD,폴드포크,폴드포크
+FOOD-TYPE,FOOD,무사카,무사카
+FOOD-TYPE,FOOD,미트로프,미트로프
+FOOD-TYPE,FOOD,반미,반미
+FOOD-TYPE,FOOD,월남쌈,월남쌈
+FOOD-TYPE,FOOD,짜조,짜조
+FOOD-TYPE,FOOD,샤슬릭,샤슬릭
+FOOD-TYPE,FOOD,샤슐릭,샤슬릭
+FOOD-TYPE,FOOD,나시고랭,나시고랭
+FOOD-TYPE,FOOD,팟타이,팟타이
+FOOD-TYPE,FOOD,슈니첼,슈니첼
+FOOD-TYPE,FOOD,슈트루델,슈트루델
+FOOD-TYPE,FOOD,보드카,보드카
+FOOD-TYPE,FOOD,양꼬치,양꼬치
+FOOD-TYPE,FOOD,데킬라,데킬라
+FOOD-TYPE,FOOD,검보,검보
+FOOD-TYPE,FOOD,컵케이크,컵케이크
+FOOD-TYPE,FOOD,머핀,머핀
+FOOD-TYPE,FOOD,브라우니,브라우니
+FOOD-TYPE,FOOD,스모어,스모어
+FOOD-TYPE,FOOD,엠파나다,엠파나다
+FOOD-TYPE,FOOD,엠빠나다,엠파나다
+FOOD-TYPE,FOOD,샹그리아,샹그리아
+FOOD-TYPE,FOOD,파운드케이크,파운드케이크
+FOOD-TYPE,FOOD,커리,커리
+FOOD-TYPE,FOOD,탄두리치킨,탄두리치킨
+FOOD-TYPE,FOOD,마살라,마살라
+FOOD-TYPE,FOOD,난,난
+FOOD-TYPE,FOOD,난들,난
+FOOD-TYPE,FOOD,똠얌꿍,똠얌꿍
+FOOD-TYPE,FOOD,수끼,수끼
+FOOD-TYPE,FOOD,에그타르트,에그타르트
+FOOD-TYPE,FOOD,와인,와인
+FOOD-TYPE,FOOD,뱅쇼,뱅쇼
+FOOD-TYPE,FOOD,벵쇼,뱅쇼
+INGREDIENT-TYPE,INGREDIENT,다진소고기,다진소고기
+INGREDIENT-TYPE,INGREDIENT,닭고기,닭고기
+INGREDIENT-TYPE,INGREDIENT,닭,닭고기
+INGREDIENT-TYPE,INGREDIENT,닭가슴살,닭가슴살
+INGREDIENT-TYPE,INGREDIENT,닭가슴살통조림,닭가슴살
+INGREDIENT-TYPE,INGREDIENT,닭다리살,닭다리살
+INGREDIENT-TYPE,INGREDIENT,닭다리,닭다리살
+INGREDIENT-TYPE,INGREDIENT,버섯,버섯
+INGREDIENT-TYPE,INGREDIENT,새송이버섯,새송이버섯
+INGREDIENT-TYPE,INGREDIENT,미니새송이버섯,새송이버섯
+INGREDIENT-TYPE,INGREDIENT,새송이,새송이버섯
+INGREDIENT-TYPE,INGREDIENT,팽이버섯,팽이버섯
+INGREDIENT-TYPE,INGREDIENT,느타리버섯,느타리버섯
+INGREDIENT-TYPE,INGREDIENT,느타리,느타리버섯
+INGREDIENT-TYPE,INGREDIENT,양송이버섯,양송이버섯
+INGREDIENT-TYPE,INGREDIENT,양송이,양송이버섯
+INGREDIENT-TYPE,INGREDIENT,표고버섯,표고버섯
+INGREDIENT-TYPE,INGREDIENT,표고,표고버섯
+INGREDIENT-TYPE,INGREDIENT,만가닥버섯,만가닥버섯
+INGREDIENT-TYPE,INGREDIENT,버터,버터
+INGREDIENT-TYPE,INGREDIENT,가염버터,버터
+INGREDIENT-TYPE,INGREDIENT,무염버터,무염버터
+INGREDIENT-TYPE,INGREDIENT,저염버터,저염버터
+INGREDIENT-TYPE,INGREDIENT,어린잎채소,어린잎채소
+INGREDIENT-TYPE,INGREDIENT,베이비채소,어린잎채소
+INGREDIENT-TYPE,INGREDIENT,어린잎,어린잎채소
+INGREDIENT-TYPE,INGREDIENT,고추,고추
+INGREDIENT-TYPE,INGREDIENT,청양고추,청양고추
+INGREDIENT-TYPE,INGREDIENT,땡초,청양고추
+INGREDIENT-TYPE,INGREDIENT,풋고추,풋고추
+INGREDIENT-TYPE,INGREDIENT,꽈리고추,꽈리고추
+INGREDIENT-TYPE,INGREDIENT,오이고추,오이고추
+INGREDIENT-TYPE,INGREDIENT,홍고추,홍고추
+INGREDIENT-TYPE,INGREDIENT,붉은고추,홍고추
+INGREDIENT-TYPE,INGREDIENT,쥐똥고추,쥐똥고추
+INGREDIENT-TYPE,INGREDIENT,베트남고추,쥐똥고추
+INGREDIENT-TYPE,INGREDIENT,페페론치노,페페론치노
+INGREDIENT-TYPE,INGREDIENT,페퍼론치노,페페론치노
+INGREDIENT-TYPE,INGREDIENT,매운고추,매운고추
+INGREDIENT-TYPE,INGREDIENT,양파,양파
+INGREDIENT-TYPE,INGREDIENT,다진양파,다진양파
+INGREDIENT-TYPE,INGREDIENT,베이컨,베이컨
+INGREDIENT-TYPE,INGREDIENT,파,파
+INGREDIENT-TYPE,INGREDIENT,대파,파
+INGREDIENT-TYPE,INGREDIENT,쪽파,쪽파
+INGREDIENT-TYPE,INGREDIENT,잔파,잔파
+INGREDIENT-TYPE,INGREDIENT,다진파,다진파
+INGREDIENT-TYPE,INGREDIENT,다진대파,다진파
+INGREDIENT-TYPE,INGREDIENT,파프리카,파프리카
+INGREDIENT-TYPE,INGREDIENT,미니파프리카,미니파프리카
+INGREDIENT-TYPE,INGREDIENT,빨강파프리카,빨강파프리카
+INGREDIENT-TYPE,INGREDIENT,빨간파프리카,빨강파프리카
+INGREDIENT-TYPE,INGREDIENT,노랑파프리카,노랑파프리카
+INGREDIENT-TYPE,INGREDIENT,노란파프리카,노랑파프리카
+INGREDIENT-TYPE,INGREDIENT,피망,피망
+INGREDIENT-TYPE,INGREDIENT,홍피망,홍피망
+INGREDIENT-TYPE,INGREDIENT,주황파프리카,주황파프리카
+INGREDIENT-TYPE,INGREDIENT,파슬리,파슬리
+INGREDIENT-TYPE,INGREDIENT,파슬리가루,파슬리
+INGREDIENT-TYPE,INGREDIENT,치즈,치즈
+INGREDIENT-TYPE,INGREDIENT,체다슬라이스치즈,치즈
+INGREDIENT-TYPE,INGREDIENT,파마산치즈,파마산치즈
+INGREDIENT-TYPE,INGREDIENT,치즈가루,파마산치즈
+INGREDIENT-TYPE,INGREDIENT,파마산가루,파마산치즈
+INGREDIENT-TYPE,INGREDIENT,파마산치즈가루,파마산치즈
+INGREDIENT-TYPE,INGREDIENT,모짜렐라치즈,모짜렐라
+INGREDIENT-TYPE,INGREDIENT,모짜렐라,모짜렐라
+INGREDIENT-TYPE,INGREDIENT,피자치즈,모짜렐라
+INGREDIENT-TYPE,INGREDIENT,체다치즈,체다치즈
+INGREDIENT-TYPE,INGREDIENT,체다,체다치즈
+INGREDIENT-TYPE,INGREDIENT,크림치즈,크림치즈
+INGREDIENT-TYPE,INGREDIENT,슬라이스치즈,슬라이스치즈
+INGREDIENT-TYPE,INGREDIENT,떡,떡
+INGREDIENT-TYPE,INGREDIENT,떡들,떡
+INGREDIENT-TYPE,INGREDIENT,떡볶이떡,떡볶이떡
+INGREDIENT-TYPE,INGREDIENT,떡국떡,떡국떡
+INGREDIENT-TYPE,INGREDIENT,떡사리,떡사리
+INGREDIENT-TYPE,INGREDIENT,쌀떡,쌀떡
+INGREDIENT-TYPE,INGREDIENT,밀떡,밀떡
+INGREDIENT-TYPE,INGREDIENT,가래떡,가래떡
+INGREDIENT-TYPE,INGREDIENT,달걀,달걀
+INGREDIENT-TYPE,INGREDIENT,계란,달걀
+INGREDIENT-TYPE,INGREDIENT,노른자,노른자
+INGREDIENT-TYPE,INGREDIENT,계란노른자,노른자
+INGREDIENT-TYPE,INGREDIENT,흰자,흰자
+INGREDIENT-TYPE,INGREDIENT,계란흰자,흰자
+INGREDIENT-TYPE,INGREDIENT,메추리알,메추리알
+INGREDIENT-TYPE,INGREDIENT,새우,새우
+INGREDIENT-TYPE,INGREDIENT,건새우,건새우
+INGREDIENT-TYPE,INGREDIENT,칵테일새우,칵테일새우
+INGREDIENT-TYPE,INGREDIENT,자숙새우,자숙새우
+INGREDIENT-TYPE,INGREDIENT,알새우,알새우
+INGREDIENT-TYPE,INGREDIENT,새우살,새우살
+INGREDIENT-TYPE,INGREDIENT,마늘쫑,마늘쫑
+INGREDIENT-TYPE,INGREDIENT,마늘종,마늘쫑
+INGREDIENT-TYPE,INGREDIENT,견과류,견과류
+INGREDIENT-TYPE,INGREDIENT,슬라이스아몬드,견과류
+INGREDIENT-TYPE,INGREDIENT,땅콩,땅콩
+INGREDIENT-TYPE,INGREDIENT,으깬땅콩,땅콩
+INGREDIENT-TYPE,INGREDIENT,아몬드,아몬드
+INGREDIENT-TYPE,INGREDIENT,아몬드슬라이스,아몬드
+INGREDIENT-TYPE,INGREDIENT,아몬드가루,아몬드
+INGREDIENT-TYPE,INGREDIENT,오트밀,아몬드
+INGREDIENT-TYPE,INGREDIENT,아몬드파우더,아몬드
+INGREDIENT-TYPE,INGREDIENT,캐슈넛,캐슈넛
+INGREDIENT-TYPE,INGREDIENT,호두,호두
+INGREDIENT-TYPE,INGREDIENT,해바라기씨,해바라기씨
+INGREDIENT-TYPE,INGREDIENT,호박씨,호박씨
+INGREDIENT-TYPE,INGREDIENT,소세지,소세지
+INGREDIENT-TYPE,INGREDIENT,소시지,소세지
+INGREDIENT-TYPE,INGREDIENT,통통소세지,소세지
+INGREDIENT-TYPE,INGREDIENT,비엔나소세지,비엔나소세지
+INGREDIENT-TYPE,INGREDIENT,비엔나소시지,비엔나소세지
+INGREDIENT-TYPE,INGREDIENT,비엔나,비엔나소세지
+INGREDIENT-TYPE,INGREDIENT,후랑크소세지,후랑크소세지
+INGREDIENT-TYPE,INGREDIENT,프랑크소세지,후랑크소세지
+INGREDIENT-TYPE,INGREDIENT,후랑크소시지,후랑크소세지
+INGREDIENT-TYPE,INGREDIENT,프랑크소시지,후랑크소세지
+INGREDIENT-TYPE,INGREDIENT,후랑크,후랑크소세지
+INGREDIENT-TYPE,INGREDIENT,분홍소세지,분홍소세지
+INGREDIENT-TYPE,INGREDIENT,분홍소시지,분홍소세지
+INGREDIENT-TYPE,INGREDIENT,햄,햄
+INGREDIENT-TYPE,INGREDIENT,햄들,햄
+INGREDIENT-TYPE,INGREDIENT,통조림햄,통조림햄
+INGREDIENT-TYPE,INGREDIENT,스팸,스팸
+INGREDIENT-TYPE,INGREDIENT,샌드위치햄,샌드위치햄
+INGREDIENT-TYPE,INGREDIENT,슬라이스햄,슬라이스햄
+INGREDIENT-TYPE,INGREDIENT,리챔,리챔
+INGREDIENT-TYPE,INGREDIENT,봄나물,봄나물
+INGREDIENT-TYPE,INGREDIENT,봄동,봄동
+INGREDIENT-TYPE,INGREDIENT,달래,달래
+INGREDIENT-TYPE,INGREDIENT,깻잎,깻잎
+INGREDIENT-TYPE,INGREDIENT,숙주나물,숙주나물
+INGREDIENT-TYPE,INGREDIENT,숙주,숙주나물
+INGREDIENT-TYPE,INGREDIENT,콩나물,콩나물
+INGREDIENT-TYPE,INGREDIENT,마늘,마늘
+INGREDIENT-TYPE,INGREDIENT,다진마늘,다진마늘
+INGREDIENT-TYPE,INGREDIENT,통마늘,통마늘
+INGREDIENT-TYPE,INGREDIENT,깐마늘,깐마늘
+INGREDIENT-TYPE,INGREDIENT,단무지,단무지
+INGREDIENT-TYPE,INGREDIENT,부추,부추
+INGREDIENT-TYPE,INGREDIENT,영양부추,부추
+INGREDIENT-TYPE,INGREDIENT,깨,깨
+INGREDIENT-TYPE,INGREDIENT,깨들,깨
+INGREDIENT-TYPE,INGREDIENT,통깨,통깨
+INGREDIENT-TYPE,INGREDIENT,참깨,참깨
+INGREDIENT-TYPE,INGREDIENT,들깨,들깨
+INGREDIENT-TYPE,INGREDIENT,통들깨,들깨
+INGREDIENT-TYPE,INGREDIENT,볶은깨,볶은깨
+INGREDIENT-TYPE,INGREDIENT,볶은참깨,볶은깨
+INGREDIENT-TYPE,INGREDIENT,검은깨,검은깨
+INGREDIENT-TYPE,INGREDIENT,검정깨,검은깨
+INGREDIENT-TYPE,INGREDIENT,갈아놓은깨,갈아놓은깨
+INGREDIENT-TYPE,INGREDIENT,닭봉,닭봉
+INGREDIENT-TYPE,INGREDIENT,닭날개,닭날개
+INGREDIENT-TYPE,INGREDIENT,닭안심,닭안심살
+INGREDIENT-TYPE,INGREDIENT,닭안심살,닭안심살
+INGREDIENT-TYPE,INGREDIENT,두부,두부
+INGREDIENT-TYPE,INGREDIENT,순두부,순두부
+INGREDIENT-TYPE,INGREDIENT,연두부,순두부
+INGREDIENT-TYPE,INGREDIENT,부침두부,부침두부
+INGREDIENT-TYPE,INGREDIENT,부침용두부,부침두부
+INGREDIENT-TYPE,INGREDIENT,또띠아,또띠아
+INGREDIENT-TYPE,INGREDIENT,양배추,양배추
+INGREDIENT-TYPE,INGREDIENT,옥수수,옥수수
+INGREDIENT-TYPE,INGREDIENT,콘,옥수수
+INGREDIENT-TYPE,INGREDIENT,캔옥수수,캔옥수수
+INGREDIENT-TYPE,INGREDIENT,옥수수콘,캔옥수수
+INGREDIENT-TYPE,INGREDIENT,스위트콘,캔옥수수
+INGREDIENT-TYPE,INGREDIENT,진미채,진미채
+INGREDIENT-TYPE,INGREDIENT,오징어채,진미채
+INGREDIENT-TYPE,INGREDIENT,진미오징어채,진미채
+INGREDIENT-TYPE,INGREDIENT,감자,감자
+INGREDIENT-TYPE,INGREDIENT,감자사리,감자
+INGREDIENT-TYPE,INGREDIENT,생감자,감자
+INGREDIENT-TYPE,INGREDIENT,상추,상추
+INGREDIENT-TYPE,INGREDIENT,로메인,로메인상추
+INGREDIENT-TYPE,INGREDIENT,로메인상추,로메인상추
+INGREDIENT-TYPE,INGREDIENT,배추,배추
+INGREDIENT-TYPE,INGREDIENT,배춧잎,배추잎
+INGREDIENT-TYPE,INGREDIENT,배추잎,배추잎
+INGREDIENT-TYPE,INGREDIENT,알배추,알배추
+INGREDIENT-TYPE,INGREDIENT,돼지고기앞다리살,앞다리살
+INGREDIENT-TYPE,INGREDIENT,앞다리살,앞다리살
+INGREDIENT-TYPE,INGREDIENT,돼지고기뒷다리살,뒷다리살
+INGREDIENT-TYPE,INGREDIENT,뒷다리살,뒷다리살
+INGREDIENT-TYPE,INGREDIENT,다진돼지고기,다진돼지고기
+INGREDIENT-TYPE,INGREDIENT,돼지고기다짐육,다진돼지고기
+INGREDIENT-TYPE,INGREDIENT,간돼지고기,다진돼지고기
+INGREDIENT-TYPE,INGREDIENT,돼지등뼈,돼지등뼈
+INGREDIENT-TYPE,INGREDIENT,묵,묵
+INGREDIENT-TYPE,INGREDIENT,묵들,묵
+INGREDIENT-TYPE,INGREDIENT,청포묵,청포묵
+INGREDIENT-TYPE,INGREDIENT,도토리묵,도토리묵
+INGREDIENT-TYPE,INGREDIENT,시금치,시금치
+INGREDIENT-TYPE,INGREDIENT,오징어,오징어
+INGREDIENT-TYPE,INGREDIENT,오징어사리,오징어
+INGREDIENT-TYPE,INGREDIENT,생물오징어,생물오징어
+INGREDIENT-TYPE,INGREDIENT,당면,당면
+INGREDIENT-TYPE,INGREDIENT,당면사리,당면
+INGREDIENT-TYPE,INGREDIENT,당근,다진당근
+INGREDIENT-TYPE,INGREDIENT,다진당근,당근
+INGREDIENT-TYPE,INGREDIENT,채썬당근,채썬당근
+INGREDIENT-TYPE,INGREDIENT,오이,오이
+INGREDIENT-TYPE,INGREDIENT,백오이,백오이
+INGREDIENT-TYPE,INGREDIENT,토마토,토마토
+INGREDIENT-TYPE,INGREDIENT,방울토마토,방울토마토
+INGREDIENT-TYPE,INGREDIENT,맛살,맛살
+INGREDIENT-TYPE,INGREDIENT,게맛살,맛살
+INGREDIENT-TYPE,INGREDIENT,크레미,맛살
+INGREDIENT-TYPE,INGREDIENT,크래미,맛살
+INGREDIENT-TYPE,INGREDIENT,크래미맛살,맛살
+INGREDIENT-TYPE,INGREDIENT,게살,게살
+INGREDIENT-TYPE,INGREDIENT,다시마,다시마
+INGREDIENT-TYPE,INGREDIENT,멸치,멸치
+INGREDIENT-TYPE,INGREDIENT,국멸치,국멸치
+INGREDIENT-TYPE,INGREDIENT,굵은멸치,굵은멸치
+INGREDIENT-TYPE,INGREDIENT,생강,생강
+INGREDIENT-TYPE,INGREDIENT,생강가루,생강가루
+INGREDIENT-TYPE,INGREDIENT,생강파우더,생강가루
+INGREDIENT-TYPE,INGREDIENT,생강청,생강청
+INGREDIENT-TYPE,INGREDIENT,생강술,생강술
+INGREDIENT-TYPE,INGREDIENT,생강즙,생강즙
+INGREDIENT-TYPE,INGREDIENT,생강채,생강채
+INGREDIENT-TYPE,INGREDIENT,우엉,우엉
+INGREDIENT-TYPE,INGREDIENT,샐러드채소,샐러드채소
+INGREDIENT-TYPE,INGREDIENT,샐러드야채,샐러드채소
+INGREDIENT-TYPE,INGREDIENT,양상추,양상추
+INGREDIENT-TYPE,INGREDIENT,사각어묵,사각어묵
+INGREDIENT-TYPE,INGREDIENT,모둠어묵,모듬어묵
+INGREDIENT-TYPE,INGREDIENT,모듬어묵,모듬어묵
+INGREDIENT-TYPE,INGREDIENT,고등어,고등어
+INGREDIENT-TYPE,INGREDIENT,새싹채소,새싹채소
+INGREDIENT-TYPE,INGREDIENT,새싹,새싹채소
+INGREDIENT-TYPE,INGREDIENT,어린새싹,새싹채소
+INGREDIENT-TYPE,INGREDIENT,빵가루,빵가루
+INGREDIENT-TYPE,INGREDIENT,파스타면,파스타면
+INGREDIENT-TYPE,INGREDIENT,와사비,와사비
+INGREDIENT-TYPE,INGREDIENT,연와사비,와사비
+INGREDIENT-TYPE,INGREDIENT,생와사비,와사비
+INGREDIENT-TYPE,INGREDIENT,고구마,고구마
+INGREDIENT-TYPE,INGREDIENT,밤고구마,밤고구마
+INGREDIENT-TYPE,INGREDIENT,호박고구마,호박고구마
+INGREDIENT-TYPE,INGREDIENT,브로콜리,브로콜리
+INGREDIENT-TYPE,INGREDIENT,브로컬리,브로콜리
+INGREDIENT-TYPE,INGREDIENT,골뱅이,골뱅이
+INGREDIENT-TYPE,INGREDIENT,통조림골뱅이,통조림골뱅이
+INGREDIENT-TYPE,INGREDIENT,호박,호박
+INGREDIENT-TYPE,INGREDIENT,애호박,애호박
+INGREDIENT-TYPE,INGREDIENT,늙은호박,늙은호박
+INGREDIENT-TYPE,INGREDIENT,단호박,단호박
+INGREDIENT-TYPE,INGREDIENT,청경채,청경채
+INGREDIENT-TYPE,INGREDIENT,황태,황태
+INGREDIENT-TYPE,INGREDIENT,황태채,황태
+INGREDIENT-TYPE,INGREDIENT,무순,무순
+INGREDIENT-TYPE,INGREDIENT,우유,우유
+INGREDIENT-TYPE,INGREDIENT,저지방우유,저지방우유
+INGREDIENT-TYPE,INGREDIENT,락토프리우유,락토프리우유
+INGREDIENT-TYPE,INGREDIENT,무지방우유,무지방우유
+INGREDIENT-TYPE,INGREDIENT,채소,채소
+INGREDIENT-TYPE,INGREDIENT,각종채소,채소
+INGREDIENT-TYPE,INGREDIENT,야채,채소
+INGREDIENT-TYPE,INGREDIENT,각종야채,채소
+INGREDIENT-TYPE,INGREDIENT,생크림,생크림
+INGREDIENT-TYPE,INGREDIENT,휘핑크림,휘핑크림
+INGREDIENT-TYPE,INGREDIENT,밀가루,밀가루
+INGREDIENT-TYPE,INGREDIENT,통밀가루,통밀가루
+INGREDIENT-TYPE,INGREDIENT,코코아파우더,코코아파우더
+INGREDIENT-TYPE,INGREDIENT,코코아가루,코코아파우더
+INGREDIENT-TYPE,INGREDIENT,카카오가루,코코아파우더
+INGREDIENT-TYPE,INGREDIENT,우동면,우동면
+INGREDIENT-TYPE,INGREDIENT,우동사리,우동면
+INGREDIENT-TYPE,INGREDIENT,곤약,곤약
+INGREDIENT-TYPE,INGREDIENT,곤약면,곤약면
+INGREDIENT-TYPE,INGREDIENT,실곤약,실곤약
+INGREDIENT-TYPE,INGREDIENT,소면,소면
+INGREDIENT-TYPE,INGREDIENT,국수면,국수면
+INGREDIENT-TYPE,INGREDIENT,국시면,국수면
+INGREDIENT-TYPE,INGREDIENT,아스파라거스,아스파라거스
+INGREDIENT-TYPE,INGREDIENT,초콜릿,초콜릿
+INGREDIENT-TYPE,INGREDIENT,초코,초콜릿
+INGREDIENT-TYPE,INGREDIENT,초코칩,초콜릿
+INGREDIENT-TYPE,INGREDIENT,초콜렛,초콜릿
+INGREDIENT-TYPE,INGREDIENT,누텔라,누텔라
+INGREDIENT-TYPE,INGREDIENT,다크초콜릿,다크초콜릿
+INGREDIENT-TYPE,INGREDIENT,왕꼬막,왕꼬막
+INGREDIENT-TYPE,INGREDIENT,가쓰오부시,가쓰오부시
+INGREDIENT-TYPE,INGREDIENT,가다랑어포,가쓰오부시
+INGREDIENT-TYPE,INGREDIENT,유부,유부
+INGREDIENT-TYPE,INGREDIENT,꿀,꿀
+INGREDIENT-TYPE,INGREDIENT,꿀들,꿀
+INGREDIENT-TYPE,INGREDIENT,케일,케일
+INGREDIENT-TYPE,INGREDIENT,쑥갓,쑥갓
+INGREDIENT-TYPE,INGREDIENT,무,무
+INGREDIENT-TYPE,INGREDIENT,래디쉬,무
+INGREDIENT-TYPE,INGREDIENT,무우,무
+INGREDIENT-TYPE,INGREDIENT,순무,순무
+INGREDIENT-TYPE,INGREDIENT,명란,명란
+INGREDIENT-TYPE,INGREDIENT,명태알,명태알
+INGREDIENT-TYPE,INGREDIENT,명란젓,명란젓
+INGREDIENT-TYPE,INGREDIENT,돌나물,돌나물
+INGREDIENT-TYPE,INGREDIENT,미나리,미나리
+INGREDIENT-TYPE,INGREDIENT,오레오,오레오
+INGREDIENT-TYPE,INGREDIENT,오레오과자,오레오
+INGREDIENT-TYPE,INGREDIENT,시래기,시래기
+INGREDIENT-TYPE,INGREDIENT,시레기,시래기
+INGREDIENT-TYPE,INGREDIENT,올리브,올리브
+INGREDIENT-TYPE,INGREDIENT,잣,잣
+INGREDIENT-TYPE,INGREDIENT,잣들,잣
+INGREDIENT-TYPE,INGREDIENT,피클,피클
+INGREDIENT-TYPE,INGREDIENT,레몬,레몬
+INGREDIENT-TYPE,INGREDIENT,라임,라임
+INGREDIENT-TYPE,INGREDIENT,사과,사과
+INGREDIENT-TYPE,INGREDIENT,면,면
+INGREDIENT-TYPE,INGREDIENT,면사리,면
+INGREDIENT-TYPE,INGREDIENT,생면,생면
+INGREDIENT-TYPE,INGREDIENT,모닝빵,모닝빵
+INGREDIENT-TYPE,INGREDIENT,슈가파우더,슈가파우더
+INGREDIENT-TYPE,INGREDIENT,슈가파우다,슈가파우더
+INGREDIENT-TYPE,INGREDIENT,해물,해물
+INGREDIENT-TYPE,INGREDIENT,해물믹스,해물
+INGREDIENT-TYPE,INGREDIENT,모듬해물,모듬해물
+INGREDIENT-TYPE,INGREDIENT,모둠해물,모듬해물
+INGREDIENT-TYPE,INGREDIENT,미역,미역
+INGREDIENT-TYPE,INGREDIENT,시리얼,시리얼
+INGREDIENT-TYPE,INGREDIENT,콘시리얼,콘시리얼
+INGREDIENT-TYPE,INGREDIENT,그래놀라,그래놀라
+INGREDIENT-TYPE,INGREDIENT,김,김
+INGREDIENT-TYPE,INGREDIENT,김들,김
+INGREDIENT-TYPE,INGREDIENT,김밥김,김밥김
+INGREDIENT-TYPE,INGREDIENT,조미김,조미김
+INGREDIENT-TYPE,INGREDIENT,구운김,구운김
+INGREDIENT-TYPE,INGREDIENT,파래김,파래김
+INGREDIENT-TYPE,INGREDIENT,블루베리,블루베리
+INGREDIENT-TYPE,INGREDIENT,딸기,딸기
+INGREDIENT-TYPE,INGREDIENT,스트로베리,딸기
+INGREDIENT-TYPE,INGREDIENT,아보카도,아보카도
+INGREDIENT-TYPE,INGREDIENT,바질,바질
+INGREDIENT-TYPE,INGREDIENT,바질가루,바질
+INGREDIENT-TYPE,INGREDIENT,연유,연유
+INGREDIENT-TYPE,INGREDIENT,계피,계피
+INGREDIENT-TYPE,INGREDIENT,계핏가루,계피
+INGREDIENT-TYPE,INGREDIENT,계피가루,계피
+INGREDIENT-TYPE,INGREDIENT,시나몬가루,시나몬
+INGREDIENT-TYPE,INGREDIENT,시나몬파우더,시나몬
+INGREDIENT-TYPE,INGREDIENT,시나몬,시나몬
+INGREDIENT-TYPE,INGREDIENT,로즈마리,로즈마리
+INGREDIENT-TYPE,INGREDIENT,로즈메리,로즈마리
+INGREDIENT-TYPE,INGREDIENT,죠리퐁,죠리퐁
+INGREDIENT-TYPE,INGREDIENT,조리퐁,죠리퐁
+INGREDIENT-TYPE,INGREDIENT,두유,두유
+INGREDIENT-TYPE,INGREDIENT,쑥,쑥
+INGREDIENT-TYPE,INGREDIENT,쑥들,쑥
+INGREDIENT-TYPE,INGREDIENT,쑥가루,쑥가루
+INGREDIENT-TYPE,INGREDIENT,크랜베리,크랜베리
+INGREDIENT-TYPE,INGREDIENT,흑임자,흑임자
+INGREDIENT-TYPE,INGREDIENT,삼치,삼치
+INGREDIENT-TYPE,INGREDIENT,조기,조기
+INGREDIENT-TYPE,INGREDIENT,갈치,갈치
+INGREDIENT-TYPE,INGREDIENT,간장,간장
+INGREDIENT-TYPE,INGREDIENT,맛간장,맛간장
+INGREDIENT-TYPE,INGREDIENT,진간장,진간장
+INGREDIENT-TYPE,INGREDIENT,국간장,국간장
+INGREDIENT-TYPE,INGREDIENT,양조간장,양조간장
+INGREDIENT-TYPE,INGREDIENT,일본간장,일본간장
+INGREDIENT-TYPE,INGREDIENT,집간장,집간장
+INGREDIENT-TYPE,INGREDIENT,조선간장,조선간장
+INGREDIENT-TYPE,INGREDIENT,양념간장,양념간장
+INGREDIENT-TYPE,INGREDIENT,식초,식초
+INGREDIENT-TYPE,INGREDIENT,발사믹,발사믹
+INGREDIENT-TYPE,INGREDIENT,발사믹식초,발사믹
+INGREDIENT-TYPE,INGREDIENT,마요네즈,마요네즈
+INGREDIENT-TYPE,INGREDIENT,마요,마요네즈
+INGREDIENT-TYPE,INGREDIENT,칠리소스,칠리소스
+INGREDIENT-TYPE,INGREDIENT,머스타드,머스타드
+INGREDIENT-TYPE,INGREDIENT,허니머스타드,머스타드
+INGREDIENT-TYPE,INGREDIENT,머스타드소스,머스타드
+INGREDIENT-TYPE,INGREDIENT,홀그레인,홀그레인
+INGREDIENT-TYPE,INGREDIENT,쯔유,쯔유
+INGREDIENT-TYPE,INGREDIENT,메밀소바소스,쯔유
+INGREDIENT-TYPE,INGREDIENT,소스,소스
+INGREDIENT-TYPE,INGREDIENT,양념소스,소스
+INGREDIENT-TYPE,INGREDIENT,양념,양념소스
+INGREDIENT-TYPE,INGREDIENT,다대기,다대기
+INGREDIENT-TYPE,INGREDIENT,다데기,다대기
+INGREDIENT-TYPE,INGREDIENT,다대기양념,다대기
+INGREDIENT-TYPE,INGREDIENT,다데기양념,다대기
+INGREDIENT-TYPE,INGREDIENT,잼,잼
+INGREDIENT-TYPE,INGREDIENT,쨈,잼
+INGREDIENT-TYPE,INGREDIENT,딸기잼,딸기잼
+INGREDIENT-TYPE,INGREDIENT,딸기쨈,딸기잼
+INGREDIENT-TYPE,INGREDIENT,과일잼,과일잼
+INGREDIENT-TYPE,INGREDIENT,과일쨈,과일잼
+INGREDIENT-TYPE,INGREDIENT,된장,된장
+INGREDIENT-TYPE,INGREDIENT,집된장,집된장
+INGREDIENT-TYPE,INGREDIENT,미소,미소된장
+INGREDIENT-TYPE,INGREDIENT,미소된장,미소된장
+INGREDIENT-TYPE,INGREDIENT,쌈장,쌈장
+INGREDIENT-TYPE,INGREDIENT,매실액,매실액
+INGREDIENT-TYPE,INGREDIENT,매실청,매실액
+INGREDIENT-TYPE,INGREDIENT,매실원액,매실액
+INGREDIENT-TYPE,INGREDIENT,기름,기름
+INGREDIENT-TYPE,INGREDIENT,식용유,식용유
+INGREDIENT-TYPE,INGREDIENT,올리브유,올리브유
+INGREDIENT-TYPE,INGREDIENT,올리브오일,올리브유
+INGREDIENT-TYPE,INGREDIENT,식물성오일,식물성오일
+INGREDIENT-TYPE,INGREDIENT,아보카도오일,아보카도오일
+INGREDIENT-TYPE,INGREDIENT,오일,오일
+INGREDIENT-TYPE,INGREDIENT,고추기름,고추기름
+INGREDIENT-TYPE,INGREDIENT,참기름,참기름
+INGREDIENT-TYPE,INGREDIENT,들기름,들기름
+INGREDIENT-TYPE,INGREDIENT,파기름,파기름
+INGREDIENT-TYPE,INGREDIENT,고추장,고추장
+INGREDIENT-TYPE,INGREDIENT,고추가루,고추가루
+INGREDIENT-TYPE,INGREDIENT,고춧가루,고추가루
+INGREDIENT-TYPE,INGREDIENT,새우젓,새우젓
+INGREDIENT-TYPE,INGREDIENT,물엿,물엿
+INGREDIENT-TYPE,INGREDIENT,후추,후추
+INGREDIENT-TYPE,INGREDIENT,후추가루,후추
+INGREDIENT-TYPE,INGREDIENT,후춧가루,후추
+INGREDIENT-TYPE,INGREDIENT,블랙페퍼,후추
+INGREDIENT-TYPE,INGREDIENT,블랙페이퍼,후추
+INGREDIENT-TYPE,INGREDIENT,흑후추,후추
+INGREDIENT-TYPE,INGREDIENT,통후추,통후추
+INGREDIENT-TYPE,INGREDIENT,소금,소금
+INGREDIENT-TYPE,INGREDIENT,솔트,소금
+INGREDIENT-TYPE,INGREDIENT,맛소금,맛소금
+INGREDIENT-TYPE,INGREDIENT,깨소금,깨소금
+INGREDIENT-TYPE,INGREDIENT,허브솔트,허브솔트
+INGREDIENT-TYPE,INGREDIENT,허브맛솔트,허브솔트
+INGREDIENT-TYPE,INGREDIENT,케첩,케첩
+INGREDIENT-TYPE,INGREDIENT,케찹,케첩
+INGREDIENT-TYPE,INGREDIENT,케챱,케첩
+INGREDIENT-TYPE,INGREDIENT,토마토케첩,토마토케첩
+INGREDIENT-TYPE,INGREDIENT,토마토케찹,토마토케첩
+INGREDIENT-TYPE,INGREDIENT,토마토케챱,토마토케첩
+INGREDIENT-TYPE,INGREDIENT,토마토소스,토마토소스
+INGREDIENT-TYPE,INGREDIENT,토마토스파게티소스,토마토스파게티소스
+INGREDIENT-TYPE,INGREDIENT,스파게티소스,스파게티소스
+INGREDIENT-TYPE,INGREDIENT,피자소스,피자소스
+INGREDIENT-TYPE,INGREDIENT,크림소스,크림소스
+INGREDIENT-TYPE,INGREDIENT,크림,크림소스
+INGREDIENT-TYPE,INGREDIENT,로제소스,로제소스
+INGREDIENT-TYPE,INGREDIENT,로제,로제소스
+INGREDIENT-TYPE,INGREDIENT,조미료,조미료
+INGREDIENT-TYPE,INGREDIENT,미원,미원
+INGREDIENT-TYPE,INGREDIENT,다시다,다시다
+INGREDIENT-TYPE,INGREDIENT,핫소스,핫소스
+INGREDIENT-TYPE,INGREDIENT,타바스코,핫소스
+INGREDIENT-TYPE,INGREDIENT,타바스코소스,핫소스
+INGREDIENT-TYPE,INGREDIENT,레몬즙,레몬즙
+INGREDIENT-TYPE,INGREDIENT,스리라차소스,스리라차소스
+INGREDIENT-TYPE,INGREDIENT,스리라차,스리라차소스
+INGREDIENT-TYPE,INGREDIENT,초고추장,초고추장
+INGREDIENT-TYPE,INGREDIENT,초장,초고추장
+INGREDIENT-TYPE,INGREDIENT,시럽,시럽
+INGREDIENT-TYPE,INGREDIENT,메이플시럽,메이플시럽
+INGREDIENT-TYPE,INGREDIENT,바닐라시럽,바닐라시럽
+INGREDIENT-TYPE,INGREDIENT,카라멜시럽,카라멜시럽
+INGREDIENT-TYPE,INGREDIENT,돈까스소스,돈까스소스
+INGREDIENT-TYPE,INGREDIENT,돈가스소스,돈까스소스
+INGREDIENT-TYPE,INGREDIENT,우스터소스,돈까스소스
+INGREDIENT-TYPE,INGREDIENT,유자청,유자청
+INGREDIENT-TYPE,INGREDIENT,겨자,겨자
+INGREDIENT-TYPE,INGREDIENT,겨자장,겨자장
+INGREDIENT-TYPE,INGREDIENT,연겨자,연겨자
+INGREDIENT-TYPE,INGREDIENT,겨자소스,겨자소스
+INGREDIENT-TYPE,INGREDIENT,내장,내장
+INGREDIENT-TYPE,INGREDIENT,내장건더기,내장
+INGREDIENT-TYPE,INGREDIENT,간,간
+INGREDIENT-TYPE,INGREDIENT,간들,간
+INGREDIENT-TYPE,INGREDIENT,허파,허파
+INGREDIENT-TYPE,INGREDIENT,고수,고수
+INGREDIENT-TYPE,INGREDIENT,우거지,우거지
+INGREDIENT-TYPE,INGREDIENT,뼈다귀,뼈다귀
+INGREDIENT-TYPE,INGREDIENT,면발,면발
+INGREDIENT-TYPE,INGREDIENT,코다리,코다리
+INGREDIENT-TYPE,INGREDIENT,명태,명태
+INGREDIENT-TYPE,INGREDIENT,장어,장어
+INGREDIENT-TYPE,INGREDIENT,전복,전복
+INGREDIENT-TYPE,INGREDIENT,대게살,대게살
+INGREDIENT-TYPE,INGREDIENT,갑오징어,갑오징어
+INGREDIENT-TYPE,INGREDIENT,사골,사골
+INGREDIENT-TYPE,INGREDIENT,사골국물,사골
+INGREDIENT-TYPE,INGREDIENT,날치알,날치알
+INGREDIENT-TYPE,INGREDIENT,냉이,냉이
+INGREDIENT-TYPE,INGREDIENT,천엽,천엽
+INGREDIENT-TYPE,INGREDIENT,아사이베리,아사이베리
+INGREDIENT-TYPE,INGREDIENT,아사이,아사이베리
+INGREDIENT-TYPE,INGREDIENT,버블,버블
+INGREDIENT-TYPE,INGREDIENT,펄,펄
+INGREDIENT-TYPE,INGREDIENT,펄들,펄
+INGREDIENT-TYPE,INGREDIENT,블랙펄,블랙펄
+INGREDIENT-TYPE,INGREDIENT,화이트펄,화이트펄
+INGREDIENT-TYPE,INGREDIENT,새우젓양념,새우젓양념
+INGREDIENT-TYPE,INGREDIENT,달걀프라이,달걀프라이
+INGREDIENT-TYPE,INGREDIENT,달걀후라이,달걀프라이
+INGREDIENT-TYPE,INGREDIENT,계란프라이,달걀프라이
+INGREDIENT-TYPE,INGREDIENT,계란후라이,달걀프라이
+INGREDIENT-TYPE,INGREDIENT,수란,수란
+INGREDIENT-TYPE,INGREDIENT,문어,문어
+INGREDIENT-TYPE,INGREDIENT,얇은콩나물,얇은콩나물
+INGREDIENT-TYPE,INGREDIENT,두꺼운콩나물,두꺼운콩나물
+INGREDIENT-TYPE,INGREDIENT,살코기,살코기
+INGREDIENT-TYPE,INGREDIENT,고기,고기
+INGREDIENT-TYPE,INGREDIENT,고기건더기,고기건더기
+INGREDIENT-TYPE,INGREDIENT,굴,굴
+INGREDIENT-TYPE,INGREDIENT,굴들,굴
+INGREDIENT-TYPE,INGREDIENT,산나물,산나물
+INGREDIENT-TYPE,INGREDIENT,나물,나물
+INGREDIENT-TYPE,INGREDIENT,컬리플라워,컬리플라워
+INGREDIENT-TYPE,INGREDIENT,드라이토마토,드라이토마토
+INGREDIENT-TYPE,INGREDIENT,썬드라이토마토,드라이토마토
+INGREDIENT-TYPE,INGREDIENT,잡곡,잡곡
+INGREDIENT-TYPE,INGREDIENT,드레싱,드레싱
+INGREDIENT-TYPE,INGREDIENT,드래싱,드레싱
+INGREDIENT-TYPE,INGREDIENT,드레싱소스,드레싱
+INGREDIENT-TYPE,INGREDIENT,드래싱소스,드레싱
+INGREDIENT-TYPE,INGREDIENT,바질페스토,바질페스토
+INGREDIENT-TYPE,INGREDIENT,리코타치즈,리코타치즈
+INGREDIENT-TYPE,INGREDIENT,리코타,리코타치즈
+INGREDIENT-TYPE,INGREDIENT,부라타치즈,부라타치즈
+INGREDIENT-TYPE,INGREDIENT,부라타,부라타치즈
+INGREDIENT-TYPE,INGREDIENT,토핑,토핑
+INGREDIENT-TYPE,INGREDIENT,관자,관자
+INGREDIENT-TYPE,INGREDIENT,키조개,키조개
+INGREDIENT-TYPE,INGREDIENT,데리야끼소스,데리야끼
+INGREDIENT-TYPE,INGREDIENT,데리야끼,데리야끼
+INGREDIENT-TYPE,INGREDIENT,앙금,앙금
+INGREDIENT-TYPE,INGREDIENT,앙꼬,앙금
+INGREDIENT-TYPE,INGREDIENT,필링,필링
+INGREDIENT-TYPE,INGREDIENT,팥앙금,팥앙금
+INGREDIENT-TYPE,INGREDIENT,팥앙꼬,팥앙금
+INGREDIENT-TYPE,INGREDIENT,유자앙금,유자앙금
+INGREDIENT-TYPE,INGREDIENT,유자앙꼬,유자앙금
+INGREDIENT-TYPE,INGREDIENT,또띠아칩,또띠아칩
+INGREDIENT-TYPE,INGREDIENT,나초칩,나초칩
+INGREDIENT-TYPE,INGREDIENT,향신료,향신료
+INGREDIENT-TYPE,INGREDIENT,살사소스,살사소스
+INGREDIENT-TYPE,INGREDIENT,페타치즈,페타치즈
+INGREDIENT-TYPE,INGREDIENT,라이스페이퍼,라이스페이퍼
+INGREDIENT-TYPE,INGREDIENT,하우다치즈,하우다치즈
+INGREDIENT-TYPE,INGREDIENT,에멘탈치즈,에멘탈치즈
+INGREDIENT-TYPE,INGREDIENT,하몬,하몽
+INGREDIENT-TYPE,INGREDIENT,하몽,하몽
+NOT-SWEET,NOT-SWEET,안 단,달달하지 않은 맛의
+NOT-HOT,NOT-HOT,맵지 않은,맵지 않은 맛의
+NOT-JAGEUKJEOK,NOT-JAGEUKJEOK,안 자극적인,자극적이지 않은 맛의
+NOT-OILY,NOT-OILY,기름지지 않은,기름지지 않은 맛의
+NOT-BLAND,NOT-BLAND,안 싱거운,싱겁지 않은 맛의
+KKALKKEUM,KKALKKEUM,깔끔한 맛의,깔끔한 맛의
+NOT-SALTY,NOT-SALTY,짜지 않은,짜지 않은 맛의
+SWEET,SWEET,달달한,달달한 맛의
+HOT,HOT,매운,매운 맛의
+SWEET-SALTY,SWEET-SALTY,단짠단짠,단짠단짠한 맛의
+SIWON,SIWON,시원한,시원한 맛의
+GOSO,GOSO,고소한,고소한 맛의
+FIRE,FIRE,불맛이 나는,불맛이 나는
+FRESH,FRESH,싱싱한,싱싱한 맛의
+JJONDEUK,JJONDEUK,쫀득쫀득,쫀득쫀득한 느낌의
+CRUNCHY,CRUNCHY,바삭바삭한,바삭바삭한 식감의
+OILY,OILY,기름진,기름진 느낌의
+TTAKKEUN,TTAKKEUN,따끈따끈한,따끈한 느낌의
+CHEWY,CHEWY,탱글탱글,탱글탱글한 느낌의
+FUDGY,FUDGY,꾸덕한,꾸덕한 느낌의
+CREAMY,CREAMY,부드러운,크리미한 느낌의
+STRONG,STRONG,진한,진한 느낌의
+SPICY-SWEET,SPICY-SWEET,맵달맵달,맵달한 맛의
+COLD,COLD,차가운,차가운
+GOOD-TO-GO1,LOVER,여친,애인과 함께
+GOOD-TO-GO1,LOVER,남친,애인과 함께
+GOOD-TO-GO1,LOVER,애인,애인과 함께
+GOOD-TO-GO1,LOVER,여자친구,애인과 함께
+GOOD-TO-GO1,LOVER,남자친구,애인과 함께
+GOOD-TO-GO1,LOVER,약혼자,애인과 함께
+GOOD-TO-GO1,LOVER,약혼녀,애인과 함께
+GOOD-TO-GO1,LOVER,커플,애인과 함께
+GOOD-TO-GO1,LOVER,부인,애인과 함께
+GOOD-TO-GO1,LOVER,와이프,애인과 함께
+GOOD-TO-GO1,LOVER,남편,애인과 함께
+GOOD-TO-GO1,LOVER,신랑,애인과 함께
+GOOD-TO-GO1,LOVER,마누라,애인과 함께
+GOOD-TO-GO1,LOVER,안사람,애인과 함께
+GOOD-TO-GO1,LOVER,집사람,애인과 함께
+GOOD-TO-GO1,LOVER,아내,애인과 함께
+GOOD-TO-GO1,LOVER,파트너,애인과 함께
+GOOD-TO-GO1,LOVER,동반자,애인과 함께
+GOOD-TO-GO1,LOVER,동거인여친,애인과 함께
+GOOD-TO-GO1,LOVER,남친,애인과 함께
+GOOD-TO-GO1,LOVER,애인,애인과 함께
+GOOD-TO-GO1,LOVER,여자친구,애인과 함께
+GOOD-TO-GO1,LOVER,남자친구,애인과 함께
+GOOD-TO-GO1,LOVER,약혼자,애인과 함께
+GOOD-TO-GO1,LOVER,약혼녀,애인과 함께
+GOOD-TO-GO1,LOVER,커플,애인과 함께
+GOOD-TO-GO1,LOVER,부인,애인과 함께
+GOOD-TO-GO1,LOVER,와이프,애인과 함께
+GOOD-TO-GO1,LOVER,남편,애인과 함께
+GOOD-TO-GO1,LOVER,신랑,애인과 함께
+GOOD-TO-GO1,LOVER,마누라,애인과 함께
+GOOD-TO-GO1,LOVER,안사람,애인과 함께
+GOOD-TO-GO1,LOVER,집사람,애인과 함께
+GOOD-TO-GO1,LOVER,아내,애인과 함께
+GOOD-TO-GO1,LOVER,파트너,애인과 함께
+GOOD-TO-GO1,LOVER,동반자,애인과 함께
+GOOD-TO-GO1,LOVER,동거인,애인과 함께
+GOOD-TO-GO1,FRIEND,친구들,친구와 함께
+GOOD-TO-GO1,FRIEND,친구,친구와 함께
+GOOD-TO-GO1,FRIEND,절친들,친구와 함께
+GOOD-TO-GO1,FRIEND,절친,친구와 함께
+GOOD-TO-GO1,FRIEND,남사친들,친구와 함께
+GOOD-TO-GO1,FRIEND,남사친,친구와 함께
+GOOD-TO-GO1,FRIEND,여사친들,친구와 함께
+GOOD-TO-GO1,FRIEND,여사친,친구와 함께
+GOOD-TO-GO1,FRIEND,베프들,친구와 함께
+GOOD-TO-GO1,FRIEND,베프,친구와 함께
+GOOD-TO-GO1,FRIEND,직장 동료들,친구와 함께
+GOOD-TO-GO1,FRIEND,직장 동료,친구와 함께
+GOOD-TO-GO1,FRIEND,동료들,친구와 함께
+GOOD-TO-GO1,FRIEND,동료,친구와 함께
+GOOD-TO-GO1,FRIEND,동기들,친구와 함께
+GOOD-TO-GO1,FRIEND,동기,친구와 함께
+GOOD-TO-GO1,FRIEND,선배들,친구와 함께
+GOOD-TO-GO1,FRIEND,선배,친구와 함께
+GOOD-TO-GO1,FRIEND,후배들,친구와 함께
+GOOD-TO-GO1,FRIEND,후배,친구와 함께
+GOOD-TO-GO1,FRIEND,선후배들,친구와 함께
+GOOD-TO-GO1,FRIEND,선후배,친구와 함께
+GOOD-TO-GO1,FRIEND,동창들,친구와 함께
+GOOD-TO-GO1,FRIEND,동창,친구와 함께
+GOOD-TO-GO1,FAMILY,부모님,가족과 함께
+GOOD-TO-GO1,FAMILY,부모,가족과 함께
+GOOD-TO-GO1,FAMILY,엄마,가족과 함께
+GOOD-TO-GO1,FAMILY,아빠,가족과 함께
+GOOD-TO-GO1,FAMILY,어머니,가족과 함께
+GOOD-TO-GO1,FAMILY,아버지,가족과 함께
+GOOD-TO-GO1,FAMILY,사촌 동생들,가족과 함께
+GOOD-TO-GO1,FAMILY,사촌 동생,가족과 함께
+GOOD-TO-GO1,FAMILY,사촌 오빠들,가족과 함께
+GOOD-TO-GO1,FAMILY,사촌 오빠,가족과 함께
+GOOD-TO-GO1,FAMILY,사촌 누나들,가족과 함께
+GOOD-TO-GO1,FAMILY,사촌 누나,가족과 함께
+GOOD-TO-GO1,FAMILY,사촌 형들,가족과 함께
+GOOD-TO-GO1,FAMILY,사촌 형,가족과 함께
+GOOD-TO-GO1,FAMILY,사촌 언니들,가족과 함께
+GOOD-TO-GO1,FAMILY,사촌 언니,가족과 함께
+GOOD-TO-GO1,FAMILY,사촌 누이들,가족과 함께
+GOOD-TO-GO1,FAMILY,사촌 누이,가족과 함께
+GOOD-TO-GO1,FAMILY,동생들,가족과 함께
+GOOD-TO-GO1,FAMILY,동생,가족과 함께
+GOOD-TO-GO1,FAMILY,오빠들,가족과 함께
+GOOD-TO-GO1,FAMILY,오빠,가족과 함께
+GOOD-TO-GO1,FAMILY,누나들,가족과 함께
+GOOD-TO-GO1,FAMILY,누나,가족과 함께
+GOOD-TO-GO1,FAMILY,형들,가족과 함께
+GOOD-TO-GO1,FAMILY,형,가족과 함께
+GOOD-TO-GO1,FAMILY,언니들,가족과 함께
+GOOD-TO-GO1,FAMILY,언니,가족과 함께
+GOOD-TO-GO1,FAMILY,누이들,가족과 함께
+GOOD-TO-GO1,FAMILY,누이,가족과 함께
+GOOD-TO-GO1,FAMILY,시 부모님,가족과 함께
+GOOD-TO-GO1,FAMILY,시 부모,가족과 함께
+GOOD-TO-GO1,FAMILY,시 엄마,가족과 함께
+GOOD-TO-GO1,FAMILY,시 아빠,가족과 함께
+GOOD-TO-GO1,FAMILY,시 어머니,가족과 함께
+GOOD-TO-GO1,FAMILY,시 아버지,가족과 함께
+GOOD-TO-GO1,FAMILY,친정 부모님,가족과 함께
+GOOD-TO-GO1,FAMILY,친정 부모,가족과 함께
+GOOD-TO-GO1,FAMILY,친정 엄마,가족과 함께
+GOOD-TO-GO1,FAMILY,친정 아빠,가족과 함께
+GOOD-TO-GO1,FAMILY,친정 어머니,가족과 함께
+GOOD-TO-GO1,FAMILY,친정 아버지,가족과 함께
+GOOD-TO-GO1,FAMILY,조카들,가족과 함께
+GOOD-TO-GO1,FAMILY,조카,가족과 함께
+GOOD-TO-GO1,FAMILY,손자들,가족과 함께
+GOOD-TO-GO1,FAMILY,손자,가족과 함께
+GOOD-TO-GO1,FAMILY,손녀들,가족과 함께
+GOOD-TO-GO1,FAMILY,손녀,가족과 함께
+GOOD-TO-GO1,FAMILY,손주들,가족과 함께
+GOOD-TO-GO1,FAMILY,손주,가족과 함께
+GOOD-TO-GO1,FAMILY,가족들,가족과 함께
+GOOD-TO-GO1,FAMILY,가족,가족과 함께
+GOOD-TO-GO2,ANNIVERSARY,특별한 날때,기념일에
+GOOD-TO-GO2,ANNIVERSARY,특별한 날,기념일에
+GOOD-TO-GO2,ANNIVERSARY,기념일때,기념일에
+GOOD-TO-GO2,ANNIVERSARY,기념일,기념일에
+GOOD-TO-GO2,ANNIVERSARY,결혼기념일때,기념일에
+GOOD-TO-GO2,ANNIVERSARY,결혼기념일,기념일에
+GOOD-TO-GO2,ANNIVERSARY,생일때,기념일에
+GOOD-TO-GO2,ANNIVERSARY,생일,기념일에
+GOOD-TO-GO2,ANNIVERSARY,생신때,기념일에
+GOOD-TO-GO2,ANNIVERSARY,생신,기념일에
+GOOD-TO-GO2,ENGAGEMENT,여친을 소개시켜줄때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,여친을 소개할때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,여친을 소개받을때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,여친 소개시켜줄때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,여친 소개할때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,여친 소개받을때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,남친을 소개시켜줄때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,남친을 소개할때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,남친을 소개받을때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,남친 소개시켜줄때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,남친 소개할때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,남친 소개받을때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,여자친구를 소개시켜줄때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,여자친구를 소개할때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,여자친구를 소개받을때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,여자친구 소개시켜줄때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,여자친구 소개할때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,여자친구 소개받을때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,남자친구를 소개시켜줄때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,남자친구를 소개할때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,남자친구를 소개받을때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,남자친구 소개시켜줄때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,남자친구 소개할때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,남자친구 소개받을때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,부모님을 소개시켜줄때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,부모님을 소개할때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,부모님 소개시켜줄때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,부모님 소개할때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,상견례에,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,상견례 갈 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,상견례 할 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,상견례 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,약혼에,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,약혼 갈 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,약혼 할 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,약혼 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,프로포즈에,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,프로포즈 갈 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,프로포즈 할 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,프로포즈 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,소개팅에,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,소개팅 갈 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,소개팅 할 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,소개팅 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,미팅에,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,미팅 갈 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,미팅 할 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,미팅 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,맞선 볼 때,첫 만남에
+GOOD-TO-GO2,ENGAGEMENT,선 볼 때,첫 만남에
+GOOD-TO-GO2,FIRSTBIRTHDAY,돌잔치에 좋은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,돌잔치에 알맞은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,돌잔치에 가기 좋은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,돌잔치에 갈만한,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,돌잔치 때 좋은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,돌잔치 때 알맞은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,돌잔치 때 가기 좋은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,돌잔치 때 갈만한,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,돌잔치 하기 좋은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,돌잔치 열기 좋은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,백일잔치에 좋은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,백일잔치에 알맞은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,백일잔치에 가기 좋은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,백일잔치에 갈만한,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,백일잔치 때 좋은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,백일잔치 때 알맞은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,백일잔치 때 가기 좋은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,백일잔치 때 갈만한,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,백일잔치 하기 좋은,아기 기념일에
+GOOD-TO-GO2,FIRSTBIRTHDAY,백일잔치 열기 좋은,아기 기념일에
+GOOD-TO-GO2,COLD-WEATHER,추운 날에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,추운 날,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,추운 날씨에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,쌀쌀한 날에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,쌀쌀한 날,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,쌀쌀한 날씨에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,쌀쌀할때에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,쌀쌀할때,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,추울 때에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,추울 때,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,겨울에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,한겨울에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨가 추운 날에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨가 추운 날,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨가 쌀쌀한 날에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨가 쌀쌀한 날,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨가 쌀쌀할때에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨가 쌀쌀할때,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨가 추울 때에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨가 추울 때,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨 추운 날에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨 추운 날,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨 쌀쌀한 날에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨 쌀쌀한 날,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨 쌀쌀할때에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨 쌀쌀할때,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨 추울 때에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,날씨 추울 때,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,겨울 날씨에,추운 날씨에
+GOOD-TO-GO2,COLD-WEATHER,한겨울 날씨에,추운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,더운 날에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,더운 날,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,더운 날씨에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,날씨가 더운 날에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,날씨가 더운 날,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,날씨가 후덥지끈한 날에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,날씨가 후덥지끈한 날,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,날씨가 더울 때에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,날씨가 더울 때,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,날씨 더운 날에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,날씨 더운 날,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,날씨 후덥지끈한 날에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,날씨 후덥지끈한 날,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,날씨 더울 때에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,날씨 더울 때,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,후덥지끈한 날에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,후덥지끈한 날,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,후덥지끈한 날씨에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,더울 때에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,더울 때,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,여름에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,한여름에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,여름 날씨에,더운 날씨에
+GOOD-TO-GO2,HOT-WEATHER,한여름 날씨에,더운 날씨에
+GOOD-TO-GO2,LOVER-VERB,데이트에,데이트 할때
+GOOD-TO-GO2,LOVER-VERB,데이트 할 때,데이트 할때
+GOOD-TO-GO2,LOVER-VERB,데이트 때,데이트 할때
+GOOD-TO-GO2,LOVER-VERB,연애할때,데이트 할때
+GOOD-TO-GO2,CLIMBING,하산 하고나서,등산 후에
+GOOD-TO-GO2,CLIMBING,하산 후,등산 후에
+GOOD-TO-GO2,CLIMBING,하산 후에,등산 후에
+GOOD-TO-GO2,CLIMBING,산에 갔다와서,등산 후에
+GOOD-TO-GO2,CLIMBING,산타고 나서,등산 후에
+GOOD-TO-GO2,CLIMBING,산에서 내려와서,등산 후에
+GOOD-TO-GO2,CLIMBING,등산 하고나서,등산 후에
+GOOD-TO-GO2,CLIMBING,등산 후,등산 후에
+GOOD-TO-GO2,CLIMBING,등산 후에,등산 후에
+GOOD-TO-GO2,CLIMBING,등산 끝내고,등산 후에
+GOOD-TO-GO2,CLIMBING,등산 끝나고,등산 후에
+GOOD-TO-GO2,CLIMBING,등산 마치고,등산 후에
+GOOD-TO-GO2,SOCCER,축구 하고나서,축구 후에
+GOOD-TO-GO2,SOCCER,축구 후,축구 후에
+GOOD-TO-GO2,SOCCER,축구 후에,축구 후에
+GOOD-TO-GO2,SOCCER,축구 끝내고,축구 후에
+GOOD-TO-GO2,SOCCER,축구 끝나고,축구 후에
+GOOD-TO-GO2,SOCCER,풋살 하고나서,축구 후에
+GOOD-TO-GO2,SOCCER,풋살 후,축구 후에
+GOOD-TO-GO2,SOCCER,풋살 후에,축구 후에
+GOOD-TO-GO2,SOCCER,풋살 끝내고,축구 후에
+GOOD-TO-GO2,SOCCER,풋살 끝나고,축구 후에
+GOOD-TO-GO2,BASKETBALL,농구 하고나서,농구 후에
+GOOD-TO-GO2,BASKETBALL,농구 후,농구 후에
+GOOD-TO-GO2,BASKETBALL,농구 후에,농구 후에
+GOOD-TO-GO2,BASKETBALL,농구 끝내고,농구 후에
+GOOD-TO-GO2,BASKETBALL,농구 끝나고,농구 후에
+GOOD-TO-GO2,ALCOHOL,술 먹고 나서,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,술 먹고 나서 속 쓰릴때,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,술 먹고,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,술 먹고 속 쓰릴때,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,술 먹은 후,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,술 먹은 후 속 쓰릴때,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,술 먹은 후에,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,술 먹은 후에 속 쓰릴때,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,술 해장 하러,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,술 해장할 때,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,술 취했을때,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,술 깨러,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,술 안깰때,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,해장 하러,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,해장할 때,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,취했을때,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,숙취에,술 먹은 후에
+GOOD-TO-GO2,ALCOHOL,숙취해소에,술 먹은 후에
+GOODTOGO-VERB,PARTY,파티할 때 가기 좋은,파티때
+GOODTOGO-VERB,PARTY,파티할 때 갈만한,파티때
+GOODTOGO-VERB,ALONE,혼밥 하기 좋은,혼자서
+GOODTOGO-VERB,ALONE,혼자 가기 좋은,혼자서
+GOODTOGO-VERB,ALONE,혼자 먹기 좋은,혼자서
+GOODTOGO-VERB,ALONE,홀로 가기 좋은,혼자서
+GOODTOGO-VERB,ALONE,홀로 먹기 좋은,혼자서
+GOODTOGO-VERB,COUPLE,2인이 가기 좋은,둘이서
+GOODTOGO-VERB,COUPLE,2인이서 가기 좋은,둘이서
+GOODTOGO-VERB,COUPLE,2명이 가기 좋은,둘이서
+GOODTOGO-VERB,COUPLE,2명이서 가기 좋은,둘이서
+GOODTOGO-VERB,COUPLE,2명 가기 좋은,둘이서
+GOODTOGO-VERB,COUPLE,두명이 가기 좋은,둘이서
+GOODTOGO-VERB,COUPLE,두명이서 가기 좋은,둘이서
+GOODTOGO-VERB,COUPLE,두명 가기 좋은,둘이서
+GOODTOGO-VERB,COUPLE,둘이 가기 좋은,둘이서
+GOODTOGO-VERB,COUPLE,둘이서 가기 좋은,둘이서
+GOODTOGO-VERB,TRIPLE,3인이 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,3인이서 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,3명이 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,3명이서 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,3명 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,세명이 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,세명이서 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,세명 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,4인이 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,4인이서 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,4명이 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,4명이서 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,4명 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,네명이 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,네명이서 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,네명 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,셋이 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,셋이서 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,넷이 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,TRIPLE,넷이서 가기 좋은,"3, 4명이서"
+GOODTOGO-VERB,GROUP,5명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,5명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,5명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,단체로 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,단체 회식으로 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,단체 회식때 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,단체 모임으로 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,단체 모임때 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,6명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,6명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,6명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,7명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,7명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,7명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,8명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,8명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,8명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,9명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,9명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,9명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,10명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,10명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,10명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,20명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,20명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,20명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,다섯명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,다섯명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,다섯명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,여섯명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,여섯명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,여섯명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,일곱명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,일곱명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,일곱명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,여덟명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,여덟명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,여덟명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,아홉명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,아홉명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,아홉명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,열명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,열명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,열명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,스무명이서 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,스무명 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,스무명 이상 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,회식으로 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,회식때 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,모임으로 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,모임때 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,회식모임때 가기 좋은,단체로
+GOODTOGO-VERB,GROUP,단합대회때 가기 좋은,단체로
