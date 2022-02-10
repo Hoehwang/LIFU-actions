@@ -16,19 +16,42 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
-rec_table = pd.read_csv('./actions/recommend_table_lifu.csv')
-syn = pd.read_csv("./actions/SYN_LIFU.csv")
-res = pd.read_csv("./actions/RESPONSE_EXP_LIFU.csv")
+rec_table = pd.read_csv('F:/_Daily/★_Chatbot_Renewal/LIFU/★LIFU-RASA/actions/recommend_table_lifu_repl.csv')
+syn_table = pd.read_csv("F:/_Daily/★_Chatbot_Renewal/LIFU/★LIFU-RASA/actions/SYN_LIFU.csv")
+res_table = pd.read_csv("F:/_Daily/★_Chatbot_Renewal/LIFU/★LIFU-RASA/actions/RESPONSE_EXP_LIFU.csv")
 
 city_all = list(set(rec_table['cities'].tolist()))
-column_all = list(rec_table.columns)
+city_norm_dict = {}
+for i, j in zip(list(syn_table[syn_table['position'] == 'LOCATION-TYPE']['entity name']), list(syn_table[syn_table['position'] == 'LOCATION-TYPE']['norms'])):
+    city_norm_dict[i] = j
 
-restaurent_type_dict = {'KOREAN':'한식당', 'CHINESE':'중식집', 'JAPANESE':'일식집', 'WESTERN':'양식집', 'CAFE':'카페', 'WORLD':'세계 음식점', 'PUB':'술집', 'SNACK':'분식집', 'BUFFET':'뷔페', 'RESTAURANT-GEN':'식당'}
-# taste_type_list = ['NOT-SWEET','NOT-HOT','NOT-JAGEUKJEOK','NOT-OILY','NOT-BLAND','CLEANESS','NOT-SALTY','KKALKKEUM','SWEET','HOT','SWEET-SALTY','SIWON','GOSO','FIRE','FRESH','JJONDEUK','CRUNCHY','OILY','TTAKKEUN','CHEWY','FUDGY','CREAMY','STRONG','SPICY-SWEET','COLD']
-goodtogo_list = ["LOVER","FRIEND","FAMILY","ANNIVERSARY","ENGAGEMENT","FIRSTBIRTHDAY","COLD-WEATHER","HOT-WEATHER","LOVER-VERB","CLIMBING","SOCCER","BASKETBALL","ALCOHOL","PARTY","ALONE","COUPLE","TRIPLE","GROUP"]
-taste_type_list = ['FRESH','SWEET','HOT','SWEET-SALTY','CRUNCHY','GOSO','SPICY-SWEET','JJONDEUK','TTAKKEUN','CREAMY','CHEWY','FUDGY','COLD','SIWON','FIRE','KKALKKEUM','STRONG','NOT-SALTY','OILY','NOT-HOT','NOT-JAGEUKJEOK','NOT-OILY','NOT-SWEET','NOT-BLAND']
-provided_dict = {'PLAYROOM':'놀이방', 'PARKING':'주차장', 'KIOSK':'키오스크', 'SOCKET':'전기 플러그', 'PRIVATE-ROOM':'개별 룸', 'SALAD-BAR':'샐러드바', 'OPEN-SPACE':'탁 트인 공간'}
-view_dict = {'MOUNTAIN-VIEW':'산', 'RIVER-VIEW':'강', 'CITY-VIEW':'도시','HANOK-VIEW':'한옥'}
+food_norm_dict = {}
+for i, j in zip(list(syn_table[syn_table['position'] == 'FOOD-TYPE']['entity name']), list(syn_table[syn_table['position'] == 'FOOD-TYPE']['norms'])):
+    food_norm_dict[i] = j
+
+foodrestorant_norm_dict = {}
+for i, j in zip(list(syn_table[syn_table['position'] == 'FOOD-TYPE']['entity name']), list(syn_table[syn_table['position'] == 'FOOD-TYPE']['RESTAURANT-TYPE'])):
+    foodrestorant_norm_dict[i] = j
+
+ingredient_norm_dict = {}
+for i, j in zip(list(syn_table[syn_table['position'] == 'INGREDIENT-TYPE']['entity name']), list(syn_table[syn_table['position'] == 'INGREDIENT-TYPE']['norms'])):
+    ingredient_norm_dict[i] = j
+
+goodtogo_list = ['GOOD-TO-GO1','GOOD-TO-GO2','GOODTOGO-VERB']
+goodtogo_norm_dict = {}
+for i, j in zip(list(syn_table[syn_table['position'].isin(goodtogo_list)]['entity name']),list(syn_table[syn_table['position'].isin(goodtogo_list)]['norms'])):
+    goodtogo_norm_dict[i] = j
+
+tastetype_list = ['FRESH','SWEET','HOT','SWEET-SALTY','CRUNCHY','GOSO','SPICY-SWEET','JJONDEUK','TTAKKEUN','CREAMY','CHEWY','FUDGY','COLD','SIWON','FIRE','KKALKKEUM','STRONG','NOT-SALTY','OILY','NOT-HOT','NOT-JAGEUKJEOK','NOT-OILY','NOT-SWEET','NOT-BLAND']
+tastetype_norm_dict = {}
+for i, j in zip(list(syn_table[syn_table['position'].isin(taste_type_list)]['entity name']),list(syn_table[syn_table['position'].isin(taste_type_list)]['norms'])):
+    tastetype_norm_dict[i] = j
+
+restaurant_norm_dict = {'KOREAN':'한식당', 'CHINESE':'중식집', 'JAPANESE':'일식집', 'WESTERN':'양식집', 'CAFE':'카페', 'WORLD':'세계 음식점', 'PUB':'술집', 'SNACK':'분식집', 'BUFFET':'뷔페', 'RESTAURANT-GEN':'식당'}
+provided_norm_dict = {'PLAYROOM':'놀이방', 'PARKING':'주차장', 'KIOSK':'키오스크', 'SOCKET':'전기 플러그', 'PRIVATE-ROOM':'개별 룸', 'SALAD-BAR':'샐러드바', 'OPEN-SPACE':'탁 트인 공간'}
+view_norm_dict = {'MOUNTAIN-VIEW':'산', 'RIVER-VIEW':'강', 'CITY-VIEW':'도시','HANOK-VIEW':'한옥'}
+
+column_all = list(rec_table.columns)
 
 
 def Josa_Replace(pattern, sentence):
@@ -68,21 +91,22 @@ class ActionRephraseResponse(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        self.city = ''
-        self.city_name = ''
-        self.food = ''
-        self.food_name = ''
-        self.ingredient = ''
-        self.ingredient_name = ''
-        self.taste = ''
-        self.taste_name = ''
-        self.res_type = ''
-        self.res_type_name = ''
-        self.goodtogo = ''
-        self.provided = ''
-        self.provided_name = ''
-        self.view = ''
-        self.view_name = ''
+        self.city_norm = ''
+        self.city_entityname = ''
+        self.food_norm = ''
+        self.food_entityname = ''
+        self.ingredient_norm = ''
+        self.ingredient_entityname = ''
+        self.tastetype_norm = ''
+        self.tastetype_entityname = ''
+        self.restype_norm = ''
+        self.restype_entityname = ''
+        self.goodtogo_norm = ''
+        self.goodtogo_entityname = ''
+        self.provided_norm = ''
+        self.provided_entityname = ''
+        self.view_norm = ''
+        self.view_entityname = ''
         self.feature = []
         self.feature_name = []
         entity_dicts = tracker.latest_message['entities']
@@ -90,86 +114,77 @@ class ActionRephraseResponse(Action):
         # print(tracker.get_intent_of_latest_message())
         for entity in entity_dicts:
             if '-LOC' in entity['entity']:
-                self.city = entity['entity'].replace('-LOC','')
-                self.city_name = entity['value']
-            elif 'FOOD' == entity['entity']:
-                self.food_name = entity['value']
-                try:
-                    if list(syn[syn.examples == self.food_name]['norms']) != []:
-                        self.food = list(syn[syn.examples == self.food_name]['norms'])[0]
-                    else:
-                        self.food = list(syn[syn.examples.str.contains(self.food_name)]['norms'])[0]
-                except IndexError:
-                    for e, n in zip(list(syn['examples']), list(syn['norms'])):
-                        if e in self.food_name:
-                            self.food = n
-                            break
-                        else:
-                            pass
-            elif 'INGREDIENT' == entity['entity']:
-                self.ingredient_name = entity['value']
-                try:
-                    self.ingredient = list(syn[(syn.examples == self.ingredient_name) | (syn.examples.str.contains(self.ingredient_name))]['norms'])[0]
-                except IndexError:
-                    for e, n in zip(list(syn['examples']), list(syn['norms'])):
-                        if e in self.ingredient_name:
-                            self.ingredient = n
-                            break
-                        else:
-                            pass
-            elif entity['entity'] in goodtogo_list:
-                self.goodtogo_name = entity['entity']
-                self.goodtogo = list(syn[syn['entity name'] == self.goodtogo_name]['norms'])[0]
-                self.feature.append(entity['entity'])
-            elif entity['entity'] in taste_type_list:
-                self.taste_name = entity['entity']
-                self.taste = list(syn[syn['entity name'] == self.taste_name]['norms'])[0]
-                self.feature.append(entity['entity'])
-            elif entity['entity'] in restaurent_type_dict.keys():
-                self.res_type = entity['entity']
-                self.res_type_name = restaurent_type_dict[self.res_type]
-            elif entity['entity'] in provided_dict.keys():
-                self.provided = entity['entity']
-                self.provided_name = provided_dict[self.provided]
-            elif entity['entity'] in view_dict.keys():
-                self.view = entity['entity']
-                self.view_name = view_dict[self.view]
+                if entity['entity'].replace('-LOC', '') in city_all:
+                    self.city_entityname = entity['entity'].replace('-LOC', '')
+                    self.city_norm = city_norm_dict[self.city_entityname]
+            elif entity['entity'] in restaurant_norm_dict.keys():
+                self.restype_entityname = entity['entity']
+                self.restype_norm = restaurant_norm_dict[self.restype_entityname]
+            elif entity['entity'] in food_norm_dict.keys():
+                self.food_entityname = entity['entity']
+                self.food_norm = food_norm_dict[self.food_entityname]
+            elif entity['entity'] in ingredient_norm_dict.keys():
+                self.ingredient_entityname = entity['entity']
+                self.ingredient_norm = ingredient_norm_dict[self.ingredient_entityname]
+            elif entity['entity'] in goodtogo_norm_dict.keys():
+                self.goodtogo_entityname = entity['entity']
+                self.goodtogo_norm = goodtogo_norm_dict[self.goodtogo_entityname]
+                self.feature.append('GOODTOGO-%s' % self.goodtogo_entityname)
+            elif entity['entity'] in tastetype_norm_dict.keys():
+                self.tastetype_entityname= entity['entity']
+                self.tastetype_norm = tastetype_norm_dict[self.tastetype_entityname]
+                self.tastetype_feature = 'TASTE-TYPE-%s' % self.goodtogo_entityname
+                if self.restype_entityname != '':
+                    self.tastetype_feature += '_%s' % self.food_entityname
+                    self.feature.append(self.tastetype_feature)
+            elif entity['entity'] in provided_norm_dict.keys():
+                self.provided_entityname = entity['entity']
+                self.provided_norm = provided_norm_dict[self.provided_entityname]
+                self.feature.append('PROVIDED-%s' % self.provided_entityname)
+            elif entity['entity'] in view_norm_dict.keys():
+                self.view_entityname = entity['entity']
+                self.view_norm = view_norm_dict[self.view]
+                self.feature.append(self.view_entityname)
             else:
                 self.feature.append(entity['entity'])
         self.intent = tracker.get_intent_of_latest_message()
 
-        print('City: ', self.city, '\tName :', self.city_name)
-        print('Food: ', self.food, '\tName :', self.food_name)
-        print('Ingred: ', self.ingredient, '\tName', self.ingredient_name)
-        print('Restaurent Type: ', self.res_type, '\tName: ', self.res_type_name)
+        print('City: ', self.city_norm, '\tName :', self.city_entityname)
+        print('Food: ', self.food_norm, '\tName :', self.food_entityname)
+        print('Ingred: ', self.ingredient_norm, '\tName', self.ingredient_entityname)
+        print('Restaurent Type: ', self.restype_norm, '\tName: ', self.restype_entityname)
         print('Other Features: ', self.feature)
         print('Intent: ', self.intent)
 
-        data, output_info_list = self.DataSorting(df=rec_table, city=self.city, food=self.food, res_type=self.res_type, feature=self.feature)
+        data, output_info_list = self.DataSorting(df=rec_table)
 
-        self.Bot_Messeging(intent=self.intent, data=data, dispatcher=dispatcher, output=output_info_list)
+        self.Bot_Messeging(data=data, dispatcher=dispatcher, output=output_info_list)
 
         return []
 
-    def DataSorting(self, df, city, food, res_type, feature):
+    def DataSorting(self, df):
         data = df
-        temp = []
-        temp.append('scores')
+        temp = ['scores']
 
-        if city != '' and city in city_all:
-            data = data[data['cities'] == city]
+        if self.restype_entityname == '':
+            if self.food_entityname != '':
+                self.restype_entityname = foodrestorant_norm_dict[self.food_entityname]
+                self.restype_norm = restaurant_norm_dict[self.restype_entityname]
+            else:
+                self.restype_entityname = 'RESTAURENT-GEN'
+                self.restype_norm = restaurant_norm_dict[self.restype_entityname]
 
-        if res_type != '' and res_type != 'RESTAURANT-GEN':
-            data = data[data['categories'] == res_type]
+        if self.city_entityname != '' and self.city_entityname in city_all:
+            data = data[data['cities'] == self.city_entityname]
+
+        if self.restype_entityname != '' and self.restype_entityname != 'RESTAURANT-GEN':
+            data = data[data['categories'] == self.restype_entityname]
             # data = data.sort_values(by=food ,ascending=False)
 
-        if feature != []:
-            for f in feature:
+        if self.feature != []:
+            for f in self.feature:
                 if f in column_all:
                     temp.append(f)
-
-        if food != '' and food in column_all:
-            temp.append(food)
 
         data = data.sort_values(by=temp, ascending=False)
         output_info_list = []
@@ -183,55 +198,58 @@ class ActionRephraseResponse(Action):
 
         return data, output_info_list
 
-    def Bot_Messeging(self, intent, data, dispatcher, output):
-        utter_row = res[res['intent'] == intent]
+    def Bot_Messeging(self, data, dispatcher, output):
+        utter_row = res_table[res_table['intent'] == intent]
 
-        if self.res_type == '':
+        if self.restype_entityname == '':
             featureless_str = utter_row['featureless'].to_list()[0]
             return dispatcher.utter_message(text=featureless_str)
         elif data.empty == True:
-            return dispatcher.utter_message(text='죄송합니다. 검색하신 지역 내 %s 정보를 찾을 수 없습니다.' % self.res_type_name)
+            return dispatcher.utter_message(text='죄송합니다. 검색하신 지역 내 %s 정보를 찾을 수 없습니다.' % self.restype_norm)
         else:
             first_response = utter_row['response'].to_list()[0].split(' / ')
+            first_response = [s.replace('<RESTAURANT-TYPE_FEATURE>', self.restype_norm) for s in first_response]
             if self.city == '':
                 first_response = [s for s in first_response if '<LOCATION-TYPE_FEATURE>' not in s]
-                first_response = [s.replace('<RESTAURANT-TYPE_FEATURE>', self.res_type_name) for s in first_response]
             elif self.city not in city_all:
                 dispatcher.utter_message(text='입력하신 지역에 대한 음식점 정보가 없네요! 검색 범위를 지역 전체로 재설정 하겠습니다.')
                 first_response = [s for s in first_response if '<LOCATION-TYPE_FEATURE>' not in s]
-                first_response = [s.replace('<RESTAURANT-TYPE_FEATURE>', self.res_type_name) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<LOCATION-TYPE_FEATURE>' in s]
-                first_response = [s.replace('<LOCATION-TYPE_FEATURE>', self.city_name).replace('<RESTAURANT-TYPE_FEATURE>', self.res_type_name)for s in first_response]
+                first_response = [s.replace('<LOCATION-TYPE_FEATURE>', self.city_norm) for s in first_response]
 
-            if self.intent == 'RECOMMEND_TASTE-TYPE' and self.taste != '':
+            if self.intent == 'RECOMMEND_TASTE-TYPE' and self.tastetype_entityname != '':
                 first_response = [s for s in first_response if '<TASTE-TYPE_FEATURE>' in s]
-                first_response = [s.replace('<TASTE-TYPE_FEATURE>', self.taste) for s in first_response]
+                first_response = [s.replace('<TASTE-TYPE_FEATURE>', self.tastetype_norm) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<TASTE-TYPE_FEATURE>' not in s]
-            if self.food_name.strip() != '':
+
+            if self.food_entityname != '':
                 first_response = [s for s in first_response if '<FOOD-TYPE_FEATURE>' in s]
-                first_response = [s.replace('<FOOD-TYPE_FEATURE>', self.food) for s in first_response]
+                first_response = [s.replace('<FOOD-TYPE_FEATURE>', self.food_norm) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<FOOD-TYPE_FEATURE>' not in s]
-            if self.ingredient_name != '':
+
+            if self.ingredient_entityname != '':
                 first_response = [s for s in first_response if '<INGREDIENT-TYPE_FEATURE>' in s]
-                first_response = [s.replace('<INGREDIENT-TYPE_FEATURE>', self.ingredient) for s in first_response]
+                first_response = [s.replace('<INGREDIENT-TYPE_FEATURE>', self.ingredient_norm) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<FOOD-TYPE_FEATURE>' not in s]
-            if self.goodtogo != '':
+            if self.goodtogo_entityname != '':
                 first_response = [s for s in first_response if '<GOODTOGO_FEATURE>' in s]
-                first_response = [s.replace('<GOODTOGO_FEATURE>', self.goodtogo) for s in first_response]
+                first_response = [s.replace('<GOODTOGO_FEATURE>', self.goodtogo_norm) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<GOODTOGO_FEATURE>' not in s]
-            if self.provided_name != '':
+
+            if self.provided_entityname != '':
                 first_response = [s for s in first_response if '<PROVIDED_FEATURE>' in s]
-                first_response = [s.replace('<PROVIDED_FEATURE>', self.provided_name) for s in first_response]
+                first_response = [s.replace('<PROVIDED_FEATURE>', self.provided_norm) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<PROVIDED_FEATURE>' not in s]
-            if self.view_name != '':
+
+            if self.view_entityname != '':
                 first_response = [s for s in first_response if '<VIEW_FEATURE>' in s]
-                first_response = [s.replace('<VIEW_FEATURE>', self.view_name) for s in first_response]
+                first_response = [s.replace('<VIEW_FEATURE>', self.view_norm) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<VIEW_FEATURE>' not in s]
 
