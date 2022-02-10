@@ -233,7 +233,7 @@ class ActionRephraseResponse(Action):
                 first_response = [s for s in first_response if '<PROVIDED_FEATURE>' not in s]
             if self.view_name != '':
                 first_response = [s for s in first_response if '<VIEW_FEATURE>' in s]
-                first_response = [s.replace('<VIEW_FEATURE>', self.provided_name) for s in first_response]
+                first_response = [s.replace('<VIEW_FEATURE>', self.view_name) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<VIEW_FEATURE>' not in s]
             try:
