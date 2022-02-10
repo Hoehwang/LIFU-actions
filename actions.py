@@ -205,7 +205,7 @@ class ActionRephraseResponse(Action):
                 first_response = [s for s in first_response if '<GOODTOGO_FEATURE>' not in s]
             try:
                 first_response = random.sample(first_response, 1)[0]
-            except KeyError:
+            except ValueError:
                 return dispatcher.utter_message(text='검색에 필요한 정보가 충분하지 않아요! 조금 더 자세하게 물어봐 주세요 :)')
 
 
