@@ -90,7 +90,10 @@ class ActionRephraseResponse(Action):
             elif 'FOOD' == entity['entity']:
                 self.food_name = entity['value']
                 try:
-                    self.food = list(syn[(syn.examples == self.food_name) | (syn.examples.str.contains(self.food_name))]['norms'])[0]
+                    if list(syn[syn.examples == self.food_name]['norms']) != []:
+                        self.food = list(syn[syn.examples == self.food_name]['norms'])[0]
+                    else:
+                        self.food = list(syn[syn.examples.str.contains(self.food_name)]['norms'])[0]
                 except IndexError:
                     for e, n in zip(list(syn['examples']), list(syn['norms'])):
                         if e in self.food_name:
