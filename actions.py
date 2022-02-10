@@ -27,8 +27,9 @@ restaurent_type_dict = {'KOREAN':'한식당', 'CHINESE':'중식집', 'JAPANESE':
 # taste_type_list = ['NOT-SWEET','NOT-HOT','NOT-JAGEUKJEOK','NOT-OILY','NOT-BLAND','CLEANESS','NOT-SALTY','KKALKKEUM','SWEET','HOT','SWEET-SALTY','SIWON','GOSO','FIRE','FRESH','JJONDEUK','CRUNCHY','OILY','TTAKKEUN','CHEWY','FUDGY','CREAMY','STRONG','SPICY-SWEET','COLD']
 goodtogo_list = ["LOVER","FRIEND","FAMILY","ANNIVERSARY","ENGAGEMENT","FIRSTBIRTHDAY","COLD-WEATHER","HOT-WEATHER","LOVER-VERB","CLIMBING","SOCCER","BASKETBALL","ALCOHOL","PARTY","ALONE","COUPLE","TRIPLE","GROUP"]
 taste_type_list = ['FRESH','SWEET','HOT','SWEET-SALTY','CRUNCHY','GOSO','SPICY-SWEET','JJONDEUK','TTAKKEUN','CREAMY','CHEWY','FUDGY','COLD','SIWON','FIRE','KKALKKEUM','STRONG','NOT-SALTY','OILY','NOT-HOT','NOT-JAGEUKJEOK','NOT-OILY','NOT-SWEET','NOT-BLAND']
-# goodtogo_fea = ['LOVER','FRIEND','FAMILY','ANNIVERSARY','ENGAGEMENT','HOT-WEATHER','FIRSTBIRTHDAY','COLD-WEATHER','CLIMBING','SOCCER','BASKETBALL','ALCOHOL','PARTY','ALONE','COUPLE','TRIPLE','GROUP']
-# provide_fea = ['PLAYROOM','PARKING','KIOSK','SOCKET','PRIVATE-ROOM','SALAD-BAR','OPENSPACE']
+provided_dict = {'PLAYROOM':'놀이방이 있는', 'PARKING':'주차장이 구비되어 있는', 'KIOSK':'키오스크가 있는', 'SOCKET':'전원 플러그가 제공되는', 'PRIVATE-ROOM':'개별 룸이 있는', 'SALAD-BAR':'샐러드바가 있는', 'OPEN-SPACE':'오픈된 공간이 있는'}
+view_dict = {'MOUNTAIN-VIEW':'산이 보이는', 'RIVER-VIEW':'강이 보이는', 'CITY-VIEW':'도시가 내려다 보이는','HANOK-VIEW':'한옥뷰인'}
+
 
 def Josa_Replace(pattern, sentence):
     if '](' in pattern:
@@ -78,6 +79,10 @@ class ActionRephraseResponse(Action):
         self.res_type = ''
         self.res_type_name = ''
         self.goodtogo = ''
+        self.provided = ''
+        self.provided_name = ''
+        self.view = ''
+        self.view_name = ''
         self.feature = []
         self.feature_name = []
         entity_dicts = tracker.latest_message['entities']
@@ -123,6 +128,12 @@ class ActionRephraseResponse(Action):
             elif entity['entity'] in restaurent_type_dict.keys():
                 self.res_type = entity['entity']
                 self.res_type_name = restaurent_type_dict[self.res_type]
+            elif entity['entity'] in provided_dict.keys():
+                self.provided = entity['entity']
+                self.provided_name = provided_dict[self.provided]
+            elif entity['entity'] in view_dict.keys():
+                self.view = entity['entity']
+                self.view_name = view_dict[self.view]
             else:
                 self.feature.append(entity['entity'])
         self.intent = tracker.get_intent_of_latest_message()
@@ -215,6 +226,16 @@ class ActionRephraseResponse(Action):
                 first_response = [s.replace('<GOODTOGO_FEATURE>', self.goodtogo) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<GOODTOGO_FEATURE>' not in s]
+            if self.provided_name != '':
+                first_response = [s for s in first_response if '<PROVIDED_FEATURE>' in s]
+                first_response = [s.replace('<PROVIDED_FEATURE>', self.provided_name) for s in first_response]
+            else:
+                first_response = [s for s in first_response if '<PROVIDED_FEATURE>' not in s]
+            if self.view_name != '':
+                first_response = [s for s in first_response if '<VIEW_FEATURE>' in s]
+                first_response = [s.replace('<VIEW_FEATURE>', self.provided_name) for s in first_response]
+            else:
+                first_response = [s for s in first_response if '<VIEW_FEATURE>' not in s]
             try:
                 first_response = random.sample(first_response, 1)[0]
             except ValueError:
