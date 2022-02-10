@@ -28,7 +28,7 @@ restaurent_type_dict = {'KOREAN':'한식당', 'CHINESE':'중식집', 'JAPANESE':
 goodtogo_list = ["LOVER","FRIEND","FAMILY","ANNIVERSARY","ENGAGEMENT","FIRSTBIRTHDAY","COLD-WEATHER","HOT-WEATHER","LOVER-VERB","CLIMBING","SOCCER","BASKETBALL","ALCOHOL","PARTY","ALONE","COUPLE","TRIPLE","GROUP"]
 taste_type_list = ['FRESH','SWEET','HOT','SWEET-SALTY','CRUNCHY','GOSO','SPICY-SWEET','JJONDEUK','TTAKKEUN','CREAMY','CHEWY','FUDGY','COLD','SIWON','FIRE','KKALKKEUM','STRONG','NOT-SALTY','OILY','NOT-HOT','NOT-JAGEUKJEOK','NOT-OILY','NOT-SWEET','NOT-BLAND']
 provided_dict = {'PLAYROOM':'놀이방이 있는', 'PARKING':'주차장이 구비되어 있는', 'KIOSK':'키오스크가 있는', 'SOCKET':'전원 플러그가 제공되는', 'PRIVATE-ROOM':'개별 룸이 있는', 'SALAD-BAR':'샐러드바가 있는', 'OPEN-SPACE':'오픈된 공간이 있는'}
-view_dict = {'MOUNTAIN-VIEW':'산이 보이는', 'RIVER-VIEW':'강이 보이는', 'CITY-VIEW':'도시가 내려다 보이는','HANOK-VIEW':'한옥뷰인'}
+view_dict = {'MOUNTAIN-VIEW':'산', 'RIVER-VIEW':'강', 'CITY-VIEW':'도시','HANOK-VIEW':'한옥'}
 
 
 def Josa_Replace(pattern, sentence):
