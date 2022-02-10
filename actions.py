@@ -203,7 +203,11 @@ class ActionRephraseResponse(Action):
                 first_response = [s.replace('<GOODTOGO_FEATURE>', self.goodtogo) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<GOODTOGO_FEATURE>' not in s]
-            first_response = random.sample(first_response, 1)[0]
+            try:
+                first_response = random.sample(first_response, 1)[0]
+            except KeyError:
+                return dispatcher.utter_message(text='검색에 필요한 정보가 충분하지 않아요! 조금 더 자세하게 물어봐 주세요 :)')
+
 
             undifine_josa = re.findall("\w<[가-힣]+?>", first_response)
             if undifine_josa != []:
