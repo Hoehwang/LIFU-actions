@@ -202,9 +202,7 @@ class ActionRephraseResponse(Action):
                 first_response = [s.replace('<RESTAURANT-TYPE_FEATURE>', self.res_type_name) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<LOCATION-TYPE_FEATURE>' in s]
-                first_response = [
-                    s.replace('<LOCATION-TYPE_FEATURE>', self.city_name).replace('<RESTAURANT-TYPE_FEATURE>', self.res_type_name)
-                    for s in first_response]
+                first_response = [s.replace('<LOCATION-TYPE_FEATURE>', self.city_name).replace('<RESTAURANT-TYPE_FEATURE>', self.res_type_name)for s in first_response]
 
             if self.intent == 'RECOMMEND_TASTE-TYPE' and self.taste != '':
                 first_response = [s for s in first_response if '<TASTE-TYPE_FEATURE>' in s]
@@ -236,6 +234,8 @@ class ActionRephraseResponse(Action):
                 first_response = [s.replace('<VIEW_FEATURE>', self.view_name) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<VIEW_FEATURE>' not in s]
+
+
             try:
                 first_response = random.sample(first_response, 1)[0]
             except ValueError:
