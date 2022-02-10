@@ -200,7 +200,7 @@ class ActionRephraseResponse(Action):
                 first_response = [s.replace('<TASTE-TYPE_FEATURE>', self.taste) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<TASTE-TYPE_FEATURE>' not in s]
-            if self.food_name != '':
+            if self.food_name.strip() != '':
                 first_response = [s for s in first_response if '<FOOD-TYPE_FEATURE>' in s]
                 first_response = [s.replace('<FOOD-TYPE_FEATURE>', self.food) for s in first_response]
             else:
