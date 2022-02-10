@@ -129,6 +129,7 @@ class ActionRephraseResponse(Action):
 
         print('City: ', self.city, '\tName :', self.city_name)
         print('Food: ', self.food, '\tName :', self.food_name)
+        print('Ingred: ', self.ingredient, '\tName', self.ingredient_name)
         print('Restaurent Type: ', self.res_type, '\tName: ', self.res_type_name)
         print('Other Features: ', self.feature)
         print('Intent: ', self.intent)
@@ -146,15 +147,18 @@ class ActionRephraseResponse(Action):
 
         if city != '' and city in city_all:
             data = data[data['cities'] == city]
+
         if res_type != '' and res_type != 'RESTAURANT-GEN':
             data = data[data['categories'] == res_type]
-        if food != '' and food in column_all:
-            temp.append(food)
             # data = data.sort_values(by=food ,ascending=False)
+
         if feature != []:
             for f in feature:
                 if f in column_all:
                     temp.append(f)
+
+        if food != '' and food in column_all:
+            temp.append(food)
 
         data = data.sort_values(by=temp, ascending=False)
         output_info_list = []
@@ -199,6 +203,11 @@ class ActionRephraseResponse(Action):
             if self.food_name != '':
                 first_response = [s for s in first_response if '<FOOD-TYPE_FEATURE>' in s]
                 first_response = [s.replace('<FOOD-TYPE_FEATURE>', self.food) for s in first_response]
+            else:
+                first_response = [s for s in first_response if '<FOOD-TYPE_FEATURE>' not in s]
+            if self.ingredient_name != '':
+                first_response = [s for s in first_response if '<INGREDIENT-TYPE_FEATURE>' in s]
+                first_response = [s.replace('<INGREDIENT-TYPE_FEATURE>', self.ingredient) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<FOOD-TYPE_FEATURE>' not in s]
             if self.goodtogo != '':
