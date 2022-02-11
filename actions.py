@@ -141,16 +141,20 @@ class ActionRephraseResponse(Action):
                 entity_dicts.remove(entity)
 
             elif entity['entity'] in ingredient_norm_dict.keys():
-                self.ingredient_entityname = entity['entity']
-                self.ingredient_norm = ingredient_norm_dict[self.ingredient_entityname]
-                if self.intent == 'RECOMMEND_TASTE-GOOD':
-                    self.food_feature.append('TASTE-GOOD_%s' % self.food_entityname)
-                elif self.intent == 'RECOMMEND_PRICE-FREE':
-                    self.food_feature.append('PRICE-FREE_%s' % self.food_entityname)
-                elif self.intent == 'RECOMMEND_MENU':
-                    self.food_feature.append('MENU_%s' % self.food_entityname)
+                if entity['entity'] == 'NOODLE' and '파스타' in entity['value']:
+                    self.food_entityname = 'PASTA'
+                    self.food_norm = '파스타'
                 else:
-                    pass
+                    self.ingredient_entityname = entity['entity']
+                    self.ingredient_norm = ingredient_norm_dict[self.ingredient_entityname]
+                    if self.intent == 'RECOMMEND_TASTE-GOOD':
+                        self.food_feature.append('TASTE-GOOD_%s' % self.food_entityname)
+                    elif self.intent == 'RECOMMEND_PRICE-FREE':
+                        self.food_feature.append('PRICE-FREE_%s' % self.food_entityname)
+                    elif self.intent == 'RECOMMEND_MENU':
+                        self.food_feature.append('MENU_%s' % self.food_entityname)
+                    else:
+                        pass
                 entity_dicts.remove(entity)
 
 
@@ -181,7 +185,7 @@ class ActionRephraseResponse(Action):
 
             elif entity['entity'] in view_norm_dict.keys():
                 self.view_entityname = entity['entity']
-                self.view_norm = view_norm_dict[self.view]
+                self.view_norm = view_norm_dict[self.view_entityname]
                 self.feature.append(self.view_entityname)
 
             elif entity['entity'] in menu_ent_list:
