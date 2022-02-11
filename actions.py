@@ -16,9 +16,9 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
-rec_table = pd.read_csv('./actions/recommend_table_lifu.csv')
-syn_table = pd.read_csv("./actions/SYN_LIFU.csv")
-res_table = pd.read_csv("./actions/RESPONSE_EXP_LIFU.csv")
+rec_table = pd.read_csv("./actions/recommend_table_lifu.csv", encoding='utf-8')
+syn_table = pd.read_csv("./actions/SYN_LIFU.csv", encoding='utf-8')
+res_table = pd.read_csv("./actions/RESPONSE_EXP_LIFU.csv", encoding='utf-8')
 
 city_all = list(set(rec_table['cities'].tolist()))
 city_norm_dict = {}
@@ -343,7 +343,7 @@ class ActionRephraseResponse(Action):
                     dispatcher.utter_message(image=img)
                     num += 1
 
-                dispatcher.utter_message(text=utter_row["utter_ask_more"].values[0])
+                return dispatcher.utter_message(text=utter_row["utter_ask_more"].values[0])
             except ValueError:
                 return dispatcher.utter_message(text='검색에 필요한 정보가 충분하지 않아요! 조금 더 자세하게 물어봐 주세요 :)')
 
