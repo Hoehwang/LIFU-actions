@@ -16,7 +16,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
-rec_table = pd.read_csv('F:/_Daily/★_Chatbot_Renewal/LIFU/★LIFU-RASA/actions/recommend_table_lifu_repl.csv')
+rec_table = pd.read_csv('F:/_Daily/★_Chatbot_Renewal/LIFU/★LIFU-RASA/actions/recommend_table_lifu.csv')
 syn_table = pd.read_csv("F:/_Daily/★_Chatbot_Renewal/LIFU/★LIFU-RASA/actions/SYN_LIFU.csv")
 res_table = pd.read_csv("F:/_Daily/★_Chatbot_Renewal/LIFU/★LIFU-RASA/actions/RESPONSE_EXP_LIFU.csv")
 
@@ -108,7 +108,7 @@ class ActionRephraseResponse(Action):
         self.view_norm = ''
         self.view_entityname = ''
         self.feature = []
-        self.feature_name = []
+        self.food_feature = []
         entity_dicts = tracker.latest_message['entities']
         print(tracker.latest_message['entities'])
         # print(tracker.get_intent_of_latest_message())
@@ -117,36 +117,64 @@ class ActionRephraseResponse(Action):
                 if entity['entity'].replace('-LOC', '') in city_all:
                     self.city_entityname = entity['entity'].replace('-LOC', '')
                     self.city_norm = city_norm_dict[self.city_entityname]
+
             elif entity['entity'] in restaurant_norm_dict.keys():
                 self.restype_entityname = entity['entity']
                 self.restype_norm = restaurant_norm_dict[self.restype_entityname]
+
             elif entity['entity'] in food_norm_dict.keys():
                 self.food_entityname = entity['entity']
                 self.food_norm = food_norm_dict[self.food_entityname]
+                if self.intent == 'RECOMMEND_TASTE-GOOD':
+                    self.food_feature.append('TASTE-GOOD_%s' % self.food_entityname)
+                elif self.intent == 'RECOMMEND_PRICE-FREE':
+                    self.food_feature.append('PRICE-FREE_%s' % self.food_entityname)
+                elif self.intent == 'RECOMMEND_MENU':
+                    self.food_feature.append('MENU_%s' % self.food_entityname)
+                else:
+                    pass
+
             elif entity['entity'] in ingredient_norm_dict.keys():
                 self.ingredient_entityname = entity['entity']
                 self.ingredient_norm = ingredient_norm_dict[self.ingredient_entityname]
+                if self.intent == 'RECOMMEND_TASTE-GOOD':
+                    self.feature.append('TASTE-GOOD_%s' % self.food_entityname)
+                elif self.intent == 'RECOMMEND_PRICE-FREE':
+                    self.feature.append('PRICE-FREE_%s' % self.food_entityname)
+                elif self.intent == 'RECOMMEND_MENU':
+                    self.feature.append('MENU_%s' % self.food_entityname)
+                else:
+                    pass
+
             elif entity['entity'] in goodtogo_norm_dict.keys():
                 self.goodtogo_entityname = entity['entity']
                 self.goodtogo_norm = goodtogo_norm_dict[self.goodtogo_entityname]
                 self.feature.append('GOODTOGO-%s' % self.goodtogo_entityname)
+
             elif entity['entity'] in tastetype_norm_dict.keys():
                 self.tastetype_entityname= entity['entity']
                 self.tastetype_norm = tastetype_norm_dict[self.tastetype_entityname]
-                self.tastetype_feature = 'TASTE-TYPE-%s' % self.goodtogo_entityname
-                if self.restype_entityname != '':
+                self.tastetype_feature = 'TASTE-TYPE-%s' % self.tastetype_entityname
+                if self.food_entityname != '':
                     self.tastetype_feature += '_%s' % self.food_entityname
-                    self.feature.append(self.tastetype_feature)
+                    self.food_feature.append(self.tastetype_feature)
+                elif self.ingredient_entityname != '':
+                    self.tastetype_feature += '_%s' % self.ingredient_entityname
+                    self.food_feature.append(self.tastetype_feature)
+
             elif entity['entity'] in provided_norm_dict.keys():
                 self.provided_entityname = entity['entity']
                 self.provided_norm = provided_norm_dict[self.provided_entityname]
                 self.feature.append('PROVIDED-%s' % self.provided_entityname)
+
             elif entity['entity'] in view_norm_dict.keys():
                 self.view_entityname = entity['entity']
                 self.view_norm = view_norm_dict[self.view]
                 self.feature.append(self.view_entityname)
+
             else:
                 self.feature.append(entity['entity'])
+
         self.intent = tracker.get_intent_of_latest_message()
 
         print('City: ', self.city_norm, '\tName :', self.city_entityname)
@@ -180,6 +208,18 @@ class ActionRephraseResponse(Action):
         if self.restype_entityname != '' and self.restype_entityname != 'RESTAURANT-GEN':
             data = data[data['categories'] == self.restype_entityname]
             # data = data.sort_values(by=food ,ascending=False)
+
+        self.food_null = 0
+        if self.food_feature != []:
+            for f in self.food_feature:
+                if f not in column_all:
+                    self.food_null = 1
+                else:
+                    food_sort_head = list(df.sort_values(by=f,ascending=False)[f])[0]
+                    if food_sort_head == 0:
+                        self.food_null = 1
+                    else:
+                        temp.append(f)
 
         if self.feature != []:
             for f in self.feature:
@@ -256,23 +296,40 @@ class ActionRephraseResponse(Action):
 
             try:
                 first_response = random.sample(first_response, 1)[0]
+                undifine_josa = re.findall("\w<[가-힣]+?>", first_response)
+                if undifine_josa != []:
+                    for pattern in undifine_josa:
+                        first_response = Josa_Replace(pattern=pattern, sentence=first_response)
+
+                dispatcher.utter_message(text=first_response)
+
+                # 푸드와 연결된 엔티티에 대한 결측값 감지에 따른 응답문 출력부
+                if self.food_null == 1:
+                    null_sentence = """앗 이런! <LOCATION-TYPE_FEATURE>에 있는 식당 중에는 말씀하신 특징을 가진 <FOOD-TYPE_FEATURE><를> 판매하는 식당이 없네요.
+                    그 대신 <LOCATION-TYPE_FEATURE>에서 인기 있는 <RESTAURANT-TYPE_FEATURE><를> 추천해드릴게요."""
+                    null_sentence = null_sentence.replace('<FOOD-TYPE_FEATURE>',self.food_norm)\
+                        .replace('<RESTAURANT_TYPE_FEATURE>', self.restype_norm)
+                    if self.restype_entityname == 'RESTAURANT-GEN':
+                        null_sentence = null_sentence.replace('<LOCATION-TYPE_FEATURE>','전국')
+                    else:
+                        null_sentence = null_sentence.replace('<LOCATION-TYPE_FEATURE>', self.city_norm)
+                    undifine_josa = re.findall("\w<[가-힣]+?>", null_sentence)
+                    if undifine_josa != []:
+                        for pattern in undifine_josa:
+                            null_sentence = Josa_Replace(pattern=pattern, sentence=null_sentence)
+                    dispatcher.utter_message(text=null_sentence)
+
+                dispatcher.utter_message(text=utter_row["utter_send_link"].values[0])
+
+                num = 1
+                for name, loc, img, link in output:
+                    text = '%s위 음식점명: %s\n주소: %s\n링크: %s' % (str(num), name, loc, link)
+                    dispatcher.utter_message(text=text)
+                    dispatcher.utter_message(image=img)
+                    num += 1
+
+                dispatcher.utter_message(text=utter_row["utter_ask_more"].values[0])
             except ValueError:
                 return dispatcher.utter_message(text='검색에 필요한 정보가 충분하지 않아요! 조금 더 자세하게 물어봐 주세요 :)')
 
 
-            undifine_josa = re.findall("\w<[가-힣]+?>", first_response)
-            if undifine_josa != []:
-                for pattern in undifine_josa:
-                    first_response = Josa_Replace(pattern=pattern, sentence=first_response)
-
-            dispatcher.utter_message(text=first_response)
-            dispatcher.utter_message(text=utter_row["utter_send_link"].values[0])
-
-            num = 1
-            for name, loc, img, link in output:
-                text = '%s위 음식점명: %s\n주소: %s\n링크: %s' % (str(num), name, loc, link)
-                dispatcher.utter_message(text=text)
-                dispatcher.utter_message(image=img)
-                num += 1
-
-            dispatcher.utter_message(text=utter_row["utter_ask_more"].values[0])
