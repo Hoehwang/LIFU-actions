@@ -143,7 +143,10 @@ class ActionRephraseResponse(Action):
             elif entity['entity'] in ingredient_norm_dict.keys():
                 if entity['entity'] == 'NOODLE' and '파스타' in entity['value']:
                     self.food_entityname = 'PASTA'
-                    self.food_norm = '파스타'
+                    self.food_norm = food_norm_dict[self.food_entityname]
+                elif entity['entity'] == 'MEAT' and '고기' in entity['value']:
+                    self.food_entityname = 'PORK'
+                    self.food_norm = food_norm_dict[self.food_entityname]
                 else:
                     self.ingredient_entityname = entity['entity']
                     self.ingredient_norm = ingredient_norm_dict[self.ingredient_entityname]
