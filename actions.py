@@ -49,7 +49,7 @@ for i, j in zip(list(syn_table[syn_table['position'].isin(tastetype_list)]['enti
 
 restaurant_norm_dict = {'KOREAN':'한식당', 'CHINESE':'중식집', 'JAPANESE':'일식집', 'WESTERN':'양식집', 'CAFE':'카페', 'WORLD':'세계 음식점', 'PUB':'술집', 'SNACK':'분식집', 'BUFFET':'뷔페', 'RESTAURANT-GEN':'식당'}
 provided_norm_dict = {'PLAYROOM':'놀이방', 'PARKING':'주차장', 'KIOSK':'키오스크', 'SOCKET':'전기 플러그', 'PRIVATE-ROOM':'개별 룸', 'SALAD-BAR':'샐러드바', 'OPEN-SPACE':'탁 트인 공간'}
-view_norm_dict = {'MOUNTAIN-VIEW':'산', 'RIVER-VIEW':'강', 'CITY-VIEW':'도시','HANOK-VIEW':'한옥'}
+view_norm_dict = {'MOUNTAIN-VIEW':'마운틴 뷰', 'RIVER-VIEW':'리버 뷰', 'CITY-VIEW':'시티 뷰','HANOK-VIEW':'한옥 뷰'}
 menu_ent_list = ['VEGAN','KIDS','COURSE','DESSERT','LUNCH']
 
 
