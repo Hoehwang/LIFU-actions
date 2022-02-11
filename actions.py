@@ -209,20 +209,14 @@ class ActionRephraseResponse(Action):
         else:
             first_response = utter_row['response'].to_list()[0].split(' / ')
             first_response = [s.replace('<RESTAURANT-TYPE_FEATURE>', self.restype_norm) for s in first_response]
-            if self.city == '':
+            if self.city_entityname == '':
                 first_response = [s for s in first_response if '<LOCATION-TYPE_FEATURE>' not in s]
-            elif self.city not in city_all:
+            elif self.city_entityname not in city_all:
                 dispatcher.utter_message(text='입력하신 지역에 대한 음식점 정보가 없네요! 검색 범위를 지역 전체로 재설정 하겠습니다.')
                 first_response = [s for s in first_response if '<LOCATION-TYPE_FEATURE>' not in s]
             else:
                 first_response = [s for s in first_response if '<LOCATION-TYPE_FEATURE>' in s]
                 first_response = [s.replace('<LOCATION-TYPE_FEATURE>', self.city_norm) for s in first_response]
-
-            if self.intent == 'RECOMMEND_TASTE-TYPE' and self.tastetype_entityname != '':
-                first_response = [s for s in first_response if '<TASTE-TYPE_FEATURE>' in s]
-                first_response = [s.replace('<TASTE-TYPE_FEATURE>', self.tastetype_norm) for s in first_response]
-            else:
-                first_response = [s for s in first_response if '<TASTE-TYPE_FEATURE>' not in s]
 
             if self.food_entityname != '':
                 first_response = [s for s in first_response if '<FOOD-TYPE_FEATURE>' in s]
@@ -235,13 +229,20 @@ class ActionRephraseResponse(Action):
                 first_response = [s.replace('<INGREDIENT-TYPE_FEATURE>', self.ingredient_norm) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<FOOD-TYPE_FEATURE>' not in s]
-            if self.goodtogo_entityname != '':
+
+            if self.intent == 'RECOMMEND_TASTE-TYPE' and self.tastetype_entityname != '':
+                first_response = [s for s in first_response if '<TASTE-TYPE_FEATURE>' in s]
+                first_response = [s.replace('<TASTE-TYPE_FEATURE>', self.tastetype_norm) for s in first_response]
+            else:
+                first_response = [s for s in first_response if '<TASTE-TYPE_FEATURE>' not in s]
+
+            if self.intent == 'RECOMMEND_GOODTOGO' and self.goodtogo_entityname != '':
                 first_response = [s for s in first_response if '<GOODTOGO_FEATURE>' in s]
                 first_response = [s.replace('<GOODTOGO_FEATURE>', self.goodtogo_norm) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<GOODTOGO_FEATURE>' not in s]
 
-            if self.provided_entityname != '':
+            if self.intent == 'RECOMMEND_PROVIDED' and self.provided_entityname != '':
                 first_response = [s for s in first_response if '<PROVIDED_FEATURE>' in s]
                 first_response = [s.replace('<PROVIDED_FEATURE>', self.provided_norm) for s in first_response]
             else:
@@ -252,7 +253,6 @@ class ActionRephraseResponse(Action):
                 first_response = [s.replace('<VIEW_FEATURE>', self.view_norm) for s in first_response]
             else:
                 first_response = [s for s in first_response if '<VIEW_FEATURE>' not in s]
-
 
             try:
                 first_response = random.sample(first_response, 1)[0]
